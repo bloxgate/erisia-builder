@@ -57,7 +57,7 @@
     "encoded" = "foamfix-0.6.1-anarchy.jar";
     "type" = "local";
     "side" = "client";
-    "md5" = "750b41bde0c5bea3d0997841a5bfb466";
+    "md5" = "dd34b4f22661c797cbf0424361c82842";
   };
   "fullscreen-windowed-borderless-for-minecraft" = {
     "src" = "https://minecraft.curseforge.com/projects/fullscreen-windowed-borderless-for-minecraft/files/2374585/download";
