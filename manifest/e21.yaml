@@ -44,6 +44,7 @@ mods:
 - name: "ender-io"
 - name: "magic-bees"
 - name: "jei-bees"
+- name: "factory-tech"
 ##- name: "tombenpotters-icarus"
 - name: "xnet"
 - name: "tis-3d"

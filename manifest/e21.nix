@@ -1030,6 +1030,22 @@
       "type" = "remote";
       "md5" = "490b3590162b7a0582311d17ba97f5bf";
     };
+    "factory-tech" = {
+      "title" = "Factory Tech";
+      "name" = "factory-tech";
+      "id" = 278822;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "FactoryTech-1.12.2-1.5.3c.jar";
+      "maturity" = "release";
+      "encoded" = "FactoryTech-1.12.2-1.5.3c.jar";
+      "page" = "https://minecraft.curseforge.com/projects/factory-tech/files/2599719";
+      "src" = "https://minecraft.curseforge.com/projects/factory-tech/files/2599719/download";
+      "type" = "remote";
+      "md5" = "6c8eb022cdd0ae9fe015436726adf56f";
+    };
     "farseek" = {
       "title" = "Farseek";
       "name" = "farseek";
