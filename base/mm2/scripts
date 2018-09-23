@@ -1,0 +1,4 @@
+//Modular Mayhem Reloaded scripts.
+
+//Allows galena to be seen as lead, as it should be.
+<ore:blockGalena>.mirror(<ore:blockLead>);
