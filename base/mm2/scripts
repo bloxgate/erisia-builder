@@ -1,4 +1,8 @@
 //Modular Mayhem Reloaded scripts.
 
+val galenaBlock = <ore:blockGalena>;
+val leadBlock = <ore:blockLead:>;
+
 //Allows galena to be seen as lead, as it should be.
-<ore:blockGalena>.mirror(<ore:blockLead>);
+galenaBlock.mirror(leadBlock);
+oreDictEnt.add(galenaBlock, leadBlock);
