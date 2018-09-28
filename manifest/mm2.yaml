@@ -976,11 +976,11 @@ mods:
   id: 223794
   title: "Applied Energistics 2"
   files:
-  - name: "appliedenergistics2-rv6-alpha-1.jar"
-    id: 2577127
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/223794/files/2577127"
-    src: "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2577127/download"
+  - name: "appliedenergistics2-rv5-stable-11.jar"
+    id: 2543840
+    maturity: "release"
+    filePageUrl: "https://minecraft.curseforge.com/projects/223794/files/2543840"
+    src: "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2543840/download"
   side: "both"
   deps: []
   required: true

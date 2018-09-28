@@ -136,12 +136,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "appliedenergistics2-rv6-alpha-1.jar";
-      "encoded" = "appliedenergistics2-rv6-alpha-1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/223794/files/2577127";
-      "src" = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2577127/download";
+      "filename" = "appliedenergistics2-rv5-stable-11.jar";
+      "maturity" = "release";
+      "encoded" = "appliedenergistics2-rv5-stable-11.jar";
+      "page" = "https://minecraft.curseforge.com/projects/223794/files/2543840";
+      "src" = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2543840/download";
       "type" = "remote";
-      "md5" = "c0a97347299596e1ff035afaeaa51360";
+      "md5" = "f22759d4dcdc8aec7811d457367e106a";
     };
     "aroma1997core" = {
       "title" = "Aroma1997Core";
