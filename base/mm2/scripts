@@ -1,8 +1,17 @@
 //Modular Mayhem Reloaded scripts.
 
+import crafttweaker.item.IItemStack;
+
 val galenaBlock = <ore:blockGalena>;
 val leadBlock = <ore:blockLead:>;
 
 //Allows galena to be seen as lead, as it should be.
 galenaBlock.mirror(leadBlock);
 oreDictEnt.add(galenaBlock, leadBlock);
+
+//Void Stone recipe fix
+
+recipes.addShaped("FixedVoidStone", <essentialcraft:voidstone>.withAmount(16),
+    [[<ore:gemTitanite>, <ore:plateObsidian>, <ore:gemTitanite>],
+    [<ore:plateObsidian>, <ore:gemTitaniteTwinkling>, <ore:plateObsidian>],
+    [<ore:gemTitanite>, <ore:plateObsidian>, <ore:gemTitanite>]]);
