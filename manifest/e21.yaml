@@ -61,11 +61,6 @@ mods:
 - name: "binnies-mods"
 - name: "cyclic"
 - name: "wireless-crafting-terminal"
-  files:
-    - name: "WirelessCraftingTerminal-1.12.2-3.9.67.jar"
-      id: 2591010
-      filePageUrl: "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2591010"
-      src: "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2591010/download"
 - name: "tinkers-construct"
 - name: "constructs-armory"
 - name: "plustic"
@@ -86,7 +81,6 @@ mods:
 - name: "rftools"
 - name: "rftools-power"
 - name: "rftools-control"
-- name: "ae2-stuff"
 - name: "torchmaster"
 - name: "ptrlib"
 - name: "comforts"
