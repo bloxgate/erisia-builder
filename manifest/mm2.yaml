@@ -2,20 +2,6 @@
 version: "1.12.2"
 mods:
 - name: "redstone-flux"
-  id: 270789
-  title: "Redstone Flux"
-  files:
-  - name: "RedstoneFlux-1.12-2.0.2.3-universal.jar"
-    id: 2567260
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/270789/files/2567260"
-    src: "https://minecraft.curseforge.com/projects/redstone-flux/files/2567260/download"
-    md5: "0d15cc1e59c8028cf17f6a78bda460dc"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "astral-sorcery"
   id: 241721
   title: "Astral Sorcery"
@@ -183,21 +169,6 @@ mods:
   default: true
   curse: true
 - name: "extracells2"
-  id: 229218
-  title: "ExtraCells2"
-  files:
-  - name: "ExtraCells-1.12.2-2.5.13a60.jar"
-    id: 2574581
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/229218/files/2574581"
-    src: "https://minecraft.curseforge.com/projects/extracells2/files/2574581/download"
-    md5: "490b3590162b7a0582311d17ba97f5bf"
-  side: "both"
-  deps:
-  - "applied-energistics-2"
-  required: true
-  default: true
-  curse: true
 - name: "bad-wither-no-cookie-reloaded"
   id: 261251
   title: "Bad Wither No Cookie - Reloaded"
@@ -323,20 +294,6 @@ mods:
   default: true
   curse: true
 - name: "immersive-engineering"
-  id: 231951
-  title: "Immersive Engineering"
-  files:
-  - name: "ImmersiveEngineering-0.12-82.jar"
-    id: 2559547
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/231951/files/2559547"
-    src: "https://minecraft.curseforge.com/projects/immersive-engineering/files/2559547/download"
-    md5: "31416c7c675faa0077b573c82920dc54"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "omlib"
   id: 254334
   title: "OMLib"
@@ -369,21 +326,6 @@ mods:
   default: true
   curse: true
 - name: "immersive-petroleum"
-  id: 268250
-  title: "Immersive Petroleum"
-  files:
-  - name: "immersivepetroleum-1.12.2-1.1.9.jar"
-    id: 2544919
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/268250/files/2544919"
-    src: "https://minecraft.curseforge.com/projects/immersive-petroleum/files/2544919/download"
-    md5: "57ba127778e579d10d705f9f8359d2e0"
-  side: "both"
-  deps:
-  - "immersive-engineering"
-  required: true
-  default: true
-  curse: true
 - name: "modelloader"
   id: 277663
   title: "ModelLoader"
@@ -755,20 +697,6 @@ mods:
   default: true
   curse: true
 - name: "codechicken-lib-1-8"
-  id: 242818
-  title: "CodeChicken Lib 1.8.+"
-  files:
-  - name: "CodeChickenLib-1.12.2-3.2.0.345-universal.jar"
-    id: 2575906
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/242818/files/2575906"
-    src: "https://minecraft.curseforge.com/projects/codechicken-lib-1-8/files/2575906/download"
-    md5: "b796cd0180fff814afb75e16e46a035f"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "stimmedcow-nomorerecipeconflict"
   id: 238123
   title: "stimmedcow : NoMoreRecipeConflict"
@@ -863,36 +791,7 @@ mods:
   default: true
   curse: true
 - name: "immersive-cables"
-  id: 283992
-  title: "Immersive Cables"
-  files:
-  - name: "ImmersiveCables-1.12.2-1.3.1.jar"
-    id: 2579102
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/283992/files/2579102"
-    src: "https://minecraft.curseforge.com/projects/immersive-cables/files/2579102/download"
-    md5: "b4f6122c7a933c283ef09ae7bbddd50d"
-  side: "both"
-  deps:
-  - "immersive-engineering"
-  required: true
-  default: true
-  curse: true
 - name: "crafttweaker"
-  id: 239197
-  title: "CraftTweaker"
-  files:
-  - name: "CraftTweaker2-1.12-4.1.9.jar"
-    id: 2576160
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/239197/files/2576160"
-    src: "https://minecraft.curseforge.com/projects/crafttweaker/files/2576160/download"
-    md5: "ca3fb924c8d9d213ace215d492d7b12b"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "chisel"
   id: 235279
   title: "Chisel"
@@ -987,19 +886,6 @@ mods:
   default: true
   curse: true
 - name: "applied-energistics-2"
-  id: 223794
-  title: "Applied Energistics 2"
-  files:
-  - name: "appliedenergistics2-rv5-stable-11.jar"
-    id: 2543840
-    maturity: "release"
-    filePageUrl: "https://minecraft.curseforge.com/projects/223794/files/2543840"
-    src: "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2543840/download"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "blood-magic"
   id: 224791
   title: "Blood Magic"
@@ -1139,20 +1025,6 @@ mods:
   default: true
   curse: true
 - name: "immersive-tech"
-  id: 274159
-  title: "Immersive Tech"
-  files:
-  - name: "immersivetech-1.12-1.3.10.jar"
-    id: 2568579
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/274159/files/2568579"
-    src: "https://minecraft.curseforge.com/projects/immersive-tech/files/2568579/download"
-    md5: "3be088e1e5b1bea50f04cdfb4082a528"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "refined-storage"
   id: 243076
   title: "Refined Storage"
