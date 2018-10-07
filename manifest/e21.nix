@@ -1182,12 +1182,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Futurepack-1.12.2-26.3.210.jar";
-      "encoded" = "Futurepack-1.12.2-26.3.210.jar";
-      "page" = "https://minecraft.curseforge.com/projects/237333/files/2557541";
-      "src" = "https://minecraft.curseforge.com/projects/futurepack/files/2557541/download";
+      "filename" = "Futurepack-1.12.2-26.3.417.jar";
+      "maturity" = "release";
+      "encoded" = "Futurepack-1.12.2-26.3.417.jar";
+      "page" = "https://minecraft.curseforge.com/projects/futurepack/files/2625068";
+      "src" = "https://minecraft.curseforge.com/projects/futurepack/files/2625068/download";
       "type" = "remote";
-      "md5" = "809ec52d021753c4562414d12bd73b60";
+      "md5" = "46dddd0a4ba21728461c00bfcbacf58e";
     };
     "garden-stuff" = {
       "title" = "Garden Stuff";

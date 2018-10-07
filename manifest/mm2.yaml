@@ -94,20 +94,7 @@ mods:
   default: true
   curse: true
 - name: "futurepack"
-  id: 237333
-  title: "Futurepack Mod"
-  files:
-  - name: "Futurepack-1.12.2-26.3.210.jar"
-    id: 2557541
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/237333/files/2557541"
-    src: "https://minecraft.curseforge.com/projects/futurepack/files/2557541/download"
-    md5: "809ec52d021753c4562414d12bd73b60"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
+
 - name: "dummycore-unofficial"
   id: 266491
   title: "DummyCore Unofficial"
