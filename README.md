@@ -1,6 +1,14 @@
 # Erisia server-builder <a href="https://travis-ci.org/Erisia/builder"><img align="right" src="https://travis-ci.org/Erisia/builder.svg?branch=master"></a>
 Build scripts for the server
 
+## Dependencies
+
+The only dependency is Nix. You *can* acquire this by installing NixOS, but you probably won't want to. <a href="https://nixos.org/nix/">Nix</a> can be installed on any Linux system, following the instructions on that page.
+
+It also works in Windows WSL, but you'll need to first follow <a href="https://github.com/NixOS/nix/issues/1203#issuecomment-275089112">these instructions</a> to work around a current bug in WSL.
+
+## Quick start
+
 Make a server directory, then run update-and-start.sh using its relative path. Example:
 ```
 $ mkdir erisia
