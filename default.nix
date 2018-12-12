@@ -30,7 +30,40 @@ rec {
 
   packs = {
     e21 = buildPack e21;
+    e22 = buildPack e22;
     incognito = buildPack farmingValley;
+  };
+
+
+  e22 = {
+    name = "erisia22";
+    screenName = "e22";
+    description = "Erisia #22: Ovilis uniusque Pastoris coccineam";
+    ram = "20000m";
+    port = 25566;
+    forge = {
+      major = "1.7.10";
+      minor = "10.13.4.1614";
+    };
+    extraDirs = [
+      ./base/erisia
+      ./third_party/ruins-1.12
+      ./base/unabridged
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      ./base/client
+	  ./base/unabridged/oresources
+	  ./base/unabridged/armourersWorkshop
+	  ./base/unabridged/TCSchematics
+    ];
+    manifests = [
+      ./manifest/e22.nix
+    ];
+    blacklist = [
+    ];
   };
 
   e21 = {

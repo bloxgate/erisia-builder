@@ -1,0 +1,34 @@
+mods:
+# Adding missing prerequisites
+- name: "forge-multi-part"
+
+# General additions
+- name: "aroma1997s-dimensional-world"
+- name: "grappling-hook-mod"
+- name: "pams-harvestcraft"
+- name: "minechem"
+- name: "antique-atlas"
+- name: "darkcore"
+- name: "tardis-mod"
+
+# Reika mods
+- name: "dragonapi"
+- name: "chromaticraft"
+- name: "rotarycraft"
+- name: "reactorcraft"
+
+# Useful mods we usually want
+- name: "not-enough-wands"
+- name: "nofov"
+  side: "client"
+  required: false
+
+- name: "prometheus-integration"
+  side: "server"
+- name: "chunkpregenerator"
+- name: "eirairc"
+
+
+imports:
+- "unabridged.yaml"
+- "tools-1.7.10.yaml"
