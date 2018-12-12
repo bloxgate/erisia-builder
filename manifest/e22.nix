@@ -1013,7 +1013,7 @@
       "title" = "EiraIRC (Discontinued)";
       "name" = "eirairc";
       "id" = 68420;
-      "side" = "both";
+      "side" = "server";
       "required" = true;
       "default" = true;
       "deps" = [];
@@ -1040,6 +1040,19 @@
       "src" = "https://minecraft.curseforge.com/projects/eiramoticons/files/2501564/download";
       "type" = "remote";
       "md5" = "24a87e1987a6bd8eb843e11e8ba86837";
+    };
+    "electrical-age" = {
+      "title" = "Electrical Age";
+      "name" = "electrical-age";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "ElectricalAge-1.14.2.jar";
+      "encoded" = "ElectricalAge-1.14.2.jar";
+      "src" = ../third_party/1.7.10/ElectricalAge-1.14.2.jar;
+      "type" = "local";
+      "md5" = "a950a7143a5aba2c5a1c2f335690b14f";
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -3633,20 +3646,17 @@
       "md5" = "c131993743554bace7bb96fb3bcdc249";
     };
     "tropicraft" = {
-      "title" = "Tropicraft";
+      "title" = "Wireless Crafting Terminal";
       "name" = "tropicraft";
-      "id" = 254794;
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "tropicraftv6_0_5 for MC v1_7_10.zip";
-      "maturity" = "release";
-      "encoded" = "tropicraftv6_0_5%20for%20MC%20v1_7_10.zip";
-      "page" = "https://minecraft.curseforge.com/projects/tropicraft/files/2353906";
-      "src" = "https://minecraft.curseforge.com/projects/tropicraft/files/2353906/download";
-      "type" = "remote";
-      "md5" = "68701af4e659dea6a31fd5e1c065bcb7";
+      "filename" = "tropicraft-6.0.5.jar";
+      "encoded" = "tropicraft-6.0.5.jar";
+      "src" = ../third_party/1.7.10/tropicraft-6.0.5.jar;
+      "type" = "local";
+      "md5" = "8433a425fdf49719caf494b13d6bff0b";
     };
     "waila" = {
       "title" = "Waila";

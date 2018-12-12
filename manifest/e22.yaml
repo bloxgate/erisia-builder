@@ -27,7 +27,12 @@ mods:
   side: "server"
 - name: "chunkpregenerator"
 - name: "eirairc"
-
+  side: "server"
+- name: "electrical-age"
+  title: "Electrical Age"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/ElectricalAge-1.14.2.jar"
 
 imports:
 - "unabridged.yaml"
