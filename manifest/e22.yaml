@@ -33,6 +33,11 @@ mods:
   curse: false
   files:
   - src: "../third_party/1.7.10/ElectricalAge-1.14.2.jar"
+- name: "computronics"
+  title: "Computronics"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/Computronics-1.7.10-1.6.5.jar"
 
 imports:
 - "unabridged.yaml"

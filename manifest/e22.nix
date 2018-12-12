@@ -817,6 +817,19 @@
       "type" = "remote";
       "md5" = "02a553145402059c0b350d82e4d47a14";
     };
+    "computronics" = {
+      "title" = "Computronics";
+      "name" = "computronics";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Computronics-1.7.10-1.6.5.jar";
+      "encoded" = "Computronics-1.7.10-1.6.5.jar";
+      "src" = ../third_party/1.7.10/Computronics-1.7.10-1.6.5.jar;
+      "type" = "local";
+      "md5" = "d0718f614a0eb078d43712225624acf6";
+    };
     "coroutil" = {
       "title" = "CoroUtil";
       "name" = "coroutil";
