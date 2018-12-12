@@ -248,6 +248,13 @@ mods:
   required: "false"
 - name: "player-api"
 - name: "realistic-terrain-generation"
+# Added via base/unabirdged/mods/
+#- name: "computronics"
+#- name: "AsieLib"
+#- name: "Flamingo"
+#- name: "Starminer"
+
+
   
 # Removed mods
 #- name: "hunger-overhaul"

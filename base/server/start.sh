@@ -86,7 +86,7 @@ dailyRestart() {
 cleanup() {
     if [[ -n "$(jobs -p)" ]]; then
         echo 'Killing all subprocesses...'
-        kill $(jobs -p)
+        kill $(jobs -p) || true
         wait
     fi
 }
