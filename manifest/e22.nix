@@ -2,6 +2,19 @@
   "version" = "1.7.10";
   "imports" = ["unabridged.yaml" "tools-1.7.10.yaml" "pinned-1.7.10.yaml"];
   "mods" = {
+    "Artifacts" = {
+      "title" = "Artifacts";
+      "name" = "Artifacts";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Artifacts-1.1.3.jar";
+      "encoded" = "Artifacts-1.1.3.jar";
+      "src" = ../third_party/1.7.10/Artifacts-1.1.3.jar;
+      "type" = "local";
+      "md5" = "5b5145473340e003c3ab9a3ff9bc11c3";
+    };
     "AsieLib" = {
       "title" = "AsieLib";
       "name" = "AsieLib";
@@ -588,6 +601,19 @@
       "src" = "https://minecraft.curseforge.com/projects/bspkrscore/files/2227503/download";
       "type" = "remote";
       "md5" = "e77344bda12bd0b91e01dfbb00a653f0";
+    };
+    "bugfix-mod" = {
+      "title" = "BugPatch";
+      "name" = "bugfix-mod";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "[1.7.10]bugpatch-universal-3.0.0.jar";
+      "encoded" = "%5B1.7.10%5Dbugpatch-universal-3.0.0.jar";
+      "src" = ../third_party/1.7.10/[1.7.10]bugpatch-universal-3.0.0.jar;
+      "type" = "local";
+      "md5" = "bf67815e82937e72426d43e945e1d3ac";
     };
     "buildcraft" = {
       "title" = "Buildcraft";
