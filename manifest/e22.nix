@@ -609,9 +609,9 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "[1.7.10]bugpatch-universal-3.0.0.jar";
-      "encoded" = "%5B1.7.10%5Dbugpatch-universal-3.0.0.jar";
-      "src" = ../third_party/1.7.10/[1.7.10]bugpatch-universal-3.0.0.jar;
+      "filename" = "bugpatch-universal-3.0.0.jar";
+      "encoded" = "bugpatch-universal-3.0.0.jar";
+      "src" = ../third_party/1.7.10/bugpatch-universal-3.0.0.jar;
       "type" = "local";
       "md5" = "bf67815e82937e72426d43e945e1d3ac";
     };
