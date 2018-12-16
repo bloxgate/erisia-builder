@@ -3,9 +3,11 @@ Build scripts for the server
 
 ## Dependencies
 
-The only dependency is Nix. You *can* acquire this by installing NixOS, but you probably won't want to. <a href="https://nixos.org/nix/">Nix</a> can be installed on any Linux system, following the instructions on that page.
+The only real dependency is Nix. You *can* acquire this by installing NixOS, but you probably won't want to. <a href="https://nixos.org/nix/">Nix</a> can be installed on any Linux system, following the instructions on that page.
 
 It also works in Windows WSL, but you'll need to first follow <a href="https://github.com/NixOS/nix/issues/1203#issuecomment-275089112">these instructions</a> to work around a current bug in WSL.
+
+You'll need git-lfs installed for some of the embedded jars.
 
 ## Quick start
 
@@ -13,6 +15,7 @@ Make a server directory, then run update-and-start.sh using its relative path. E
 ```
 $ mkdir erisia
 $ cd erisia
+$ git lfs install  # If you haven't already.
 $ git clone https://github.com/Erisia/builder.git git
 $ git/update-and-start.sh
 ```
