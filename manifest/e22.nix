@@ -1155,11 +1155,11 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ElectricalAge-1.14.2.jar";
-      "encoded" = "ElectricalAge-1.14.2.jar";
-      "src" = ../third_party/1.7.10/ElectricalAge-1.14.2.jar;
+      "filename" = "ElectricalAge-dev.jar";
+      "encoded" = "ElectricalAge-dev.jar";
+      "src" = ../third_party/1.7.10/ElectricalAge-dev.jar;
       "type" = "local";
-      "md5" = "1af53dd0a866f76d4963dc01962f7736";
+      "md5" = "f463bc377de7ceddd7c40e0c3ddb14ca";
     };
     "ender-io" = {
       "title" = "Ender IO";

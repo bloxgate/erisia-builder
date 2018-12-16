@@ -32,7 +32,7 @@ mods:
   title: "Electrical Age"
   curse: false
   files:
-  - src: "../third_party/1.7.10/ElectricalAge-1.14.2.jar"
+  - src: "../third_party/1.7.10/ElectricalAge-dev.jar"
 
   
 imports:
