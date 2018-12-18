@@ -1,5 +1,15 @@
 // import crafttweaker.item.IItemStack;
 
+// Disambiguate Eln iron cables
+val iron_cable = <Eln:Eln.sharedItem:4161>;
+val iron = <ore:ingotIron>;
+recipes.remove(iron_cable);
+recipes.addShaped(
+  iron_cable*12,
+  [[null, iron, null],
+   [null, iron, null],
+   [null, iron, null]]);
+
 // val miner = <bedrockores:bedrock_miner>;
 // val light = <immersiveengineering:metal_decoration0:4>;
 // val heavy = <immersiveengineering:metal_decoration0:5>;
