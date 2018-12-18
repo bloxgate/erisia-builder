@@ -10,6 +10,13 @@ recipes.addShaped(
    [null, iron, null],
    [null, iron, null]]);
 
+
+// Add a crafting recipe for resin.
+val resin = <Eln:Eln.sharedItem:4096>;
+recipes.addShapeless(resin*4,
+  [<ore:itemClay>, <ore:itemRawRubber>, <ore:itemRawRubber>, <ore:itemRawRubber>]);
+
+
 // val miner = <bedrockores:bedrock_miner>;
 // val light = <immersiveengineering:metal_decoration0:4>;
 // val heavy = <immersiveengineering:metal_decoration0:5>;
