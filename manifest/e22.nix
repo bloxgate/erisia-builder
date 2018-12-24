@@ -745,13 +745,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ChromatiCraft 1.7.10 V21b.jar";
+      "filename" = "ChromatiCraft 1.7.10 V22d.jar";
       "maturity" = "release";
-      "encoded" = "ChromatiCraft%201.7.10%20V21b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2600863";
-      "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2600863/download";
+      "encoded" = "ChromatiCraft%201.7.10%20V22d.jar";
+      "page" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2651426";
+      "src" = "https://minecraft.curseforge.com/projects/chromaticraft/files/2651426/download";
       "type" = "remote";
-      "md5" = "b95b90da1688ab4a6077938690e8ffff";
+      "md5" = "ea1dea38725df3f2b353bdebdc8ec0de";
     };
     "chunkpregenerator" = {
       "title" = "Chunk-Pregenerator";
@@ -1076,13 +1076,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "DragonAPI 1.7.10 V21c.jar";
+      "filename" = "DragonAPI 1.7.10 V22d.jar";
       "maturity" = "release";
-      "encoded" = "DragonAPI%201.7.10%20V21c.jar";
-      "page" = "https://minecraft.curseforge.com/projects/dragonapi/files/2600894";
-      "src" = "https://minecraft.curseforge.com/projects/dragonapi/files/2600894/download";
+      "encoded" = "DragonAPI%201.7.10%20V22d.jar";
+      "page" = "https://minecraft.curseforge.com/projects/dragonapi/files/2651424";
+      "src" = "https://minecraft.curseforge.com/projects/dragonapi/files/2651424/download";
       "type" = "remote";
-      "md5" = "93c74d8ce8b63bdaca6bcd124575e7ca";
+      "md5" = "5da85119c9e237bdb0453b8e1ad4fbf2";
     };
     "dynamic-surroundings" = {
       "title" = "Dynamic Surroundings";
@@ -1159,7 +1159,7 @@
       "encoded" = "ElectricalAge-dev.jar";
       "src" = ../third_party/1.7.10/ElectricalAge-dev.jar;
       "type" = "local";
-      "md5" = "f463bc377de7ceddd7c40e0c3ddb14ca";
+      "md5" = "1af53dd0a866f76d4963dc01962f7736";
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -2495,6 +2495,22 @@
       "type" = "remote";
       "md5" = "9635aa86976c302ea3141a384eaaeb66";
     };
+    "notenoughthaumcrafttabs" = {
+      "title" = "NotEnoughThaumcraftTabs";
+      "name" = "notenoughthaumcrafttabs";
+      "id" = 237232;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["thaumcraft"];
+      "filename" = "NotEnoughThaumcraftTabs-1.0.2.jar";
+      "maturity" = "release";
+      "encoded" = "NotEnoughThaumcraftTabs-1.0.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/notenoughthaumcrafttabs/files/2266711";
+      "src" = "https://minecraft.curseforge.com/projects/notenoughthaumcrafttabs/files/2266711/download";
+      "type" = "remote";
+      "md5" = "a360503a96ab3acc59c53cace1b86f53";
+    };
     "obsidiplates" = {
       "title" = "ObsidiPlates";
       "name" = "obsidiplates";
@@ -2949,13 +2965,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ReactorCraft 1.7.10 V21b.jar";
+      "filename" = "ReactorCraft 1.7.10 V22a.jar";
       "maturity" = "release";
-      "encoded" = "ReactorCraft%201.7.10%20V21b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/reactorcraft/files/2600856";
-      "src" = "https://minecraft.curseforge.com/projects/reactorcraft/files/2600856/download";
+      "encoded" = "ReactorCraft%201.7.10%20V22a.jar";
+      "page" = "https://minecraft.curseforge.com/projects/reactorcraft/files/2649947";
+      "src" = "https://minecraft.curseforge.com/projects/reactorcraft/files/2649947/download";
       "type" = "remote";
-      "md5" = "ea6f2958046e579a73afc6462f844683";
+      "md5" = "802709097ba820d27083aa0d471b0d23";
     };
     "realistic-terrain-generation" = {
       "title" = "Realistic Terrain Generation";
@@ -3151,13 +3167,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "RotaryCraft 1.7.10 V21b.jar";
+      "filename" = "RotaryCraft 1.7.10 V22d.jar";
       "maturity" = "release";
-      "encoded" = "RotaryCraft%201.7.10%20V21b.jar";
-      "page" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2600857";
-      "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2600857/download";
+      "encoded" = "RotaryCraft%201.7.10%20V22d.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2651423";
+      "src" = "https://minecraft.curseforge.com/projects/rotarycraft/files/2651423/download";
       "type" = "remote";
-      "md5" = "b3b0b1da7000703283913d332fdfa046";
+      "md5" = "837ed7bc5a3fd3718f93593e38c77a50";
     };
     "sanguimancy" = {
       "title" = "Sanguimancy";
@@ -3518,6 +3534,22 @@
       "type" = "local";
       "md5" = "fcfee9e84088cacec7f257beacdd0c39";
     };
+    "thaumic-exploration" = {
+      "title" = "Thaumic Exploration";
+      "name" = "thaumic-exploration";
+      "id" = 230969;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["codechickencore" "thaumcraft"];
+      "filename" = "ThaumicExploration-1.7.10-1.1-53.jar";
+      "maturity" = "release";
+      "encoded" = "ThaumicExploration-1.7.10-1.1-53.jar";
+      "page" = "https://minecraft.curseforge.com/projects/thaumic-exploration/files/2263414";
+      "src" = "https://minecraft.curseforge.com/projects/thaumic-exploration/files/2263414/download";
+      "type" = "remote";
+      "md5" = "98e1277a33d6452c773fad1d28691815";
+    };
     "thaumic-horizons" = {
       "title" = "Thaumic Horizons";
       "name" = "thaumic-horizons";
@@ -3663,14 +3695,17 @@
       "md5" = "d8178b20a554d3a0f3d0f374769acd02";
     };
     "tickprofiler" = {
-      "title" = "TickProfiler";
+      "title" = "tickprofiler";
       "name" = "tickprofiler";
-      "id" = 270330;
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "type" = "missing";
+      "filename" = "TickProfiler-1.7.10.jenkins.37.jar";
+      "encoded" = "TickProfiler-1.7.10.jenkins.37.jar";
+      "src" = ../third_party/1.7.10/TickProfiler-1.7.10.jenkins.37.jar;
+      "type" = "local";
+      "md5" = "99872ea843467c729866f761e1c9fcc9";
     };
     "tinker-i-o" = {
       "title" = "Tinker I/O";

@@ -24,6 +24,9 @@ mods:
   side: "client"
   required: false
 - name: "tickprofiler"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/TickProfiler-1.7.10.jenkins.37.jar"
 - name: "opis"
   required: false
   default: false
@@ -54,7 +57,7 @@ mods:
 # Get that guy to update curse!
 #- name: "chunkgen"
 #  side: "server"
-  
+
 # Incompatible with DragonAPI
 # - name: "loading-profiler"
 
