@@ -2,4 +2,4 @@
 // Tweaks and Alterations 
    
 // Obsidian Stick
-recipes.remove(<WR-CBE|Core:obsidianStick>);
+//recipes.remove(<WR-CBE|Core:obsidianStick>);
