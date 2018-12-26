@@ -96,7 +96,7 @@ rec {
       ] ++ extraServerDirs ++ extraDirs;
 
       postBuild = ''
-        for i in $out/*.sh; do
+        for i in $out/*.sh $out/*.service; do
           substituteAll $i $(basename $i)
           chmod +x $(basename $i)
           rm $i

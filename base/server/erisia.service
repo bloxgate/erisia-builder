@@ -1,0 +1,11 @@
+[Unit]
+Description=Erisia
+
+[Service]
+WorkingDirectory=/home/minecraft/erisia
+ExecStartPre=/run/current-system/sw/bin/rm -f screenlog.*
+ExecStart=/run/current-system/sw/bin/screen -D -m -S @screenName@ -U -L
+ExecStartPost=/home/minecraft/erisia/init-screen.sh
+
+[Install]
+WantedBy=default.target
