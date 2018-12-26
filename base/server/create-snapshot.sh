@@ -19,7 +19,7 @@ size() {
 }
 
 filename() {
-    echo "$HOME/web/@serverName@-snapshot.tar.xz"
+    echo "$HOME/web/snapshots/@serverName@-snapshot.tar.xz"
 }
 
 echo "This script should only be used to create snapshots after the world is permanently shut down. The snapshot will be written to $(filename)." | fmt
