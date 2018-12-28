@@ -1,4 +1,6 @@
-var gardenLattice = <GardenStuff:lattice_wood>;
+\var gardenLattice = <GardenStuff:lattice_wood>;
 
-recipes.remove(gardenLattice);
-
+recipes.remove(<GardenStuff:lattice_wood>);
+recipes.remove(<GardenStuff:lattice_wood:1>);
+recipes.remove(<GardenStuff:lattice_wood:2>);
+recipes.remove(<GardenStuff:lattice_wood:3>);
