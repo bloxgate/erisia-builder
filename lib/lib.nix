@@ -211,7 +211,7 @@ rec {
       buildInputs = [ zip ];
     } ''
       cat >> config.properties <<EOF
-        bootstrapURL = http://files.mcupdater.com/Bootstrap.xml
+        bootstrapURL = https://files.mcupdater.com/Bootstrap.xml
         distribution = Release
         defaultPack = ${urlBase}ServerPack.xml
         customPath =
