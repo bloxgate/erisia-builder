@@ -27,6 +27,9 @@ mods:
 
 - name: "prometheus-integration"
   side: "server"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/prometheus-integration-1.2.0.jar"
 - name: "chunkpregenerator"
 - name: "eirairc"
   side: "server"
