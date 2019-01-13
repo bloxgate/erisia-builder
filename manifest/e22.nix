@@ -1159,7 +1159,7 @@
       "encoded" = "ElectricalAge-dev.jar";
       "src" = ../third_party/1.7.10/ElectricalAge-dev.jar;
       "type" = "local";
-      "md5" = "5a816698ebf45947e89870dc01d35910";
+      "md5" = "a0dd2395a2dba64f40ed298d60c8229d";
     };
     "ender-io" = {
       "title" = "Ender IO";
