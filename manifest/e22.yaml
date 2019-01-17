@@ -16,6 +16,7 @@ mods:
 - name: "chromaticraft"
 - name: "rotarycraft"
 - name: "reactorcraft"
+- name: "electricraft"
 
 # Useful mods we usually want
 - name: "not-enough-wands"
