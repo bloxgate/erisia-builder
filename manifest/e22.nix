@@ -1159,7 +1159,7 @@
       "encoded" = "ElectricalAge-dev.jar";
       "src" = ../third_party/1.7.10/ElectricalAge-dev.jar;
       "type" = "local";
-      "md5" = "a0dd2395a2dba64f40ed298d60c8229d";
+      "md5" = "7aa415c1264c5cc0e6b150954c095650";
     };
     "electricraft" = {
       "title" = "ElectriCraft";
