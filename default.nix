@@ -39,9 +39,35 @@ rec {
 
   packs = {
     e22 = buildPack e22;
-    incognito = buildPack farmingValley;
+    incognito = buildPack elncognito;
   };
 
+  elncognito = {
+    name = "elncognito";
+    screenName = "elncognito";
+    description = "Experimental Eln pack";
+    ram = "6000m";
+    port = 25566;
+    forge = {
+      major = "1.7.10";
+      minor = "10.13.4.1614";
+    };
+    extraDirs = [
+      ./base/erisia
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      resources_7
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/elncognito.nix
+    ];
+    blacklist = [
+    ];
+  };
 
   e22 = {
     name = "erisia22";
