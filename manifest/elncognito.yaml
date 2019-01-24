@@ -1,0 +1,49 @@
+version: "1.7.10"
+mods:
+# Cosmetics
+- name: "forge-multi-part"
+- name: "decocraft2"
+
+# World generation
+- name: "alternate-terrain-generation"
+- name: "realistic-terrain-generation"
+- name: "aroma1997s-dimensional-world"
+- name: "streams"
+- name: "wtfs-expedition-cavebiomes-ores-trees-and-tweaks"
+- name: "climate-control-geographicraft"
+
+# Eln and companions
+- name: "electrical-age"
+  title: "Electrical Age"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/ElectricalAge-dev.jar"
+- name: "botania"
+- name: "tardis-mod"
+- name: "buildcraft"
+- name: "railcraft"
+
+# Vanilla+
+- name: "antique-atlas"
+- name: "witchery"
+- name: "ars-magica-2"
+
+# Experimentals
+- name: "smart-moving"
+
+# Useful mods we usually want
+#- name: "not-enough-wands"
+- name: "nofov"
+  side: "client"
+  required: false
+- name: "prometheus-integration"
+  side: "server"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/prometheus-integration-1.2.0.jar"
+- name: "chunkpregenerator"
+- name: "eirairc"
+  side: "server"
+
+imports:
+- "tools-elncognito.yaml"
