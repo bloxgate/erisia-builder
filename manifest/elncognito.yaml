@@ -22,6 +22,8 @@ mods:
 - name: "tardis-mod"
 - name: "buildcraft"
 - name: "railcraft"
+- name: "logistics-pipes"
+- name: "applied-energistics-2"
 
 # Vanilla+
 - name: "antique-atlas"

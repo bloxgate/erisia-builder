@@ -44,6 +44,22 @@
       "type" = "remote";
       "md5" = "4b0ab763b63275d7f4abefb772961773";
     };
+    "applied-energistics-2" = {
+      "title" = "Applied Energistics 2";
+      "name" = "applied-energistics-2";
+      "id" = 223794;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "appliedenergistics2-rv3-beta-6.jar";
+      "maturity" = "beta";
+      "encoded" = "appliedenergistics2-rv3-beta-6.jar";
+      "page" = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2296430";
+      "src" = "https://minecraft.curseforge.com/projects/applied-energistics-2/files/2296430/download";
+      "type" = "remote";
+      "md5" = "0a555df010345a27e0956a3f05517510";
+    };
     "aroma1997core" = {
       "title" = "Aroma1997Core";
       "name" = "aroma1997core";
@@ -448,6 +464,22 @@
       "default" = true;
       "deps" = ["jei"];
       "type" = "missing";
+    };
+    "logistics-pipes" = {
+      "title" = "Logistics Pipes";
+      "name" = "logistics-pipes";
+      "id" = 232838;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "logisticspipes-0.9.3.132.jar";
+      "maturity" = "release";
+      "encoded" = "logisticspipes-0.9.3.132.jar";
+      "page" = "https://minecraft.curseforge.com/projects/logistics-pipes/files/2427862";
+      "src" = "https://minecraft.curseforge.com/projects/logistics-pipes/files/2427862/download";
+      "type" = "remote";
+      "md5" = "4661438a4c2e92067845810c02198af5";
     };
     "lunatriuscore" = {
       "title" = "LunatriusCore";
