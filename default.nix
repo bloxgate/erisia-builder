@@ -39,7 +39,7 @@ rec {
 
   packs = {
     e22 = buildPack e22;
-    incognito = buildPack elncognito;
+    elncognito = buildPack elncognito;
   };
 
   elncognito = {
