@@ -53,7 +53,7 @@ rec {
       minor = "10.13.4.1614";
     };
     extraDirs = [
-      ./base/erisia
+      ./base/elncognito
     ];
     extraServerDirs = [
       ./base/server

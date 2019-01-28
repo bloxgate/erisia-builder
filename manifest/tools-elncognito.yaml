@@ -32,24 +32,16 @@ mods:
 - name: "damage-indicators-mod"
   side: "client"
   required: false
-
-
-# Just for 1.10 and on.
-#- name: "thump"
-#  required: false
-#   side: "server"
-#   curse: false
-#   files:
-#   - src: "../third_party/1.7.10/TickProfiler-1.7.10.jenkins.37.jar"
 - name: "dynmapforge"
   side: "server"
 - name: "fullscreen-windowed-borderless-for-minecraft"
   side: "client"
   required: false
-
-# Get that guy to update curse!
-#- name: "chunkgen"
-#  side: "server"
+- name: "chunkgen"
+  side: "server"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/chunkgen-1.7.10-dev.jar"
 
 # Incompatible with DragonAPI
 # - name: "loading-profiler"
@@ -60,6 +52,7 @@ mods:
   required: false
 - name: "reauth"
   side: "client"
+- name: "notenoughitems"
 - name: "just-enough-calculation"
 - name: "akashic-tome"
 - name: "tool-belt"
