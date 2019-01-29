@@ -34,6 +34,7 @@ mods:
 - name: "realistic-torches"
 - name: "iron-chests"
 - name: "tis-3d"
+- name: "big-reactors"
 
 # Stuff Kim wants
 - name: "extra-utilities"
@@ -42,6 +43,7 @@ mods:
 # These do not directly complement Eln, but fit in the pack anyway.
 - name: "botania"
 - name: "pams-harvestcraft"
+- name: "cooking-for-blockheads"
 - name: "antique-atlas"
 - name: "witchery"
   #- name: "ars-magica-2"

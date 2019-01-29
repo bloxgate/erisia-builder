@@ -182,6 +182,22 @@
       "type" = "remote";
       "md5" = "ff5aca99f8e04a8bb6077df853a9c72e";
     };
+    "big-reactors" = {
+      "title" = "Big Reactors";
+      "name" = "big-reactors";
+      "id" = 241994;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["cofhcore"];
+      "filename" = "BigReactors-0.4.3A.jar";
+      "maturity" = "release";
+      "encoded" = "BigReactors-0.4.3A.jar";
+      "page" = "https://minecraft.curseforge.com/projects/big-reactors/files/2282591";
+      "src" = "https://minecraft.curseforge.com/projects/big-reactors/files/2282591/download";
+      "type" = "remote";
+      "md5" = "b1c71b6a64a84f154af2d83bdc0d33bf";
+    };
     "botania" = {
       "title" = "Botania";
       "name" = "botania";
@@ -307,6 +323,22 @@
       "type" = "remote";
       "md5" = "07690caf86ecf79739852154f5e44750";
     };
+    "cofhcore" = {
+      "title" = "CoFH Core";
+      "name" = "cofhcore";
+      "id" = 69162;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["redstone-flux"];
+      "filename" = "CoFHCore-[1.7.10]3.1.4-329.jar";
+      "maturity" = "release";
+      "encoded" = "CoFHCore-%5B1.7.10%5D3.1.4-329.jar";
+      "page" = "https://minecraft.curseforge.com/projects/cofhcore/files/2388750";
+      "src" = "https://minecraft.curseforge.com/projects/cofhcore/files/2388750/download";
+      "type" = "remote";
+      "md5" = "de527c101a1f2c62203f99515f3d0957";
+    };
     "cofhtweaks" = {
       "title" = "CoFHTweaks";
       "name" = "cofhtweaks";
@@ -322,6 +354,22 @@
       "src" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2320134/download";
       "type" = "remote";
       "md5" = "30710ffb1c9bf405592f3bd823ab3ef6";
+    };
+    "cooking-for-blockheads" = {
+      "title" = "Cooking for Blockheads";
+      "name" = "cooking-for-blockheads";
+      "id" = 231484;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "cookingbook-mc1.7.10-1.0.140.jar";
+      "maturity" = "release";
+      "encoded" = "cookingbook-mc1.7.10-1.0.140.jar";
+      "page" = "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2299135";
+      "src" = "https://minecraft.curseforge.com/projects/cooking-for-blockheads/files/2299135/download";
+      "type" = "remote";
+      "md5" = "38f41daf5b96bcca2520887ecb7bd446";
     };
     "damage-indicators-mod" = {
       "title" = "Damage Indicators Mod";
@@ -953,6 +1001,16 @@
       "src" = "https://minecraft.curseforge.com/projects/reauth/files/2433392/download";
       "type" = "remote";
       "md5" = "beafeff38750066c499c4e044ac4b828";
+    };
+    "redstone-flux" = {
+      "title" = "Redstone Flux";
+      "name" = "redstone-flux";
+      "id" = 270789;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
     };
     "schematica" = {
       "title" = "Schematica";
