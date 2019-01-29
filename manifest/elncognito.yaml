@@ -44,9 +44,10 @@ mods:
 - name: "pams-harvestcraft"
 - name: "antique-atlas"
 - name: "witchery"
-- name: "ars-magica-2"
+  #- name: "ars-magica-2"
+  # Tanks FPS. Not sure why. Please send help.
   # Undeclared dependency
-- name: "animationapi"
+  #- name: "animationapi"
 - name: "et-futurum"
 
 # Experimentals
