@@ -612,6 +612,22 @@
       "type" = "remote";
       "md5" = "5abcd31ea6aa0c174a67d5f459fe5fe3";
     };
+    "hardcore-ender-expansion" = {
+      "title" = "Hardcore Ender Expansion";
+      "name" = "hardcore-ender-expansion";
+      "id" = 228015;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "HardcoreEnderExpansion MC-1.7.10 v1.8.6.jar";
+      "maturity" = "release";
+      "encoded" = "HardcoreEnderExpansion%20MC-1.7.10%20v1.8.6.jar";
+      "page" = "https://minecraft.curseforge.com/projects/hardcore-ender-expansion/files/2316923";
+      "src" = "https://minecraft.curseforge.com/projects/hardcore-ender-expansion/files/2316923/download";
+      "type" = "remote";
+      "md5" = "513bbcc2ccf47d4ac35e8a6d4389ea5e";
+    };
     "helpfixer" = {
       "title" = "HelpFixer";
       "name" = "helpfixer";
@@ -915,6 +931,22 @@
       "type" = "remote";
       "md5" = "a86805d3720f12610ae1f28f7eb08b53";
     };
+    "pneumaticcraft" = {
+      "title" = "PneumaticCraft";
+      "name" = "pneumaticcraft";
+      "id" = 224125;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "PneumaticCraft-1.7.10-1.12.7-152-universal.jar";
+      "maturity" = "release";
+      "encoded" = "PneumaticCraft-1.7.10-1.12.7-152-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/pneumaticcraft/files/2513763";
+      "src" = "https://minecraft.curseforge.com/projects/pneumaticcraft/files/2513763/download";
+      "type" = "remote";
+      "md5" = "7ccea567cb5af8c37e7929bf541d6171";
+    };
     "prometheus-integration" = {
       "title" = "prometheus-integration";
       "name" = "prometheus-integration";
@@ -1162,6 +1194,22 @@
       "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2588365/download";
       "type" = "remote";
       "md5" = "a116360ba28a698b84ad2e7973c81779";
+    };
+    "tombenpotters-icarus" = {
+      "title" = "Tombenpotter's Icarus";
+      "name" = "tombenpotters-icarus";
+      "id" = 235702;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Icarus-1.0.6-hotfix.jar";
+      "maturity" = "release";
+      "encoded" = "Icarus-1.0.6-hotfix.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tombenpotters-icarus/files/2262514";
+      "src" = "https://minecraft.curseforge.com/projects/tombenpotters-icarus/files/2262514/download";
+      "type" = "remote";
+      "md5" = "1cd98bcaa1daa701e44781f86a99f961";
     };
     "tool-belt" = {
       "title" = "Tool Belt";

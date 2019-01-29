@@ -35,6 +35,8 @@ mods:
 - name: "iron-chests"
 - name: "tis-3d"
 - name: "big-reactors"
+- name: "pneumaticcraft"
+- name: "hardcore-ender-expansion"
 
 # Stuff Kim wants
 - name: "extra-utilities"
@@ -51,6 +53,7 @@ mods:
   # Undeclared dependency
   #- name: "animationapi"
 - name: "et-futurum"
+- name: "tombenpotters-icarus"
 
 # Experimentals
 - name: "smart-moving"
