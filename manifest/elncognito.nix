@@ -343,9 +343,9 @@
       "title" = "CoFHTweaks";
       "name" = "cofhtweaks";
       "id" = 230020;
-      "side" = "client";
-      "required" = true;
-      "default" = true;
+      "side" = "both";
+      "required" = false;
+      "default" = false;
       "deps" = [];
       "filename" = "CoFHTweaks-[1.7.10]1.1.3B3-94.jar";
       "maturity" = "alpha";
@@ -547,22 +547,6 @@
       "src" = "https://minecraft.curseforge.com/projects/farseek/files/2457658/download";
       "type" = "remote";
       "md5" = "58d6f0c966b37bf82cd2e711632ee7bc";
-    };
-    "fastcraft" = {
-      "title" = "FastCraft";
-      "name" = "fastcraft";
-      "id" = 242677;
-      "side" = "server";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "fastcraft-1.25.jar";
-      "maturity" = "release";
-      "encoded" = "fastcraft-1.25.jar";
-      "page" = "https://minecraft.curseforge.com/projects/fastcraft/files/2522249";
-      "src" = "https://minecraft.curseforge.com/projects/fastcraft/files/2522249/download";
-      "type" = "remote";
-      "md5" = "44c7c6828ac38026f443804827955345";
     };
     "forge-multi-part" = {
       "title" = "Forge Multi Part";
@@ -859,6 +843,19 @@
       "src" = "https://minecraft.curseforge.com/projects/notenoughkeys/files/2276280/download";
       "type" = "remote";
       "md5" = "162f67054b9e7c262a4e89dc71a37842";
+    };
+    "optifine" = {
+      "title" = "optifine";
+      "name" = "optifine";
+      "side" = "both";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "OptiFine_1.7.10_HD_U_E7.jar";
+      "encoded" = "OptiFine_1.7.10_HD_U_E7.jar";
+      "src" = "https://madoka.brage.info/baughn/OptiFine_1.7.10_HD_U_E7.jar";
+      "type" = "remote";
+      "md5" = "445062f5aaf982c36c72d90530c26850";
     };
     "orelib" = {
       "title" = "OreLib";

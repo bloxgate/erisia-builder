@@ -56,9 +56,14 @@ mods:
 - name: "darkcore"
 - name: "anti-id-conflict"
 - name: "cofhtweaks"
-  side: "client"
-- name: "fastcraft"
-  side: "server"
+  required: false
+  default: false
+- name: "optifine"
+  curse: false
+  required: false
+  default: true
+  files:
+  - src: "https://madoka.brage.info/baughn/OptiFine_1.7.10_HD_U_E7.jar"
 
 # Useful mods we usually want
 #- name: "not-enough-wands"
