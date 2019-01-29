@@ -869,6 +869,22 @@
       "type" = "remote";
       "md5" = "de527c101a1f2c62203f99515f3d0957";
     };
+    "cofhtweaks" = {
+      "title" = "CoFHTweaks";
+      "name" = "cofhtweaks";
+      "id" = 230020;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "CoFHTweaks-[1.7.10]1.1.3B3-94.jar";
+      "maturity" = "alpha";
+      "encoded" = "CoFHTweaks-%5B1.7.10%5D1.1.3B3-94.jar";
+      "page" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2320134";
+      "src" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2320134/download";
+      "type" = "remote";
+      "md5" = "30710ffb1c9bf405592f3bd823ab3ef6";
+    };
     "compact-machines" = {
       "title" = "Compact Machines";
       "name" = "compact-machines";
@@ -1091,7 +1107,7 @@
       "side" = "client";
       "required" = false;
       "default" = true;
-      "deps" = [];
+      "deps" = ["orelib"];
       "filename" = "DynamicSurroundings-1.7.10-1.0.6.4.jar";
       "maturity" = "release";
       "encoded" = "DynamicSurroundings-1.7.10-1.0.6.4.jar";
@@ -1388,22 +1404,6 @@
       "src" = "https://minecraft.curseforge.com/projects/fancygrass/files/2224424/download";
       "type" = "remote";
       "md5" = "6f338afe9ac9ed2547201e2a817d6329";
-    };
-    "fastcraft" = {
-      "title" = "FastCraft";
-      "name" = "fastcraft";
-      "id" = 242677;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "fastcraft-1.25.jar";
-      "maturity" = "release";
-      "encoded" = "fastcraft-1.25.jar";
-      "page" = "https://minecraft.curseforge.com/projects/fastcraft/files/2522249";
-      "src" = "https://minecraft.curseforge.com/projects/fastcraft/files/2522249/download";
-      "type" = "remote";
-      "md5" = "44c7c6828ac38026f443804827955345";
     };
     "flatsigns" = {
       "title" = "FlatSigns";
@@ -2707,6 +2707,16 @@
       "type" = "remote";
       "md5" = "82e98ab306d952f3371a514333c226b4";
     };
+    "orelib" = {
+      "title" = "OreLib";
+      "name" = "orelib";
+      "id" = 307806;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
     "p455w0rds-library" = {
       "title" = "p455w0rd's Library";
       "name" = "p455w0rds-library";
@@ -3791,7 +3801,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = ["fabric"];
       "filename" = "TIS-3D-MC1.7.10-1.4.0.78.jar";
       "maturity" = "release";
       "encoded" = "TIS-3D-MC1.7.10-1.4.0.78.jar";
