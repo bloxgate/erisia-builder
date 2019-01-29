@@ -198,6 +198,22 @@
       "type" = "remote";
       "md5" = "918cf416c64c1616fea0758723ff97da";
     };
+    "bibliocraft" = {
+      "title" = "BiblioCraft";
+      "name" = "bibliocraft";
+      "id" = 228027;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "BiblioCraft[v1.11.7][MC1.7.10].jar";
+      "maturity" = "release";
+      "encoded" = "BiblioCraft%5Bv1.11.7%5D%5BMC1.7.10%5D.jar";
+      "page" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2423369";
+      "src" = "https://minecraft.curseforge.com/projects/bibliocraft/files/2423369/download";
+      "type" = "remote";
+      "md5" = "ff5aca99f8e04a8bb6077df853a9c72e";
+    };
     "botania" = {
       "title" = "Botania";
       "name" = "botania";
@@ -322,6 +338,22 @@
       "src" = "https://minecraft.curseforge.com/projects/codechickencore/files/2262089/download";
       "type" = "remote";
       "md5" = "07690caf86ecf79739852154f5e44750";
+    };
+    "cofhtweaks" = {
+      "title" = "CoFHTweaks";
+      "name" = "cofhtweaks";
+      "id" = 230020;
+      "side" = "client";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "CoFHTweaks-[1.7.10]1.1.3B3-94.jar";
+      "maturity" = "alpha";
+      "encoded" = "CoFHTweaks-%5B1.7.10%5D1.1.3B3-94.jar";
+      "page" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2320134";
+      "src" = "https://minecraft.curseforge.com/projects/cofhtweaks/files/2320134/download";
+      "type" = "remote";
+      "md5" = "30710ffb1c9bf405592f3bd823ab3ef6";
     };
     "damage-indicators-mod" = {
       "title" = "Damage Indicators Mod";
@@ -490,6 +522,16 @@
       "type" = "remote";
       "md5" = "0b1848ece3f6e1370e6caa8124c1480d";
     };
+    "fabric" = {
+      "title" = "Fabric (API)";
+      "name" = "fabric";
+      "id" = 306612;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
+    };
     "farseek" = {
       "title" = "Farseek";
       "name" = "farseek";
@@ -505,6 +547,22 @@
       "src" = "https://minecraft.curseforge.com/projects/farseek/files/2457658/download";
       "type" = "remote";
       "md5" = "58d6f0c966b37bf82cd2e711632ee7bc";
+    };
+    "fastcraft" = {
+      "title" = "FastCraft";
+      "name" = "fastcraft";
+      "id" = 242677;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "fastcraft-1.25.jar";
+      "maturity" = "release";
+      "encoded" = "fastcraft-1.25.jar";
+      "page" = "https://minecraft.curseforge.com/projects/fastcraft/files/2522249";
+      "src" = "https://minecraft.curseforge.com/projects/fastcraft/files/2522249/download";
+      "type" = "remote";
+      "md5" = "44c7c6828ac38026f443804827955345";
     };
     "forge-multi-part" = {
       "title" = "Forge Multi Part";
@@ -570,6 +628,22 @@
       "type" = "remote";
       "md5" = "0d6ce4776f981f97a13ab02029b5fb4d";
     };
+    "iron-chests" = {
+      "title" = "Iron Chests";
+      "name" = "iron-chests";
+      "id" = 228756;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "ironchest-1.7.10-6.0.62.742-universal.jar";
+      "maturity" = "release";
+      "encoded" = "ironchest-1.7.10-6.0.62.742-universal.jar";
+      "page" = "https://minecraft.curseforge.com/projects/iron-chests/files/2230908";
+      "src" = "https://minecraft.curseforge.com/projects/iron-chests/files/2230908/download";
+      "type" = "remote";
+      "md5" = "48d942594459c437ce8e8648ca42a7b9";
+    };
     "jei" = {
       "title" = "Just Enough Items (JEI)";
       "name" = "jei";
@@ -606,6 +680,22 @@
       "deps" = ["jei"];
       "type" = "missing";
     };
+    "lattice-mod" = {
+      "title" = "Lattice Mod";
+      "name" = "lattice-mod";
+      "id" = 229186;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "latticemod-mc1.7.10-1.0.jar";
+      "maturity" = "release";
+      "encoded" = "latticemod-mc1.7.10-1.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/lattice-mod/files/2232682";
+      "src" = "https://minecraft.curseforge.com/projects/lattice-mod/files/2232682/download";
+      "type" = "remote";
+      "md5" = "7c98491a360bd9d45af4ed6fe36cbb17";
+    };
     "logistics-pipes" = {
       "title" = "Logistics Pipes";
       "name" = "logistics-pipes";
@@ -638,6 +728,16 @@
       "type" = "remote";
       "md5" = "435b2890f90cc256e0045eb559512eaf";
     };
+    "morph-o-tool" = {
+      "title" = "Morph-o-Tool";
+      "name" = "morph-o-tool";
+      "id" = 245287;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["autoreglib"];
+      "type" = "missing";
+    };
     "morpheus" = {
       "title" = "Morpheus";
       "name" = "morpheus";
@@ -669,6 +769,54 @@
       "src" = "https://minecraft.curseforge.com/projects/mouse-tweaks/files/2209265/download";
       "type" = "remote";
       "md5" = "d4968eb0b513066313259fcd80bb8eb0";
+    };
+    "neat" = {
+      "title" = "Neat";
+      "name" = "neat";
+      "id" = 238372;
+      "side" = "client";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Neat 1.0-1.jar";
+      "maturity" = "release";
+      "encoded" = "Neat%201.0-1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/neat/files/2268525";
+      "src" = "https://minecraft.curseforge.com/projects/neat/files/2268525/download";
+      "type" = "remote";
+      "md5" = "93b751935756bcf8b938ddc520c638b0";
+    };
+    "nei-addons" = {
+      "title" = "NEI Addons";
+      "name" = "nei-addons";
+      "id" = 63352;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "neiaddons-1.12.15.41-mc1.7.10.jar";
+      "maturity" = "alpha";
+      "encoded" = "neiaddons-1.12.15.41-mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/nei-addons/files/2269749";
+      "src" = "https://minecraft.curseforge.com/projects/nei-addons/files/2269749/download";
+      "type" = "remote";
+      "md5" = "caf83daf3a9a5dbdc6386389ef977a95";
+    };
+    "nei-integration" = {
+      "title" = "NEI Integration";
+      "name" = "nei-integration";
+      "id" = 225251;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["notenoughitems"];
+      "filename" = "NEIIntegration-MC1.7.10-1.1.2.jar";
+      "maturity" = "release";
+      "encoded" = "NEIIntegration-MC1.7.10-1.1.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/nei-integration/files/2282522";
+      "src" = "https://minecraft.curseforge.com/projects/nei-integration/files/2282522/download";
+      "type" = "remote";
+      "md5" = "54308ef273613b79870e9e46df86e7d9";
     };
     "nofov" = {
       "title" = "NoFov";
@@ -976,6 +1124,22 @@
       "type" = "local";
       "md5" = "99872ea843467c729866f761e1c9fcc9";
     };
+    "tis-3d" = {
+      "title" = "TIS-3D";
+      "name" = "tis-3d";
+      "id" = 238603;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["fabric"];
+      "filename" = "TIS-3D-MC1.7.10-1.4.0.78.jar";
+      "maturity" = "release";
+      "encoded" = "TIS-3D-MC1.7.10-1.4.0.78.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tis-3d/files/2588365";
+      "src" = "https://minecraft.curseforge.com/projects/tis-3d/files/2588365/download";
+      "type" = "remote";
+      "md5" = "a116360ba28a698b84ad2e7973c81779";
+    };
     "tool-belt" = {
       "title" = "Tool Belt";
       "name" = "tool-belt";
@@ -985,6 +1149,22 @@
       "default" = true;
       "deps" = [];
       "type" = "missing";
+    };
+    "waila" = {
+      "title" = "Waila";
+      "name" = "waila";
+      "id" = 73488;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Waila-1.5.10_1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "Waila-1.5.10_1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/waila/files/2230518";
+      "src" = "https://minecraft.curseforge.com/projects/waila/files/2230518/download";
+      "type" = "remote";
+      "md5" = "eeb36775188e70faa1c5ecd84f80076c";
     };
     "witchery" = {
       "title" = "Witchery";

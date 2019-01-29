@@ -6,6 +6,8 @@ mods:
 - name: "garden-stuff"
 - name: "chisel"
 - name: "carpenters-blocks"
+- name: "bibliocraft"
+- name: "lattice-mod"
 
 # World generation
 - name: "alternate-terrain-generation"
@@ -30,6 +32,8 @@ mods:
 - name: "logistics-pipes"
 - name: "applied-energistics-2"
 - name: "realistic-torches"
+- name: "iron-chests"
+- name: "tis-3d"
 
 # Stuff Kim wants
 - name: "extra-utilities"
@@ -51,6 +55,10 @@ mods:
   # Undeclared dependency
 - name: "darkcore"
 - name: "anti-id-conflict"
+- name: "cofhtweaks"
+  side: "client"
+- name: "fastcraft"
+  side: "server"
 
 # Useful mods we usually want
 #- name: "not-enough-wands"
@@ -64,6 +72,12 @@ mods:
   - src: "../third_party/1.7.10/prometheus-integration-1.2.0.jar"
 - name: "eirairc"
   side: "server"
+- name: "waila"
+- name: "morph-o-tool"
+- name: "neat"
+  side: "client"
+- name: "nei-addons"
+- name: "nei-integration"
 
 imports:
 - "tools-elncognito.yaml"
