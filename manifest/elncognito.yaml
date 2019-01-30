@@ -96,6 +96,7 @@ mods:
   side: "client"
 - name: "nei-addons"
 - name: "nei-integration"
+- name: "minetweaker3"
 
 imports:
 - "tools-elncognito.yaml"

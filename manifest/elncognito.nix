@@ -799,6 +799,22 @@
       "type" = "remote";
       "md5" = "2ebbefd7fa32bf96159f6d305f932fcf";
     };
+    "minetweaker3" = {
+      "title" = "MineTweaker3";
+      "name" = "minetweaker3";
+      "id" = 224029;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "MineTweaker3-1.7.10-3.0.10B.jar";
+      "maturity" = "release";
+      "encoded" = "MineTweaker3-1.7.10-3.0.10B.jar";
+      "page" = "https://minecraft.curseforge.com/projects/minetweaker3/files/2259434";
+      "src" = "https://minecraft.curseforge.com/projects/minetweaker3/files/2259434/download";
+      "type" = "remote";
+      "md5" = "884933d1b933e0bd2f93293201569f13";
+    };
     "morph-o-tool" = {
       "title" = "Morph-o-Tool";
       "name" = "morph-o-tool";
