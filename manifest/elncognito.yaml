@@ -37,6 +37,8 @@ mods:
 - name: "big-reactors"
 - name: "pneumaticcraft"
 - name: "hardcore-ender-expansion"
+- name: "storage-drawers"
+- name: "pressure-pipes"
 
 # Stuff Kim wants
 - name: "extra-utilities"

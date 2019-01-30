@@ -134,6 +134,22 @@
       "type" = "remote";
       "md5" = "0e711d6535970f62d4964edaa26f4623";
     };
+    "bdlib" = {
+      "title" = "BdLib";
+      "name" = "bdlib";
+      "id" = 70496;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "bdlib-1.9.4.109-mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "bdlib-1.9.4.109-mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/bdlib/files/2269259";
+      "src" = "https://minecraft.curseforge.com/projects/bdlib/files/2269259/download";
+      "type" = "remote";
+      "md5" = "e446121e3e94b77d1c610ceed0fd3f68";
+    };
     "better-foliage" = {
       "title" = "Better Foliage";
       "name" = "better-foliage";
@@ -245,6 +261,16 @@
       "src" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2333195/download";
       "type" = "remote";
       "md5" = "796185b3d2cfd50f74955346ba92614c";
+    };
+    "chameleon" = {
+      "title" = "Chameleon";
+      "name" = "chameleon";
+      "id" = 230497;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
     };
     "chisel" = {
       "title" = "Chisel";
@@ -947,6 +973,22 @@
       "type" = "remote";
       "md5" = "7ccea567cb5af8c37e7929bf541d6171";
     };
+    "pressure-pipes" = {
+      "title" = "Pressure Pipes";
+      "name" = "pressure-pipes";
+      "id" = 221214;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["bdlib"];
+      "filename" = "pressure-1.3.0.fix1-mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "pressure-1.3.0.fix1-mc1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/pressure-pipes/files/2475630";
+      "src" = "https://minecraft.curseforge.com/projects/pressure-pipes/files/2475630/download";
+      "type" = "remote";
+      "md5" = "127a9ba52a5ed7a9e9e782872159f855";
+    };
     "prometheus-integration" = {
       "title" = "prometheus-integration";
       "name" = "prometheus-integration";
@@ -1133,6 +1175,22 @@
       "src" = "https://minecraft.curseforge.com/projects/sound-filters/files/2224003/download";
       "type" = "remote";
       "md5" = "772f4a162fa649ce421926a302a7f8fe";
+    };
+    "storage-drawers" = {
+      "title" = "Storage Drawers";
+      "name" = "storage-drawers";
+      "id" = 223852;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["chameleon"];
+      "filename" = "StorageDrawers-1.7.10-1.10.9.jar";
+      "maturity" = "release";
+      "encoded" = "StorageDrawers-1.7.10-1.10.9.jar";
+      "page" = "https://minecraft.curseforge.com/projects/storage-drawers/files/2469586";
+      "src" = "https://minecraft.curseforge.com/projects/storage-drawers/files/2469586/download";
+      "type" = "remote";
+      "md5" = "6fe615f1a9ff94dfe1b0641f1fc9fd18";
     };
     "streams" = {
       "title" = "Streams";
