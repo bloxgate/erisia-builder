@@ -40,6 +40,10 @@ mods:
 - name: "storage-drawers"
 - name: "pressure-pipes"
 - name: "rftools"
+- name: "dimensionaldoors"
+  curse: false
+  files:
+  - src: "../third_party/1.7.10/DimensionalDoors-2.2.5-test9.jar"
 
 # Stuff Kim wants
 - name: "extra-utilities"

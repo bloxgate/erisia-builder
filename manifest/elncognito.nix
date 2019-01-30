@@ -439,6 +439,19 @@
       "type" = "remote";
       "md5" = "9db261cb326ccdb827ebc36e37706d51";
     };
+    "dimensionaldoors" = {
+      "title" = "dimensionaldoors";
+      "name" = "dimensionaldoors";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "DimensionalDoors-2.2.5-test9.jar";
+      "encoded" = "DimensionalDoors-2.2.5-test9.jar";
+      "src" = ../third_party/1.7.10/DimensionalDoors-2.2.5-test9.jar;
+      "type" = "local";
+      "md5" = "8f58df5fdbf60da896f0d4da196e312f";
+    };
     "ding" = {
       "title" = "Ding";
       "name" = "ding";
