@@ -39,6 +39,7 @@ mods:
 - name: "hardcore-ender-expansion"
 - name: "storage-drawers"
 - name: "pressure-pipes"
+- name: "rftools"
 
 # Stuff Kim wants
 - name: "extra-utilities"

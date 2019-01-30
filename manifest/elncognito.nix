@@ -770,6 +770,22 @@
       "type" = "remote";
       "md5" = "435b2890f90cc256e0045eb559512eaf";
     };
+    "mcjtylib" = {
+      "title" = "McJtyLib";
+      "name" = "mcjtylib";
+      "id" = 233105;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "mcjtylib-1.8.1.jar";
+      "maturity" = "release";
+      "encoded" = "mcjtylib-1.8.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2272449";
+      "src" = "https://minecraft.curseforge.com/projects/mcjtylib/files/2272449/download";
+      "type" = "remote";
+      "md5" = "2ebbefd7fa32bf96159f6d305f932fcf";
+    };
     "morph-o-tool" = {
       "title" = "Morph-o-Tool";
       "name" = "morph-o-tool";
@@ -1085,6 +1101,22 @@
       "default" = true;
       "deps" = [];
       "type" = "missing";
+    };
+    "rftools" = {
+      "title" = "RFTools";
+      "name" = "rftools";
+      "id" = 224641;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["mcjtylib"];
+      "filename" = "rftools-4.23.jar";
+      "maturity" = "release";
+      "encoded" = "rftools-4.23.jar";
+      "page" = "https://minecraft.curseforge.com/projects/rftools/files/2287287";
+      "src" = "https://minecraft.curseforge.com/projects/rftools/files/2287287/download";
+      "type" = "remote";
+      "md5" = "3f8210b1cfca520753532cc89fc961d8";
     };
     "schematica" = {
       "title" = "Schematica";
