@@ -385,7 +385,7 @@
       "title" = "CoFHTweaks";
       "name" = "cofhtweaks";
       "id" = 230020;
-      "side" = "both";
+      "side" = "client";
       "required" = false;
       "default" = false;
       "deps" = [];

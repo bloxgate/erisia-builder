@@ -71,6 +71,7 @@ mods:
 - name: "cofhtweaks"
   required: false
   default: false
+  side: "client"
 - name: "optifine"
   curse: false
   required: false
