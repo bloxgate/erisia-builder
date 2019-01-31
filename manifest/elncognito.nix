@@ -60,6 +60,22 @@
       "type" = "remote";
       "md5" = "4b0ab763b63275d7f4abefb772961773";
     };
+    "applecore" = {
+      "title" = "AppleCore";
+      "name" = "applecore";
+      "id" = 224472;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "AppleCore-mc1.7.10-3.1.1.jar";
+      "maturity" = "release";
+      "encoded" = "AppleCore-mc1.7.10-3.1.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/applecore/files/2530879";
+      "src" = "https://minecraft.curseforge.com/projects/applecore/files/2530879/download";
+      "type" = "remote";
+      "md5" = "169c63b60ec8a8195733b94cb47ae694";
+    };
     "applied-energistics-2" = {
       "title" = "Applied Energistics 2";
       "name" = "applied-energistics-2";
@@ -651,22 +667,6 @@
       "type" = "remote";
       "md5" = "5abcd31ea6aa0c174a67d5f459fe5fe3";
     };
-    "hardcore-ender-expansion" = {
-      "title" = "Hardcore Ender Expansion";
-      "name" = "hardcore-ender-expansion";
-      "id" = 228015;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "HardcoreEnderExpansion MC-1.7.10 v1.8.6.jar";
-      "maturity" = "release";
-      "encoded" = "HardcoreEnderExpansion%20MC-1.7.10%20v1.8.6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/hardcore-ender-expansion/files/2316923";
-      "src" = "https://minecraft.curseforge.com/projects/hardcore-ender-expansion/files/2316923/download";
-      "type" = "remote";
-      "md5" = "513bbcc2ccf47d4ac35e8a6d4389ea5e";
-    };
     "helpfixer" = {
       "title" = "HelpFixer";
       "name" = "helpfixer";
@@ -682,6 +682,22 @@
       "src" = "https://minecraft.curseforge.com/projects/helpfixer/files/2223813/download";
       "type" = "remote";
       "md5" = "0d6ce4776f981f97a13ab02029b5fb4d";
+    };
+    "hunger-overhaul" = {
+      "title" = "Hunger Overhaul";
+      "name" = "hunger-overhaul";
+      "id" = 224476;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["applecore"];
+      "filename" = "HungerOverhaul-1.7.10-1.0.0.jenkins104.jar";
+      "maturity" = "release";
+      "encoded" = "HungerOverhaul-1.7.10-1.0.0.jenkins104.jar";
+      "page" = "https://minecraft.curseforge.com/projects/hunger-overhaul/files/2332505";
+      "src" = "https://minecraft.curseforge.com/projects/hunger-overhaul/files/2332505/download";
+      "type" = "remote";
+      "md5" = "2b9d670b119b4a50d10dd38def4d7b8c";
     };
     "iron-chests" = {
       "title" = "Iron Chests";
