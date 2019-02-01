@@ -699,6 +699,22 @@
       "type" = "remote";
       "md5" = "2b9d670b119b4a50d10dd38def4d7b8c";
     };
+    "inventory-tweaks" = {
+      "title" = "Inventory Tweaks";
+      "name" = "inventory-tweaks";
+      "id" = 223094;
+      "side" = "both";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "InventoryTweaks-1.59-dev-152.jar";
+      "maturity" = "release";
+      "encoded" = "InventoryTweaks-1.59-dev-152.jar";
+      "page" = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2210792";
+      "src" = "https://minecraft.curseforge.com/projects/inventory-tweaks/files/2210792/download";
+      "type" = "remote";
+      "md5" = "83f7ddcd5f5fd8d640aa15dc62acc6bf";
+    };
     "iron-chests" = {
       "title" = "Iron Chests";
       "name" = "iron-chests";
@@ -962,6 +978,22 @@
       "src" = "https://minecraft.curseforge.com/projects/notenoughkeys/files/2276280/download";
       "type" = "remote";
       "md5" = "162f67054b9e7c262a4e89dc71a37842";
+    };
+    "notenoughresources" = {
+      "title" = "NotEnoughResources";
+      "name" = "notenoughresources";
+      "id" = 225815;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["notenoughitems"];
+      "filename" = "NotEnoughResources-1.7.10-0.1.0-128.jar";
+      "maturity" = "beta";
+      "encoded" = "NotEnoughResources-1.7.10-0.1.0-128.jar";
+      "page" = "https://minecraft.curseforge.com/projects/notenoughresources/files/2323485";
+      "src" = "https://minecraft.curseforge.com/projects/notenoughresources/files/2323485/download";
+      "type" = "remote";
+      "md5" = "9635aa86976c302ea3141a384eaaeb66";
     };
     "optifine" = {
       "title" = "optifine";

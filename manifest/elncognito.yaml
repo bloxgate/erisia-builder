@@ -97,6 +97,9 @@ mods:
   side: "client"
 - name: "nei-addons"
 - name: "nei-integration"
+- name: "notenoughresources"
+- name: "inventory-tweaks"
+  required: false
 - name: "minetweaker3"
 
 imports:
