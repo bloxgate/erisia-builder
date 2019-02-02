@@ -543,7 +543,7 @@
       "encoded" = "ElectricalAge-dev.jar";
       "src" = ../third_party/1.7.10/ElectricalAge-dev.jar;
       "type" = "local";
-      "md5" = "0138768c5bbe37a0e4745ad9b5ab55db";
+      "md5" = "3e392542c3b4b86740361d32d24b566f";
     };
     "et-futurum" = {
       "title" = "Et Futurum";
