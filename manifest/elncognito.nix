@@ -715,6 +715,22 @@
       "type" = "remote";
       "md5" = "83f7ddcd5f5fd8d640aa15dc62acc6bf";
     };
+    "iron-backpacks" = {
+      "title" = "Iron Backpacks";
+      "name" = "iron-backpacks";
+      "id" = 227049;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "IronBackpacks-1.7.10-1.2.20.jar";
+      "maturity" = "release";
+      "encoded" = "IronBackpacks-1.7.10-1.2.20.jar";
+      "page" = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2339301";
+      "src" = "https://minecraft.curseforge.com/projects/iron-backpacks/files/2339301/download";
+      "type" = "remote";
+      "md5" = "a7e20c4ced02e078db2f35b71796aca5";
+    };
     "iron-chests" = {
       "title" = "Iron Chests";
       "name" = "iron-chests";
@@ -1332,6 +1348,22 @@
       "src" = "https://minecraft.curseforge.com/projects/tardis-mod/files/2305503/download";
       "type" = "remote";
       "md5" = "8e90b19f79b2cc788e0a1c4986722014";
+    };
+    "the-spice-of-life" = {
+      "title" = "The Spice of Life";
+      "name" = "the-spice-of-life";
+      "id" = 220811;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["applecore"];
+      "filename" = "SpiceOfLife-mc1.7.10-1.3.11.jar";
+      "maturity" = "release";
+      "encoded" = "SpiceOfLife-mc1.7.10-1.3.11.jar";
+      "page" = "https://minecraft.curseforge.com/projects/the-spice-of-life/files/2486844";
+      "src" = "https://minecraft.curseforge.com/projects/the-spice-of-life/files/2486844/download";
+      "type" = "remote";
+      "md5" = "3e1baa97b5856dd99a5b56856494f274";
     };
     "tickprofiler" = {
       "title" = "tickprofiler";

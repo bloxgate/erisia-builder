@@ -51,8 +51,10 @@ mods:
 # These do not directly complement Eln, but fit in the pack anyway.
 - name: "botania"
 - name: "pams-harvestcraft"
+- name: "the-spice-of-life"
 - name: "cooking-for-blockheads"
 - name: "hunger-overhaul"
+- name: "iron-backpacks"
 - name: "antique-atlas"
 - name: "witchery"
   #- name: "ars-magica-2"
