@@ -3,6 +3,6 @@ say() {
 }
 
 players() {
-  curl -s http://localhost:1234/metrics | grep '^present' | grep -v 'FzdsPacket' | wc -l
+  curl -s http://localhost:@prometheusPort@/metrics | grep '^present' | grep -v 'FzdsPacket' | wc -l
 }
 

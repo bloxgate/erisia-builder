@@ -49,6 +49,7 @@ rec {
     description = "Experimental Eln pack";
     ram = "6000m";
     port = 25566;
+    prometheusPort = 1235;
     forge = {
       major = "1.7.10";
       minor = "10.13.4.1614";
@@ -74,6 +75,7 @@ rec {
   e22-leisurely = e22 // {
     screenName = "e22lei";
     port = 25567;
+    prometheusPort = 1236;
     description = "Erisia #22 Take it slow server: Ovilis uniusque Pastoris coccineam";
     extraDirs = e22.extraDirs ++ [ ./base/e22-lei ];
   };
@@ -84,6 +86,7 @@ rec {
     description = "Erisia #22: Ovilis uniusque Pastoris coccineam";
     ram = "20000m";
     port = 25565;
+    prometheusPort = 1234;
     forge = {
       major = "1.7.10";
       minor = "10.13.4.1614";

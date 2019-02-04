@@ -27,6 +27,7 @@ rec {
     screenName,
     serverName ? name,
     port,
+    prometheusPort,
     forge,
     ram ? "4000m",
     manifests ? [],
@@ -88,7 +89,7 @@ rec {
     server = symlinkJoin {
       name = name + "-server";
 
-      inherit screenName ram serverName;
+      inherit screenName ram serverName port prometheusPort;
 
       paths = [
         forgeDir
@@ -96,11 +97,11 @@ rec {
       ] ++ extraServerDirs ++ extraDirs;
 
       postBuild = ''
-        for i in $out/*.sh $out/*.service; do
-          substituteAll $i $(basename $i)
-          chmod +x $(basename $i)
-          rm $i
-          cp $(basename $i) $out/
+        cd $out
+        for i in *.sh *.service config/prometheus-integration.cfg; do
+          substituteAll "$i" "$i".tmp
+	  mv "$i".tmp "$i"
+          chmod +x "$i"
         done
       '';
     };
