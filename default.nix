@@ -72,15 +72,19 @@ rec {
   };
 
 
-  e22-leisurely = e22 // {
+  e22-leisurely = e22base // {
     screenName = "e22lei";
     port = 25567;
     prometheusPort = 1236;
     description = "Erisia #22 Take it slow server: Ovilis uniusque Pastoris coccineam";
-    extraDirs = e22.extraDirs ++ [ ./base/e22-lei ];
+    extraDirs = [ ./base/e22-lei ] ++ e22base.extraDirs;
   };
 
-  e22 = {
+  e22 = e22base // {
+    extraDirs = [ ./base/e22 ] ++ e22base.extraDirs;
+  };
+
+  e22base = {
     name = "erisia22";
     screenName = "e22";
     description = "Erisia #22: Ovilis uniusque Pastoris coccineam";
