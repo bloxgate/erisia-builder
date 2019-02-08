@@ -63,6 +63,7 @@ mods:
   #- name: "animationapi"
 - name: "et-futurum"
 - name: "tombenpotters-icarus"
+- name: "openblocks"
 
 # Experimentals
 - name: "smart-moving"

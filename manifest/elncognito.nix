@@ -1011,6 +1011,38 @@
       "type" = "remote";
       "md5" = "9635aa86976c302ea3141a384eaaeb66";
     };
+    "openblocks" = {
+      "title" = "OpenBlocks";
+      "name" = "openblocks";
+      "id" = 228816;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = ["openmodslib"];
+      "filename" = "OpenBlocks-1.7.10-1.6.jar";
+      "maturity" = "release";
+      "encoded" = "OpenBlocks-1.7.10-1.6.jar";
+      "page" = "https://minecraft.curseforge.com/projects/openblocks/files/2386733";
+      "src" = "https://minecraft.curseforge.com/projects/openblocks/files/2386733/download";
+      "type" = "remote";
+      "md5" = "26aa01a40b9eeb35a4d291ec9d6dd598";
+    };
+    "openmodslib" = {
+      "title" = "OpenModsLib";
+      "name" = "openmodslib";
+      "id" = 228815;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "OpenModsLib-1.7.10-0.10.jar";
+      "maturity" = "release";
+      "encoded" = "OpenModsLib-1.7.10-0.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/openmodslib/files/2386726";
+      "src" = "https://minecraft.curseforge.com/projects/openmodslib/files/2386726/download";
+      "type" = "remote";
+      "md5" = "7af56161fea4b81d7c8504133b269710";
+    };
     "optifine" = {
       "title" = "optifine";
       "name" = "optifine";
