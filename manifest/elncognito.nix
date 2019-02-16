@@ -230,6 +230,22 @@
       "type" = "remote";
       "md5" = "b1c71b6a64a84f154af2d83bdc0d33bf";
     };
+    "bigtrees" = {
+      "title" = "BigTrees";
+      "name" = "bigtrees";
+      "id" = 239267;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "bigtrees-0.2-1.7.10.jar";
+      "maturity" = "beta";
+      "encoded" = "bigtrees-0.2-1.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/bigtrees/files/2273910";
+      "src" = "https://minecraft.curseforge.com/projects/bigtrees/files/2273910/download";
+      "type" = "remote";
+      "md5" = "d0ee84c855866b3ef510b5dfbd5ab8b5";
+    };
     "botania" = {
       "title" = "Botania";
       "name" = "botania";
@@ -543,7 +559,7 @@
       "encoded" = "ElectricalAge-dev.jar";
       "src" = ../third_party/1.7.10/ElectricalAge-dev.jar;
       "type" = "local";
-      "md5" = "3e392542c3b4b86740361d32d24b566f";
+      "md5" = "961f44d2ade43e2f86bf75f428b6465d";
     };
     "et-futurum" = {
       "title" = "Et Futurum";

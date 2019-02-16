@@ -20,6 +20,7 @@ mods:
 - name: "wtfs-texturegeneratorlib"
   # End
 - name: "climate-control-geographicraft"
+- name: "bigtrees"
 
 # Eln and companions
 - name: "electrical-age"
