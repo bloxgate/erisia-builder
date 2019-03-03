@@ -28,6 +28,22 @@
       "type" = "remote";
       "md5" = "624d457569301c4aef58eeeca64f0b6f";
     };
+    "another-one-bites-the-dust" = {
+      "title" = "Another One Bites the Dust";
+      "name" = "another-one-bites-the-dust";
+      "id" = 221863;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "AOBD-2.9.2.jar";
+      "maturity" = "release";
+      "encoded" = "AOBD-2.9.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/another-one-bites-the-dust/files/2305237";
+      "src" = "https://minecraft.curseforge.com/projects/another-one-bites-the-dust/files/2305237/download";
+      "type" = "remote";
+      "md5" = "0864caf4280229154ca7f158502d4bee";
+    };
     "anti-id-conflict" = {
       "title" = "Anti Id Conflict";
       "name" = "anti-id-conflict";
