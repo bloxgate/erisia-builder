@@ -516,6 +516,22 @@
       "type" = "remote";
       "md5" = "1a02aec95248abbe9f795a27c6763d3e";
     };
+    "discordintegration" = {
+      "title" = "DiscordIntegration";
+      "name" = "discordintegration";
+      "id" = 245288;
+      "side" = "server";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "DiscordIntegration-mc1.7.10-3.0.5.jar";
+      "maturity" = "release";
+      "encoded" = "DiscordIntegration-mc1.7.10-3.0.5.jar";
+      "page" = "https://minecraft.curseforge.com/projects/discordintegration/files/2542338";
+      "src" = "https://minecraft.curseforge.com/projects/discordintegration/files/2542338/download";
+      "type" = "remote";
+      "md5" = "d266e454c6d71936786cfb2e2525c14c";
+    };
     "dynamic-surroundings" = {
       "title" = "Dynamic Surroundings";
       "name" = "dynamic-surroundings";

@@ -96,6 +96,8 @@ mods:
   - src: "../third_party/1.7.10/prometheus-integration-1.2.0.jar"
 - name: "eirairc"
   side: "server"
+- name: "discordintegration"
+  side: "server"
 - name: "waila"
 - name: "morph-o-tool"
 - name: "neat"
