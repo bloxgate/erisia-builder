@@ -1,0 +1,190 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "immersiveengineering:material",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 27
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "calculator:circuitdamaged",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "calculator:circuitdamaged",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 5
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "calculator:circuitdamaged",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 8
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "calculator:circuitdamaged",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "calculator:circuitdamaged",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 13
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "immersiveengineering:metal",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 27
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "thermalfoundation:material",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 195
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:brokenrod",
+                    "weight": 8
+                },
+                {
+                    "type": "item",
+                    "name": "scrap:broken.gear",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "scrap:broken.gear",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "contenttweaker:screws",
+                    "weight": 18
+                },
+                {
+                    "type": "item",
+                    "name": "immersiveengineering:material",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 22
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "immersiveengineering:material",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 20
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "evilcraft:dull_dust",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "scrap:broken.plate",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 13
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "scrap:broken.plate",
+                    "weight": 16,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "scrap:broken.plate",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 4
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ]
+}

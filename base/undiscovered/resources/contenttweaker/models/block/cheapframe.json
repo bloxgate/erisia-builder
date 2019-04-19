@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "down": "contenttweaker:items/cheapframe_bottom",
+    "up": "contenttweaker:items/cheapframe_top",
+    "north": "contenttweaker:items/cheapframe_side",
+    "east": "contenttweaker:items/cheapframe_side",
+    "south": "contenttweaker:items/cheapframe_side",
+    "west": "contenttweaker:items/cheapframe_side"
+  }
+}

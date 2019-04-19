@@ -1,0 +1,128 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"redstone_clathrate": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"metadata": 2,
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:fluid_redstone",
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 4,
+			"chunk-chance": 7,
+			"min-height": 0,
+			"max-height": 28,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"glowstone_clathrate": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"metadata": 3,
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:fluid_glowstone",
+						"weight": 10
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 20
+			},
+			"cluster-count": 4,
+			"chunk-chance": 6,
+			"min-height": 10,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		"glowstone_clathrate_roof": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"metadata": 3,
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:fluid_glowstone",
+						"weight": 10
+					}
+				],
+				"material": "minecraft:netherrack",
+				"cluster-size": 20
+			},
+			"cluster-count": 4,
+			"chunk-chance": 8,
+			"min-height": 100,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
+		"ender_clathrate": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore_fluid",
+					"metadata": 4
+				},
+				"material": "minecraft:end_stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 8,
+			"chunk-chance": 3,
+			"min-height": 10,
+			"max-height": 60,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "END"
+					}
+				]
+			},
+			"dimension": "all"
+		}
+	}
+}

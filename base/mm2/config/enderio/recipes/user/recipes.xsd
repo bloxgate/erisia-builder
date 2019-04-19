@@ -743,12 +743,12 @@
   <complexType name="dependencyComplexType">
     <attribute use="required" name="item" type="string"></attribute>
     <attribute use="optional" name="reverse" type="boolean"></attribute>
-  </complexType>
+  </complexType>
 
   <complexType name="slicingType">
     <sequence>
       <element name="config" type="enderio:configComplexType" maxOccurs="unbounded" minOccurs="0"></element>
-      <element name="dependency" type="enderio:dependencyComplexType" maxOccurs="unbounded" minOccurs="0"></element>
+      <element name="dependency" type="enderio:dependencyComplexType" maxOccurs="unbounded" minOccurs="0"></element>
       <element name="input" minOccurs="6" maxOccurs="6">
         <complexType>
           <attribute use="required" name="name" type="string" />
@@ -770,7 +770,7 @@
                                     Restricts this output to only be used if the given game element can (not) be found in the game.
                                   </documentation>
                                 </annotation>
-                              </element>
+                              </element>
                             </sequence>
                             <attribute use="required" name="name" type="string" />
       </complexType></element>

@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "down": "contenttweaker:items/enchantedframe_bottom",
+    "up": "contenttweaker:items/enchantedframe_top",
+    "north": "contenttweaker:items/enchantedframe_side",
+    "east": "contenttweaker:items/enchantedframe_side",
+    "south": "contenttweaker:items/enchantedframe_side",
+    "west": "contenttweaker:items/enchantedframe_side"
+  }
+}

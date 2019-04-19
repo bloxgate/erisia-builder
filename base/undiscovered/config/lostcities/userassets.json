@@ -1,0 +1,1564 @@
+[
+  {
+    "type": "part",
+    "name": "flukebox",
+    "xsize": 16,
+    "zsize": 16,
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+    [
+        "wwwwww    wwwwww",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w    IIIIII    w",
+        "     IIIIII     ",
+        "     IIIIII     ",
+        "     IIIIII     ",
+        "     IIIIII     ",
+        "w    IIIIII    w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "wwwwww    wwwwww"
+      ],
+      [
+        "wwwwww    wwwwww",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "      EHE       ",
+        "       EEE      ",
+        "      EEHE      ",
+        "      E E       ",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "wwwwww    wwwwww"
+      ],
+      [
+        "wwwwww    wwwwww",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "      E         ",
+        "        E       ",
+        "       EE       ",
+        "                ",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "wwwwww    wwwwww"
+      ],
+      [
+        "wwwwwwwwwwwwwwww",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w       E      w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "w              w",
+        "wwwwwwwwwwwwwwww"
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "fluketop",
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "flukecell",
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################"
+      ],
+      [
+        "################",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "################"
+      ],
+      [
+        "################",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "################"
+      ],
+      [
+        "################",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "################"
+      ],
+      [
+        "################",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "#OOOOOOOOOOOOOO#",
+        "################"
+      ],
+      [
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU",
+        "UUUUUUUUUUUUUUUU"
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "flukealtar",
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+    [
+        "################",
+        "#33333333333333#",
+        "#33333333333333#",
+        "#33222222222233#",
+        "#332C2222222233#",
+        "#33222222222233#",
+        "#33222222222233#",
+        "#33222222222233#",
+        "#33222222222233#",
+        "#332222l2222233#",
+        "#33222222222233#",
+        "#33222222221233#",
+        "#33222222222233#",
+        "#33333333333333#",
+        "#33333333333333#",
+        "################"
+      ],
+      [
+        "#aa##########aa#",
+        "a              a",
+        "a              a",
+        "#              #",
+        "#   577  775   #",
+        "#   77    77   #",
+        "#   7   8  7   #",
+        "#              #",
+        "#              #",
+        "#   7      7   #",
+        "#   77    77   #",
+        "#   577  775   #",
+        "#              #",
+        "a              a",
+        "a              a",
+        "#aa##########aa#"
+      ],
+      [
+        "#aa###    ###aa#",
+        "a              a",
+        "a              a",
+        "#              #",
+        "#   5      5   #",
+        "#              #",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "#              #",
+        "#   5      5   #",
+        "#              #",
+        "a              a",
+        "a              a",
+        "#aa###    ###aa#"
+      ],
+      [
+        "####        ####",
+        "#              #",
+        "#              #",
+        "#              #",
+        "    5      5    ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "    5      5    ",
+        "#              #",
+        "#              #",
+        "#              #",
+        "####        ####"
+      ],
+      [
+        "##            ##",
+        "#              #",
+        "                ",
+        "                ",
+        "    6      6    ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "    6      6    ",
+        "                ",
+        "                ",
+        "#              #",
+        "##            ##"
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "flukeevil",
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+    [
+        "################",
+        "#NNNNNNNNNNNNNN#",
+        "#NJJJJJJJJJJJJN#",
+        "#NJ9JJJJJJJJ9JN#",
+        "#NJJJJJJJJJJJJN#",
+        "#NNNNNJJJJNNNNN#",
+        "#NγββγNJJNγββγN#",
+        "#NβNNβNJJNβNNβN#",
+        "#NβNNβNJJNβNNβN#",
+        "#NγββγNlJNγββγN#",
+        "#NNNNNNJJNNNNNN#",
+        "#NVVVVNJJNVVVVN#",
+        "#NVVVVNJJNVVVVN#",
+        "#NVVVVNJJNVVVVN#",
+        "#NNNNNNNNNNNNNN#",
+        "################"
+      ],
+      [
+        "#aa@aaaaaaaa@aa#",
+        "a              a",
+        "a              a",
+        "@  C        C  @",
+        "a              a",
+        "a              a",
+        "a  ββ      ββ  a",
+        "a βNNβ    βNNβ a",
+        "a βNNβ    βNNβ a",
+        "a  ββ      ββ  a",
+        "a              a",
+        "a              a",
+        "@  1        1  @",
+        "a              a",
+        "a              a",
+        "#aa@aaaaaaaa@aa#"
+      ],
+      [
+        "#aa@aaaaaaaa@aa#",
+        "a              a",
+        "a              a",
+        "@              @",
+        "a              a",
+        "a              a",
+        "a  ββ      ββ  a",
+        "a βNNβ    βNNβ a",
+        "a βNNβ    βNNβ a",
+        "a  ββ      ββ  a",
+        "a              a",
+        "a              a",
+        "@              @",
+        "a              a",
+        "a              a",
+        "#aa@aaaaaaaa@aa#"
+      ],
+      [
+        "######aaaa######",
+        "#####      #####",
+        "#####      #####",
+        "#####      #####",
+        "####        ####",
+        "#              #",
+        "a  γγ      γγ  a",
+        "a γMMγ    γMMγ a",
+        "a γMMγ    γMMγ a",
+        "a  γγ      γγ  a",
+        "#              #",
+        "####        ####",
+        "#####      #####",
+        "#####      #####",
+        "#####      #####",
+        "######aaaa######"
+      ],
+      [
+        "     ######     ",
+        "     #    #     ",
+        "     #    #     ",
+        "     #    #     ",
+        "    ##    ##    ",
+        "#####      #####",
+        "#              #",
+        "#              #",
+        "#              #",
+        "#              #",
+        "#####      #####",
+        "    ##    ##    ",
+        "     #    #     ",
+        "     #    #     ",
+        "     #    #     ",
+        "     ######     "
+      ],
+      [
+        "                ",
+        "      ####      ",
+        "      ####      ",
+        "      ####      ",
+        "      ####      ",
+        "     ######     ",
+        " ######aa###### ",
+        " #####aaaa##### ",
+        " #####aaaa##### ",
+        " ######aa###### ",
+        "     ######     ",
+        "      ####      ",
+        "      ####      ",
+        "      ####      ",
+        "      ####      ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "fluke_tnt",
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "##########ггггд#",
+        "##########ггг д#",
+        "##########ггггд#",
+        "##########ггггд#",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################"
+      ],
+      [
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "##########ггггд#",
+        "##########ггг д#",
+        "##########ггггд#",
+        "##########ггггд#",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################",
+        "################"
+      ],
+      [
+        "##___######___##",
+        "########FF######",
+        "_#     #      #_",
+        "_#:::: #      #_",
+        "_#   : #      #_",
+        "##O  : #      ##",
+        "#OO  :      ггд#",
+        "#OOO :      г д#",
+        "#OO  :      ггд#",
+        "#O1O : l    ггд#",
+        "## O : ##    {##",
+        "_#   :   #    #_",
+        "_#::::   #    #_",
+        "_#      C#    #_",
+        "######   #######",
+        "##___######___##"
+      ],
+      [
+        "##   ######   ##",
+        "##aaa###  #aaa##",
+        " a     #      a ",
+        " a     #      a ",
+        " a     #T     a ",
+        "##     #      ##",
+        "#O          ггд#",
+        "#OO         г д#",
+        "#O          гжд#",
+        "#      l    гбд#",
+        "##     ##   ё{##",
+        " a       #T   a ",
+        " a       #    a ",
+        " a       #    a ",
+        "##aaa#   ##aaa##",
+        "##   ######   ##"
+      ],
+      [
+        "##   ######   ##",
+        "##aaa###  #aaa##",
+        " a     #      a ",
+        " a     #      a ",
+        " a     #      a ",
+        "##     #      ##",
+        "#O          ггд#",
+        "#           ггд#",
+        "#           ггд#",
+        "#      l    ггд#",
+        "##     ##    {##",
+        " a       #    a ",
+        " a       #    a ",
+        " a       #    a ",
+        "##aaa#   ##aaa##",
+        "##   ######   ##"
+      ],
+      [
+        "##===######===##",
+        "################",
+        "=##############=",
+        "=##############=",
+        "=##############=",
+        "################",
+        "################",
+        "################",
+        "################",
+        "#######l########",
+        "################",
+        "=##############=",
+        "=##############=",
+        "=##############=",
+        "################",
+        "##===######===##"
+      ]
+    ],
+    "meta": []
+  },
+  {
+    "type": "part",
+    "name": "flukechaos",
+    "xsize": 16,
+    "zsize": 16,
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+    [
+        "                ",
+        "                ",
+        "                ",
+        "   {{   {{      ",
+        "   {{   {{      ",
+        "     ___        ",
+        "     _{_        ",
+        "     ___        ",
+        "   {{   {{      ",
+        "   {{   {{      ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   XX   XX      ",
+        "   XX   XX      ",
+        "                ",
+        "      }         ",
+        "                ",
+        "   XX   XX      ",
+        "   XX   XX      ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "   {{   {{      ",
+        "   {{   {{      ",
+        "                ",
+        "                ",
+        "                ",
+        "   {{   {{      ",
+        "   {{   {{      ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "    {   {       ",
+        "   {{{ {{{      ",
+        "    {   {       ",
+        "                ",
+        "    {   {       ",
+        "   {{{ {{{      ",
+        "    {   {       ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "     { {        ",
+        "    {{{{{       ",
+        "     { {        ",
+        "    {{{{{       ",
+        "     { {        ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "      {         ",
+        "     { {        ",
+        "      {         ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "part",
+    "name": "flukegarden",
+    "xsize": 16,
+    "zsize": 16,
+    "meta": [
+      {
+        "key": "dontconnect",
+        "boolean": true
+      }
+    ],
+    "slices": [
+    [
+        "                ",
+        "       __       ",
+        "  XXXXXuuXXXXX  ",
+        "  XXXXXXXXXXXX  ",
+        "  XXXXXXXXXXXX  ",
+        "  XXXXXXXXXXXX  ",
+        "  XXXX  C XXXX  ",
+        "  XXXX    XXXX  ",
+        "  XXXX    XXXX  ",
+        "  XXXX    XXXX  ",
+        "  XXXXXXXXXXXX  ",
+        "  XXXXXXXXXXXX  ",
+        "  XXXXXXXXXXXX  ",
+        "  XXXXXuuXXXXX  ",
+        "       __       ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "  XXXXX  XXXXX  ",
+        "  XXXXX__XXXXX  ",
+        "  XXXXXuuXXXXX  ",
+        "  XXXXXXXXXXXX  ",
+        "  XXXX    XXXX  ",
+        "  XXXXT   XXXX  ",
+        "  XXXX    XXXX  ",
+        "  XXXX    XXXX  ",
+        "  XXXXXXXXXXXX  ",
+        "  XXXXXuuXXXXX  ",
+        "  XXXXX__XXXXX  ",
+        "  XXXXX  XXXXX  ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "  XXXXX  XXXXX  ",
+        "  Xoooo  ooooX  ",
+        "  Xo[[o  o[[oX  ",
+        "  Xo[[o__o[[oX  ",
+        "  Xo[δXXXXδ[oX  ",
+        "  Xo[WXXXXW[oX  ",
+        "  Xo[WXXXXW[oX  ",
+        "  Xo[δXXXXδ[oX  ",
+        "  Xo[[o__o[[oX  ",
+        "  Xo[[o  o[[oX  ",
+        "  Xoooo  ooooX  ",
+        "  XXXXX  XXXXX  ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "    ]]    ]]    ",
+        "    ]]    ]]    ",
+        "    ] XXXX ]    ",
+        "    ]ζXXXXζ]    ",
+        "    ]ζXXXXζ]    ",
+        "    ] XXXX ]    ",
+        "    ]]    ]]    ",
+        "    ]]    ]]    ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "      ++++      ",
+        "     εδWWδε     ",
+        "     εδWWδε     ",
+        "      ++++      ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ],
+      [
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                "
+      ]
+    ]
+  },
+  {
+    "type": "building",
+    "name": "flukebld",
+    "filler": "#",
+    "mincellars": 1,
+    "maxcellars": 2,
+    "maxfloors": 1,
+    "preferslonely": 0.8,
+    "parts": [
+      {
+        "top": false,
+        "cellar": false,
+        "part": "flukebox"
+      },
+      {
+        "top": true,
+        "part": "fluketop"
+      },
+      {
+        "top": false,
+        "ground": false,
+        "part": "flukecell"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "flukealt",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+    "maxfloors": 1,
+    "preferslonely": 0.8,
+    "parts": [
+      {
+        "top": false,
+        "cellar": false,
+        "part": "flukealtar"
+      },
+      {
+        "top": true,
+        "part": "fluketop"
+      }
+    ]
+  },
+  {
+    "type": "citystyle",
+    "name": "citystyle_common",
+    "inherit": "citystyle_config",
+    "streetblocks": {
+      "border": "y",
+      "wall": "w",
+      "street": "S",
+      "streetbase": "b",
+      "streetvariant": "B"
+    },
+    "parkblocks": {
+      "elevation": "x"
+    },
+    "corridorblocks": {
+      "roof": "x",
+      "glass": "+"
+    },
+    "railblocks": {
+      "railmain": "y"
+    },
+    "buildings": [
+      {
+        "factor": 0.4,
+        "building": "building1"
+      },
+      {
+        "factor": 0.4,
+        "building": "building2"
+      },
+      {
+        "factor": 0.2,
+        "building": "building3"
+      },
+      {
+        "factor": 0.2,
+        "building": "building4"
+      },
+      {
+        "factor": 0.3,
+        "building": "building5"
+      },
+      {
+        "factor": 0.35,
+        "building": "flukebld"
+      }
+    ],
+    "multibuildings": [
+      {
+        "factor": 0.3,
+        "multibuilding": "multi1"
+      },
+      {
+        "factor": 0.3,
+        "multibuilding": "multi2"
+      },
+      {
+        "factor": 0.2,
+        "multibuilding": "multi3"
+      },
+      {
+        "factor": 0.2,
+        "multibuilding": "multi4"
+      },
+      {
+        "factor": 0.1,
+        "multibuilding": "multi5"
+      },
+      {
+        "factor": 0.1,
+        "multibuilding": "library"
+      },
+      {
+        "factor": 0.1,
+        "multibuilding": "center"
+      },
+      {
+        "factor": 0.08,
+        "multibuilding": "townhall"
+      },
+      {
+        "factor": 0.25,
+        "multibuilding": "shopping"
+      },
+      {
+        "factor": 0.2,
+        "multibuilding": "shopping_open"
+      }
+    ],
+    "bridges": [
+      {
+        "factor": 1.0,
+        "bridge": "bridge_open"
+      },
+      {
+        "factor": 1.0,
+        "bridge": "bridge_covered"
+      }
+    ],
+    "fronts": [
+      {
+        "factor": 1.0,
+        "front": "building_front1"
+      },
+      {
+        "factor": 1.0,
+        "front": "building_front2"
+      },
+      {
+        "factor": 1.0,
+        "front": "building_front3"
+      }
+    ],
+    "stairs": [
+      {
+        "factor": 1.0,
+        "stair": "stairs1"
+      },
+      {
+        "factor": 1.0,
+        "stair": "stairs2"
+      },
+      {
+        "factor": 1.0,
+        "stair": "stairsnormal"
+      },
+      {
+        "factor": 1.0,
+        "stair": "stairsbig"
+      }
+    ],
+    "fountains": [
+      {
+        "factor": 1.0,
+        "fountain": "fountain1"
+      },
+      {
+        "factor": 1.0,
+        "fountain": "fountain2"
+      },
+      {
+        "factor": 1.0,
+        "fountain": "fountain3"
+      }
+    ],
+    "parks": [
+      {
+        "factor": 1.0,
+        "park": "park_pool"
+      },
+      {
+        "factor": 1.0,
+        "park": "park_plants"
+      },
+      {
+        "factor": 1.0,
+        "park": "park_trees"
+      },
+      {
+        "factor": 1.0,
+        "park": "park_plants_pillars"
+      },
+      {
+        "factor": 0.8,
+        "park": "park_fountain1"
+      },
+      {
+        "factor": 0.8,
+        "park": "park_fountain2"
+      },
+      {
+        "factor": 0.3,
+        "park": "park_building"
+      },
+      {
+        "factor": 0.3,
+        "park": "park_building2"
+      },
+      {
+        "factor": 0.1,
+        "park": "flukechaos"
+      },
+      {
+        "factor": 0.12,
+        "park": "flukegarden"
+      }
+    ],
+    "raildungeons": [
+      {
+        "factor": 1.0,
+        "dungeon": "rail_dungeon1"
+      },
+      {
+        "factor": 1.0,
+        "dungeon": "rail_dungeon2"
+      }
+    ]
+  },
+  {
+    "type": "part",
+    "name": "station_openroof",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": "rails",
+    "slices": [
+      [
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy"
+      ],
+      [
+        "yyyyyyyyyyyyyyyy",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "yyyyyyyyyyyyyyyy",
+        "eeeeeeefeeeeeeee",
+        "yyyyyyygyyyyyyyy",
+        "eeeeeeefeeeeeeee",
+        "yyyyyyygyyyyyyyy",
+        "eeeeeeefeeeeeeee",
+        "yyyyyyyyyyyyyyyy",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "yyyyyyyyyyyyyyyy"
+      ],
+      [
+        "   w       w    ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "   C            ",
+        "   w       w    "
+      ],
+      [
+        "   w       w    ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "   w       w    "
+      ],
+      [
+        "   w       w    ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "   w       w    "
+      ],
+      [
+        "))))))))))))))))",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "                ",
+        "(((((((((((((((("
+      ],
+      [
+        "                ",
+        "))))))))))))))))",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "+++Q+++++++Q++++",
+        "((((((((((((((((",
+        "                "
+      ]
+    ],
+    "meta": []
+  },
+  {
+    "type": "part",
+    "name": "station_underground_stairs",
+    "xsize": 16,
+    "zsize": 16,
+    "palette": "rails",
+    "slices": [
+      [
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy"
+      ],
+      [
+        "yyyyyyyyyyyyyyyy",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "yyyyyyyyyyyyyyyy",
+        "eeeeeeefeeeeeeee",
+        "yyyyyyygyyyyyyyy",
+        "eeeeeeefeeeeeeee",
+        "yyyyyyygyyyyyyyy",
+        "eeeeeeefeeeeeeee",
+        "yyyyyyyyyyyyyyyy",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "QQQQQQQQQQQQQQQQ",
+        "yyyyyyyyyyyyyyyy"
+      ],
+      [
+        "yyyyyyyyyyyyyyyy",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~yyyyy~~~~~~",
+        "~~~~~=yyyy~~~~~~",
+        "~~~~~=yyyyC~~~~~",
+        "yyyyyyyyyyyyyyyy"
+      ],
+      [
+        "yyyyyyyyyyyyyyyy",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~yyyyy~~~~~~",
+        "~~~~~~=yyy~~~~~~",
+        "~~~~~~=yyy~~~~~~",
+        "yyyyyyyyyyyyyyyy"
+      ],
+      [
+        "yyhyyyyyyyyyyhyy",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~~~~~~~~~~~~",
+        "~~~~~yyyyy~~~~~~",
+        "~~~~~~~=yy~~~~~~",
+        "~~~~~~~=yy~~~~~~",
+        "yyhyyyyyyyyyyhyy"
+      ],
+      [
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyy~~~~=yyyyyyy",
+        "yyyy~~~~=yyyyyyy",
+        "yyyyyyyyyyyyyyyy"
+      ]
+    ],
+    "meta": []
+  },
+  {
+    "type": "part",
+    "name": "rail_dungeon1",
+    "xsize": 16,
+    "zsize": 16,
+	"palette": "rails",
+    "slices": [
+      [
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy"
+      ],
+      [
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "y4yyyyyyyyyyyy1y",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "y4yyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "y1yyyyyyyyyyyy1y",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy"
+      ],
+      [
+        "yyyyyy~~yyyyyyyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyyC~~~~~yyyyyyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyyC~~~~~~!!!yyy",
+        "yyy~~~~~~~!!4yyy",
+        "yyyC~~~~~~!!!yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyyC~~~~~yyyyyyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyyyyy~~yyyyyyyy"
+      ],
+      [
+        "yyyyyy~~yyyyyyyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~yyyyyyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~!!!yyy",
+        "yyy~~~~~~~!><yyy",
+        "yyy~~~~~~~!!!yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~yyyyyyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyyyyy~~yyyyyyyy"
+      ],
+      [
+        "yyyyyyyyyyyyyyyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~yyyyyyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~yyyyyyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyy~~~~~~~~~~yyy",
+        "yyyyyyyyyyyyyyyy"
+      ],
+      [
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy",
+        "yyyyyyyyyyyyyyyy"
+      ]
+    ],
+    "meta": []
+  }
+]

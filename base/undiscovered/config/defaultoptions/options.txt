@@ -1,0 +1,6 @@
+renderClouds:fast
+mipmapLevels:0
+autoJump:false
+soundCategory_weather:0.6
+soundCategory_music:0.6
+soundCategory_neutral:0.8
