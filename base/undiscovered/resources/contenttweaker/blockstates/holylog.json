@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "down": "contenttweaker:blocks/holycore",
+      "up": "contenttweaker:blocks/holycore",
+      "north": "contenttweaker:blocks/holylog",
+      "east": "contenttweaker:blocks/holylog",
+      "south": "contenttweaker:blocks/holylog",
+      "west": "contenttweaker:blocks/holylog",
+      "particle": "contenttweaker:blocks/holylog"
+  },
+    "model": "cube_all",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

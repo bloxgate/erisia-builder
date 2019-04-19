@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "down": "contenttweaker:items/expertcase",
+    "up": "contenttweaker:items/expertcase",
+    "north": "contenttweaker:items/expertcaserot",
+    "east": "contenttweaker:items/expertcase",
+    "south": "contenttweaker:items/expertcaserot",
+    "west": "contenttweaker:items/expertcase"
+  }
+}

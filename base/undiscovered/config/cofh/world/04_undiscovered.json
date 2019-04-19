@@ -1,0 +1,131 @@
+{
+	"populate": {
+		"deep_boulder": {
+
+			"distribution": "gaussian",
+
+			"generator": {
+				"type": "boulder",
+				"block": [
+					{
+						"name": "appliedenergistics2:sky_stone_block",
+						"weight": 80
+					},
+					{
+						"name": "contenttweaker:osmaticsteelore",
+						"metadata": 7,
+						"weight": 20
+					}
+				],
+				"diameter": 1,
+				"size-variance": 0,
+				"count-variance": 1,
+				"count": 1
+			},
+
+			"material": [
+				{
+					"name": "minecraft:stone"
+				},
+				{
+					"name": "rustic:slate"
+				},
+				{
+					"name": "chisel:basalt2",
+					"metadata": 7
+				}
+			],
+
+			"chunk-chance": 1,
+			"cluster-count": 1,
+			"center-height": 6,
+			"spread": 3,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"dark_spikes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": "minecraft:obsidian",
+				"gen-body": "minecraft:air",
+				"smooth": true,
+				"fat": false,
+				"min-height": 15,
+				"height-variance": 6,
+				"height-mod": 3,
+				"gen-size": 0,
+				"size-variance": 2
+			},
+			
+			"cluster-count": 1,
+			"chunk-chance": 8,
+			"min-height": 60,
+			"max-height": 90,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-11325
+				]
+			}
+		},
+		"cryo_lakes": {
+			"distribution": "surface",
+			"follow-terrain": true,
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_cryotheum",
+				"material": [
+					"minecraft:dirt",
+					"minecraft:grass",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:snow",
+					"minecraft:snow_layer"
+				],
+				"use-material": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 8,
+			"min-height": 50,
+			"max-height": 150,
+			"material": [
+					"minecraft:dirt",
+					"minecraft:grass",
+					"minecraft:gravel",
+					"minecraft:sand",
+					"minecraft:snow",
+					"minecraft:snow_layer"
+			],
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					},
+					{
+						"type": "dictionary",
+						"entry": "FROZEN"
+					}
+				]
+			},
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					111
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "down": "contenttweaker:blocks/bundle_top",
+      "up": "contenttweaker:blocks/bundle_top",
+      "north": "contenttweaker:blocks/bundle_side",
+      "east": "contenttweaker:blocks/bundle_side",
+      "south": "contenttweaker:blocks/bundle_side",
+      "west": "contenttweaker:blocks/bundle_side",
+      "particle": "contenttweaker:blocks/bundle_side"
+  },
+    "model": "cube_all",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

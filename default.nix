@@ -40,7 +40,36 @@ rec {
   packs = {
     e22-leisurely = buildPack e22-leisurely;
     e22 = buildPack e22;
+    e22-5 = buildPack e22-5;
     elncognito = buildPack elncognito;
+  };
+
+  e22-5 = {
+    name = "e22.5";
+    screenName = "e22.5";
+    description = "Undiscovered: Half Episode";
+    ram = "20000m";
+    port = 25567;
+    prometheusPort = 1237;
+    forge = {
+      major = "1.12.2";
+      minor = "14.23.5.2836";
+    };
+    extraDirs = [
+      ./base/undiscovered
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      resources_12
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/e22.5.nix
+    ];
+    blacklist = [
+    ];
   };
 
   elncognito = {
