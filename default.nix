@@ -47,7 +47,7 @@ rec {
     name = "elncognito";
     screenName = "elncognito";
     description = "Experimental Eln pack";
-    ram = "6000m";
+    ram = "10000m";
     port = 25566;
     prometheusPort = 1235;
     forge = {
