@@ -118,6 +118,10 @@ if [[ $EXTRAS -eq 1 ]]; then
 #    antiChunkChurn &
 fi
 
+if [[ -e ~/web/deploy.sh ]]; then
+    ~/web/deploy.sh
+fi
+
 java -d64 -server -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
