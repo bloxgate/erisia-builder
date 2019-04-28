@@ -66,7 +66,7 @@ recipes.addShaped("advanced assembly", <calculator:advancedassembly> * 4, [
 recipes.remove(<calculator:flawlessassembly>);
 recipes.addShaped("flawless assembly", <calculator:flawlessassembly>, [
     [<ore:concrete>, integratedCircuit, <ore:concrete>], 
-    [<teslacorelib:gear_diamond>, empoweredDiamatine, <teslacorelib:gear_diamond>], 
+    [<thermalfoundation:material:26>, empoweredDiamatine, <thermalfoundation:material:26>], 
     [<ore:concrete>, <calculator:atomicmodule>, <ore:concrete>]
     ]);
 
