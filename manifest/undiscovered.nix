@@ -10,13 +10,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ActuallyAdditions-1.12.2-r146.jar";
+      "filename" = "ActuallyAdditions-1.12.2-r147.jar";
       "maturity" = "release";
-      "encoded" = "ActuallyAdditions-1.12.2-r146.jar";
-      "page" = "https://minecraft.curseforge.com/projects/actually-additions/files/2683366";
-      "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2683366/download";
+      "encoded" = "ActuallyAdditions-1.12.2-r147.jar";
+      "page" = "https://minecraft.curseforge.com/projects/actually-additions/files/2706294";
+      "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2706294/download";
       "type" = "remote";
-      "md5" = "2573f2c86e36bde1996d46f8122397c3";
+      "md5" = "ec3981f45f8df90e75e5f4a3b69abca9";
     };
     "advanced-generators" = {
       "title" = "Advanced Generators";

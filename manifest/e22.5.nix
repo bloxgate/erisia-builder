@@ -10,13 +10,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ActuallyAdditions-1.12.2-r146.jar";
+      "filename" = "ActuallyAdditions-1.12.2-r147.jar";
       "maturity" = "release";
-      "encoded" = "ActuallyAdditions-1.12.2-r146.jar";
-      "page" = "https://minecraft.curseforge.com/projects/actually-additions/files/2683366";
-      "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2683366/download";
+      "encoded" = "ActuallyAdditions-1.12.2-r147.jar";
+      "page" = "https://minecraft.curseforge.com/projects/actually-additions/files/2706294";
+      "src" = "https://minecraft.curseforge.com/projects/actually-additions/files/2706294/download";
       "type" = "remote";
-      "md5" = "2573f2c86e36bde1996d46f8122397c3";
+      "md5" = "ec3981f45f8df90e75e5f4a3b69abca9";
     };
     "advanced-generators" = {
       "title" = "Advanced Generators";
@@ -1014,13 +1014,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Farseek-1.12-2.3.1.jar";
+      "filename" = "Farseek-1.12-2.3.2.jar";
       "maturity" = "release";
-      "encoded" = "Farseek-1.12-2.3.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/farseek/files/2583091";
-      "src" = "https://minecraft.curseforge.com/projects/farseek/files/2583091/download";
+      "encoded" = "Farseek-1.12-2.3.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/farseek/files/2705060";
+      "src" = "https://minecraft.curseforge.com/projects/farseek/files/2705060/download";
       "type" = "remote";
-      "md5" = "64c261d84de4d2d1f42fc19d8dc1770d";
+      "md5" = "6b5feba8259bf925640b9424b8db8847";
     };
     "fastworkbench" = {
       "title" = "FastWorkbench";
@@ -2357,13 +2357,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["farseek"];
-      "filename" = "Streams-1.12-0.4.4.jar";
+      "filename" = "Streams-1.12-0.4.6.jar";
       "maturity" = "beta";
-      "encoded" = "Streams-1.12-0.4.4.jar";
-      "page" = "https://minecraft.curseforge.com/projects/streams/files/2568464";
-      "src" = "https://minecraft.curseforge.com/projects/streams/files/2568464/download";
+      "encoded" = "Streams-1.12-0.4.6.jar";
+      "page" = "https://minecraft.curseforge.com/projects/streams/files/2706615";
+      "src" = "https://minecraft.curseforge.com/projects/streams/files/2706615/download";
       "type" = "remote";
-      "md5" = "6aacbbfdc4b537312bcd99499ae3562d";
+      "md5" = "b07b2ed3d5524f858664243b5cc51187";
     };
     "tesla" = {
       "title" = "TESLA";
@@ -2589,13 +2589,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "UnlimitedChiselWorks-0.2.0.jar";
+      "filename" = "UnlimitedChiselWorks-0.2.1.jar";
       "maturity" = "release";
-      "encoded" = "UnlimitedChiselWorks-0.2.0.jar";
-      "page" = "https://minecraft.curseforge.com/projects/unlimited-chisel-works/files/2586932";
-      "src" = "https://minecraft.curseforge.com/projects/unlimited-chisel-works/files/2586932/download";
+      "encoded" = "UnlimitedChiselWorks-0.2.1.jar";
+      "page" = "https://minecraft.curseforge.com/projects/unlimited-chisel-works/files/2705883";
+      "src" = "https://minecraft.curseforge.com/projects/unlimited-chisel-works/files/2705883/download";
       "type" = "remote";
-      "md5" = "735787ee2f40d18da48613fe3492381a";
+      "md5" = "b10a6d7eb3d2485b09a49793fe45df7f";
     };
     "vanillafix" = {
       "title" = "VanillaFix";
