@@ -46,7 +46,7 @@ rec {
 
   e22-5 = {
     name = "e22.5";
-    screenName = "e22.5";
+    screenName = "e225";
     description = "Undiscovered: Half Episode";
     ram = "20000m";
     port = 25567;
