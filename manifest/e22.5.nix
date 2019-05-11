@@ -1006,22 +1006,6 @@
       "type" = "remote";
       "md5" = "8a31b1684a525293fe1b58f5812c47a1";
     };
-    "farseek" = {
-      "title" = "Farseek";
-      "name" = "farseek";
-      "id" = 229708;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "Farseek-1.12-2.3.2.jar";
-      "maturity" = "release";
-      "encoded" = "Farseek-1.12-2.3.2.jar";
-      "page" = "https://minecraft.curseforge.com/projects/farseek/files/2705060";
-      "src" = "https://minecraft.curseforge.com/projects/farseek/files/2705060/download";
-      "type" = "remote";
-      "md5" = "6b5feba8259bf925640b9424b8db8847";
-    };
     "fastworkbench" = {
       "title" = "FastWorkbench";
       "name" = "fastworkbench";
@@ -1370,13 +1354,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["wrapup"];
-      "filename" = "JAOPCA-1.12.2-2.2.8.101.jar";
+      "filename" = "JAOPCA-1.12.2-2.2.8.102.jar";
       "maturity" = "release";
-      "encoded" = "JAOPCA-1.12.2-2.2.8.101.jar";
-      "page" = "https://minecraft.curseforge.com/projects/jaopca/files/2695109";
-      "src" = "https://minecraft.curseforge.com/projects/jaopca/files/2695109/download";
+      "encoded" = "JAOPCA-1.12.2-2.2.8.102.jar";
+      "page" = "https://minecraft.curseforge.com/projects/jaopca/files/2708834";
+      "src" = "https://minecraft.curseforge.com/projects/jaopca/files/2708834/download";
       "type" = "remote";
-      "md5" = "6d98989e27b03093778bd1f053992297";
+      "md5" = "a3a3acede18f1aa810f5ef6bd3f84d5d";
     };
     "jei" = {
       "title" = "Just Enough Items (JEI)";
@@ -2348,22 +2332,6 @@
       "src" = "https://minecraft.curseforge.com/projects/storage-drawers-extras/files/2443623/download";
       "type" = "remote";
       "md5" = "972063ce9ceb8df9af49e73858e557fa";
-    };
-    "streams" = {
-      "title" = "Streams";
-      "name" = "streams";
-      "id" = 229769;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = ["farseek"];
-      "filename" = "Streams-1.12-0.4.6.jar";
-      "maturity" = "beta";
-      "encoded" = "Streams-1.12-0.4.6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/streams/files/2706615";
-      "src" = "https://minecraft.curseforge.com/projects/streams/files/2706615/download";
-      "type" = "remote";
-      "md5" = "b07b2ed3d5524f858664243b5cc51187";
     };
     "tesla" = {
       "title" = "TESLA";

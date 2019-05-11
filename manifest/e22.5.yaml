@@ -4,7 +4,7 @@ mods:
 # Worldgen mods:
 ##- name: "wild-mobs-mod"
 #- name: "exotic-birds" # Disabling due to tick concerns for now
-- name: "streams"
+#- name: "streams"
 # - name: "ruins-structure-spawning-system"
 # - name: "recurrent-complex"
 # - name: "bedrockores"
