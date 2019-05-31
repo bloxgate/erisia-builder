@@ -340,6 +340,9 @@ mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:fertilizer>, <
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:oreinjectionvodka>, <contenttweaker:oreinjection>, <liquid:binnie.vodka> * 1000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:oreinjectionaero>, <contenttweaker:oreinjection>, <liquid:aerotheum> * 1000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:oreinjectiondna>, <contenttweaker:oreinjection>, <liquid:liquiddna> * 1000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<magneticraft:rocky_chunks:5> * 2, <magneticraft:ores:3>,  <liquid:liquiddna> * 1000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<magneticraft:chunks:5> * 2, <magneticraft:ores:3>,  <liquid:aerotheum> * 1000, 5000);
+
 
 /*=========================
 Refinery
