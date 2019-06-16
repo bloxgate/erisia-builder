@@ -264,12 +264,12 @@ mods:
   id: 232758
   title: "Cyclops Core"
   files:
-  - name: "CyclopsCore-1.12.2-0.11.5.jar"
-    id: 2540388
+  - name: "CyclopsCore-1.12.2-0.11.6.jar"
+    id: 2563905
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/232758/files/2540388"
-    src: "https://minecraft.curseforge.com/projects/cyclops-core/files/2540388/download"
-    md5: "13e9d827d2fb2dcc82a19879270f4de6"
+    filePageUrl: "https://minecraft.curseforge.com/projects/232758/files/2563905"
+    src: "https://minecraft.curseforge.com/projects/cyclops-core/files/2563905/download"
+    md5: "10d7e56213a956c62a6c00d92e12b6ab"
   side: "both"
   deps: []
   required: true
@@ -279,12 +279,12 @@ mods:
   id: 74610
   title: "EvilCraft"
   files:
-  - name: "EvilCraft-1.12.2-0.10.56.jar"
-    id: 2557840
+  - name: "EvilCraft-1.12.2-0.10.60.jar"
+    id: 2578232
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/74610/files/2557840"
-    src: "https://minecraft.curseforge.com/projects/evilcraft/files/2557840/download"
-    md5: "6bcf417bebd3f1d69a8e19035e449a48"
+    filePageUrl: "https://minecraft.curseforge.com/projects/74610/files/2578232"
+    src: "https://minecraft.curseforge.com/projects/evilcraft/files/2578232/download"
+    md5: "4b16a7a7f25e554a9348c0aed1143ebb"
   side: "both"
   deps:
   - "cyclops-core"
@@ -493,7 +493,7 @@ mods:
 - name: "thermal-foundation"
   side: "both"
   deps:
-  - "cofhcore"
+  - "cofh-core"
   - "cofh-world"
   required: true
   default: true
@@ -653,12 +653,12 @@ mods:
   id: 233105
   title: "McJtyLib"
   files:
-  - name: "mcjtylib-1.12-2.6.5.jar"
-    id: 2535637
+  - name: "mcjtylib-1.12-3.0.0.jar"
+    id: 2569362
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/233105/files/2535637"
-    src: "https://minecraft.curseforge.com/projects/mcjtylib/files/2535637/download"
-    md5: "a06651ef26958f9d37d05d9f280db5c3"
+    filePageUrl: "https://minecraft.curseforge.com/projects/233105/files/2569362"
+    src: "https://minecraft.curseforge.com/projects/mcjtylib/files/2569362/download"
+    md5: "d46adf363f3adf512d07d8624274009e"
   side: "both"
   deps: []
   required: true
@@ -668,12 +668,12 @@ mods:
   id: 224641
   title: "RFTools"
   files:
-  - name: "rftools-1.12-7.30.jar"
-    id: 2535639
+  - name: "rftools-1.12-7.50.jar"
+    id: 2569381
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/224641/files/2535639"
-    src: "https://minecraft.curseforge.com/projects/rftools/files/2535639/download"
-    md5: "9b710688b18d4a0bd3195a899ff91186"
+    filePageUrl: "https://minecraft.curseforge.com/projects/224641/files/2569381"
+    src: "https://minecraft.curseforge.com/projects/rftools/files/2569381/download"
+    md5: "ea0767291a7fde01064290d568e989b0"
   side: "both"
   deps:
   - "mcjtylib"
@@ -684,12 +684,12 @@ mods:
   id: 240950
   title: "RFTools Dimensions"
   files:
-  - name: "rftoolsdim-1.12-5.52.jar"
-    id: 2530525
+  - name: "rftoolsdim-1.12-5.60.jar"
+    id: 2569383
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/240950/files/2530525"
-    src: "https://minecraft.curseforge.com/projects/rftools-dimensions/files/2530525/download"
-    md5: "0217858a1d2c3b03bd9600172511317b"
+    filePageUrl: "https://minecraft.curseforge.com/projects/240950/files/2569383"
+    src: "https://minecraft.curseforge.com/projects/rftools-dimensions/files/2569383/download"
+    md5: "3b77132f70c3ddc5557c0cc93193f0cf"
   side: "both"
   deps:
   - "mcjtylib"
@@ -810,7 +810,7 @@ mods:
   required: true
   default: true
   curse: true
-- name: "cofhcore"
+- name: "cofh-core"
   side: "both"
   deps:
   - "redstone-flux"
@@ -902,12 +902,12 @@ mods:
   id: 260912
   title: "XNet"
   files:
-  - name: "xnet-1.12-1.6.9.jar"
-    id: 2549094
+  - name: "xnet-1.12-1.7.3.jar"
+    id: 2578671
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/260912/files/2549094"
-    src: "https://minecraft.curseforge.com/projects/xnet/files/2549094/download"
-    md5: "56a059a198bddd48c354d6d80bf8b5d1"
+    filePageUrl: "https://minecraft.curseforge.com/projects/260912/files/2578671"
+    src: "https://minecraft.curseforge.com/projects/xnet/files/2578671/download"
+    md5: "dd71afa62b72683c33c038a4daeeb896"
   side: "both"
   deps:
   - "mcjtylib"
@@ -1528,11 +1528,11 @@ mods:
   title: "Industrial Foregoing"
   files:
   - name: "industrialforegoing-1.12.2-1.8.11-147.jar"
-    id: 2555991
+    id: 2563319
     maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/266515/files/2555991"
-    src: "https://minecraft.curseforge.com/projects/industrial-foregoing/files/2555991/download"
-    md5: "8152061be68b69db625405a0b2652fdc"
+    filePageUrl: "https://minecraft.curseforge.com/projects/266515/files/2563319"
+    src: "https://minecraft.curseforge.com/projects/industrial-foregoing/files/2563319/download"
+    md5: "d3cad9e841c6722199c16a0b5e9ff8ce"
   side: "both"
   deps:
   - "tesla-core-lib"
