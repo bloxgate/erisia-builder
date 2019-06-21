@@ -1,6 +1,21 @@
 ---
 version: "1.12.2"
 mods:
+- name: "devotion-irc"
+  id: 266510
+  title: "Devotion IRC"
+  files:
+  - name: "eirairc-mc1.12.2-5.0.5.jar"
+    id: 2529604
+    maturity: null
+    filePageUrl: "https://minecraft.curseforge.com/projects/266510/files/2529604"
+    src: "https://minecraft.curseforge.com/projects/waystones/files/2529604/download"
+    md5: "b6cdc93a347311f2aecccc744913f52d"
+  side: "both"
+  deps: []
+  required: true
+  default: true
+  curse: true
 - name: "not-enough-roofs"
   id: 290421
   title: "Not Enough Roofs"
