@@ -223,7 +223,7 @@
       "filename" = "betteranimals-4.0.jar";
       "encoded" = "betteranimals-4.0.jar";
       "page" = "https://minecraft.curseforge.com/projects/287443/files/2668828";
-      "src" = "https://minecraft.curseforge.com/projects/better-animal-models/files/22668828/download";
+      "src" = "https://minecraft.curseforge.com/projects/better-animal-models/files/2668828/download";
       "type" = "remote";
       "md5" = "9131e58f48021e9e525ce1775e95592a";
     };
