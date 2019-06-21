@@ -42,6 +42,36 @@ rec {
     e22 = buildPack e22;
     e22-5 = buildPack e22-5;
     elncognito = buildPack elncognito;
+    mettle = buildPack mettle;
+  };
+  
+  mettle = {
+    name = "mettle";
+    screenName = "mettle";
+    description = "Mettle Alpha";
+    ram = "20000m";
+    port = 25565;
+    prometheusPort = 1234;
+    forge = {
+      major = "1.12.2";
+      minor = "14.23.5.2837";
+    };
+    extraDirs = [
+      ./base/mettle
+    ];
+    extraServerDirs = [
+      ./base/server
+      ./base/mettle
+    ];
+    extraClientDirs = [
+      resources_12
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/mettle.nix
+    ];
+    blacklist = [
+    ];
   };
 
   e22-5 = {
