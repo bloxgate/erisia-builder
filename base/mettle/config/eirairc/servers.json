@@ -1,0 +1,19 @@
+[
+  {
+    "address": "irc.rizon.net",
+    "nick": "mettle",
+    "bot": {
+      "quitMessage": "We\u0027ll try harder next time."
+    },
+    "theme": {},
+    "settings": {},
+    "channels": [
+      {
+        "name": "#erisia",
+        "bot": {},
+        "theme": {},
+        "settings": {}
+      }
+    ]
+  }
+]

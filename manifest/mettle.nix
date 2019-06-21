@@ -688,6 +688,22 @@
       "type" = "remote";
       "md5" = "1f41e5175485917db2d242320e738e6e";
     };
+	"devotion-irc" = {
+      "title" = "Devotion IRC";
+      "name" = "devotion-irc";
+      "id" = 266510;
+      "side" = "server";
+      "required" = false;
+      "default" = true;
+      "deps" = [];
+      "filename" = "eirairc-mc1.12.2-5.0.5.jar";
+      "maturity" = "release";
+      "encoded" = "eirairc-mc1.12.2-5.0.5.jar";
+      "page" = "https://minecraft.curseforge.com/projects/devotion-irc/files/2529604";
+      "src" = "https://minecraft.curseforge.com/projects/devotion-irc/files/2529604/download";
+      "type" = "remote";
+      "md5" = "b6cdc93a347311f2aecccc744913f52d";
+    };
     "diet-hoppers" = {
       "title" = "Diet Hoppers";
       "name" = "diet-hoppers";
