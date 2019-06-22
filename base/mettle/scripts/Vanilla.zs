@@ -32,6 +32,14 @@ recipes.addShaped(<minecraft:chest>, [
 	[siding, siding, siding]
 ]);
 
+#Gold hoe
+recipes.remove(<minecraft:golden_hoe>);
+recipes.addShaped(<minecraft:golden_hoe>, [
+	[<minecraft:gold_ingot>, <thermalfoundation:material:163>],
+	[null, <ore:stickWood>],
+	[null, <ore:stickWood>]
+]);
+
 #Enchanter
 recipes.addShaped(<minecraft:enchanting_table>, [
 	[null, <minecraft:book>, null],

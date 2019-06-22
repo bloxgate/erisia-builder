@@ -58,6 +58,9 @@ mods.betterwithmods.Mill.addRecipe([<techreborn:dust:39>], [<techreborn:smalldus
 #Galena processing 
 mods.betterwithmods.Mill.addRecipe([<techreborn:dust:23>], [<techreborn:smalldust:29>, <techreborn:smalldust:47>]);
 
+#Zinc processing
+mods.betterwithmods.Mill.addRecipe([<thermalfoundation:ore:1>], [<techreborn:smalldust:59>, <techreborn:smalldust:53>]);
+
 # *======= Crucible =======*
 #Steel blend
 mods.betterwithmods.Crucible.addStoked([<pyrotech:material:22>, <techreborn:smalldust:31>, <ore:dustCharcoal>, <minecraft:iron_ingot>], [<thermalfoundation:material:96>]);

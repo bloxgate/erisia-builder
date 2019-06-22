@@ -149,6 +149,9 @@ mods.immersiveengineering.MetalPress.addRecipe(<pneumaticcraft:compressed_iron_g
 #Redstone plate
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:4>, <minecraft:redstone>, <immersiveengineering:mold>, 2000);
 
+#Advanced alloy plate
+mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:35>, <techreborn:ingot:20>, <immersiveengineering:mold>, 2000);
+
 #Iridium plate removal
 mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:37>);
 

@@ -1027,12 +1027,12 @@
       "required" = true;
       "default" = true;
       "deps" = ["ftblib" "item-filters"];
-      "filename" = "FTBQuests-1.6.1.160.jar";
-      "encoded" = "FTBQuests-1.6.1.160.jar";
-      "page" = "https://minecraft.curseforge.com/projects/289412/files/2726502";
-      "src" = "https://minecraft.curseforge.com/projects/ftb-quests/files/2726502/download";
+      "filename" = "FTBQuests-1.6.1.161.jar";
+      "encoded" = "FTBQuests-1.6.1.161.jar";
+      "page" = "https://minecraft.curseforge.com/projects/289412/files/2727720";
+      "src" = "https://minecraft.curseforge.com/projects/ftb-quests/files/2727720/download";
       "type" = "remote";
-      "md5" = "38e7e4a8e5275b72d87f121885003f6b";
+      "md5" = "1add49440c22b7fde5a96d5d04e9346d";
     };
     "ftblib" = {
       "title" = "FTB Library";
