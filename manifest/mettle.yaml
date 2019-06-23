@@ -834,21 +834,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "better-animal-models"
-  id: 287443
-  title: "Better Animal Models"
-  files:
-  - name: "betteranimals-4.0.jar"
-    id: 2711061
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/2668828/files/2668828"
-    src: "https://minecraft.curseforge.com/projects/better-animal-models/files/2668828/download"
-    md5: "9131e58f48021e9e525ce1775e95592a"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
 - name: "dynamictrees"
   id: 252818
   title: "Dynamic Trees"
