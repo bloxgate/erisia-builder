@@ -408,23 +408,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "ae2wtlib"
-  id: 304024
-  title: "AE2 Wireless Terminal Library"
-  files:
-  - name: "AE2WTLib-1.12.2-1.0.30.jar"
-    id: 2726967
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/304024/files/2726967"
-    src: "https://minecraft.curseforge.com/projects/ae2wtlib/files/2726967/download"
-    md5: "0e8cf7b171fee14b054cb4441650b539"
-  side: "both"
-  deps:
-  - "applied-energistics-2"
-  - "p455w0rds-library"
-  required: true
-  default: true
-  curse: true
 - name: "storage-drawers-extras"
   id: 254879
   title: "Storage Drawers Extras"
