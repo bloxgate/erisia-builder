@@ -2336,24 +2336,6 @@ mods:
   required: true
   default: true
   curse: true
-- name: "wireless-crafting-terminal"
-  id: 244559
-  title: "Wireless Crafting Terminal"
-  files:
-  - name: "WirelessCraftingTerminal-1.12.2-3.12.93.jar"
-    id: 2725872
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/244559/files/2725872"
-    src: "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2725872/download"
-    md5: "7e46208a35505f189f6346a1c17c34fd"
-  side: "both"
-  deps:
-  - "ae2wtlib"
-  - "applied-energistics-2"
-  - "p455w0rds-library"
-  required: true
-  default: true
-  curse: true
 - name: "deep-resonance"
   id: 233398
   title: "Deep Resonance"
