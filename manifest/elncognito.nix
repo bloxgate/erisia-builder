@@ -237,7 +237,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["cofhcore"];
+      "deps" = ["cofh-core"];
       "filename" = "BigReactors-0.4.3A.jar";
       "maturity" = "release";
       "encoded" = "BigReactors-0.4.3A.jar";
@@ -302,13 +302,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Carpenter_s Blocks v3.3.8.1 - MC 1.7.10.jar";
+      "filename" = "Carpenter_s Blocks v3.3.8.2 - MC 1.7.10.jar";
       "maturity" = "release";
-      "encoded" = "Carpenter_s%20Blocks%20v3.3.8.1%20-%20MC%201.7.10.jar";
-      "page" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2333195";
-      "src" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2333195/download";
+      "encoded" = "Carpenter_s%20Blocks%20v3.3.8.2%20-%20MC%201.7.10.jar";
+      "page" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2719376";
+      "src" = "https://minecraft.curseforge.com/projects/carpenters-blocks/files/2719376/download";
       "type" = "remote";
-      "md5" = "796185b3d2cfd50f74955346ba92614c";
+      "md5" = "03a331f79857c07e85d19867398f249e";
     };
     "chameleon" = {
       "title" = "Chameleon";
@@ -413,9 +413,9 @@
       "type" = "remote";
       "md5" = "07690caf86ecf79739852154f5e44750";
     };
-    "cofhcore" = {
+    "cofh-core" = {
       "title" = "CoFH Core";
-      "name" = "cofhcore";
+      "name" = "cofh-core";
       "id" = 69162;
       "side" = "both";
       "required" = true;
@@ -424,8 +424,8 @@
       "filename" = "CoFHCore-[1.7.10]3.1.4-329.jar";
       "maturity" = "release";
       "encoded" = "CoFHCore-%5B1.7.10%5D3.1.4-329.jar";
-      "page" = "https://minecraft.curseforge.com/projects/cofhcore/files/2388750";
-      "src" = "https://minecraft.curseforge.com/projects/cofhcore/files/2388750/download";
+      "page" = "https://minecraft.curseforge.com/projects/cofh-core/files/2388750";
+      "src" = "https://minecraft.curseforge.com/projects/cofh-core/files/2388750/download";
       "type" = "remote";
       "md5" = "de527c101a1f2c62203f99515f3d0957";
     };
@@ -662,6 +662,16 @@
       "src" = "https://minecraft.curseforge.com/projects/extra-utilities/files/2264383/download";
       "type" = "remote";
       "md5" = "0b1848ece3f6e1370e6caa8124c1480d";
+    };
+    "fabric" = {
+      "title" = "Fabric API";
+      "name" = "fabric";
+      "id" = 306612;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "type" = "missing";
     };
     "farseek" = {
       "title" = "Farseek";
@@ -1477,7 +1487,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = [];
+      "deps" = ["fabric"];
       "filename" = "TIS-3D-MC1.7.10-1.4.0.78.jar";
       "maturity" = "release";
       "encoded" = "TIS-3D-MC1.7.10-1.4.0.78.jar";
