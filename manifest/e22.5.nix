@@ -33,21 +33,21 @@
       "type" = "remote";
       "md5" = "7873749b116958f22a3af9d66db06a37";
     };
-    "ae2-wireless-terminal-library" = {
+    "ae2wtlib" = {
       "title" = "AE2 Wireless Terminal Library";
-      "name" = "ae2-wireless-terminal-library";
+      "name" = "ae2wtlib";
       "id" = 304024;
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = ["applied-energistics-2" "p455w0rds-library"];
-      "filename" = "AE2WTLib-1.12.2-1.0.6.jar";
+      "filename" = "AE2WTLib-1.12.2-1.0.30.jar";
       "maturity" = "beta";
-      "encoded" = "AE2WTLib-1.12.2-1.0.6.jar";
-      "page" = "https://minecraft.curseforge.com/projects/ae2-wireless-terminal-library/files/2653753";
-      "src" = "https://minecraft.curseforge.com/projects/ae2-wireless-terminal-library/files/2653753/download";
+      "encoded" = "AE2WTLib-1.12.2-1.0.30.jar";
+      "page" = "https://minecraft.curseforge.com/projects/ae2wtlib/files/2726967";
+      "src" = "https://minecraft.curseforge.com/projects/ae2wtlib/files/2726967/download";
       "type" = "remote";
-      "md5" = "71312cf271fce761a4ef5ac43e78c000";
+      "md5" = "0e8cf7b171fee14b054cb4441650b539";
     };
     "akashic-tome" = {
       "title" = "Akashic Tome";
@@ -728,7 +728,7 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["codechicken-lib-1-8" "p455w0rds-library"];
+      "deps" = ["p455w0rds-library"];
       "filename" = "DankNull-1.12-1.4.33.jar";
       "encoded" = "DankNull-1.12-1.4.33.jar";
       "page" = "https://minecraft.curseforge.com/projects/272514/files/2533602";
@@ -1386,13 +1386,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "jei_1.12.2-4.15.0.281.jar";
+      "filename" = "jei_1.12.2-4.15.0.282.jar";
       "maturity" = "beta";
-      "encoded" = "jei_1.12.2-4.15.0.281.jar";
-      "page" = "https://minecraft.curseforge.com/projects/jei/files/2724420";
-      "src" = "https://minecraft.curseforge.com/projects/jei/files/2724420/download";
+      "encoded" = "jei_1.12.2-4.15.0.282.jar";
+      "page" = "https://minecraft.curseforge.com/projects/jei/files/2728813";
+      "src" = "https://minecraft.curseforge.com/projects/jei/files/2728813/download";
       "type" = "remote";
-      "md5" = "6885a6000720917fccdce83aa48e9f5e";
+      "md5" = "2641f519b0c6c9b837a39b58f1fe49a6";
     };
     "jei-bees" = {
       "title" = "JEI Bees";
@@ -1464,13 +1464,13 @@
       "required" = true;
       "default" = true;
       "deps" = ["jei"];
-      "filename" = "JustEnoughResources-1.12.2-0.9.2.58.jar";
+      "filename" = "JustEnoughResources-1.12.2-0.9.2.60.jar";
       "maturity" = "release";
-      "encoded" = "JustEnoughResources-1.12.2-0.9.2.58.jar";
-      "page" = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2722883";
-      "src" = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2722883/download";
+      "encoded" = "JustEnoughResources-1.12.2-0.9.2.60.jar";
+      "page" = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2728585";
+      "src" = "https://minecraft.curseforge.com/projects/just-enough-resources-jer/files/2728585/download";
       "type" = "remote";
-      "md5" = "505fd752aaad99113629134743007665";
+      "md5" = "87a4666549a60d8fb423883dd4ee6232";
     };
     "kleeslabs" = {
       "title" = "KleeSlabs";
@@ -1842,13 +1842,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "p455w0rdslib-1.12.2-2.1.44.jar";
+      "filename" = "p455w0rdslib-1.12.2-2.2.151.jar";
       "maturity" = "release";
-      "encoded" = "p455w0rdslib-1.12.2-2.1.44.jar";
-      "page" = "https://minecraft.curseforge.com/projects/p455w0rds-library/files/2699293";
-      "src" = "https://minecraft.curseforge.com/projects/p455w0rds-library/files/2699293/download";
+      "encoded" = "p455w0rdslib-1.12.2-2.2.151.jar";
+      "page" = "https://minecraft.curseforge.com/projects/p455w0rds-library/files/2726877";
+      "src" = "https://minecraft.curseforge.com/projects/p455w0rds-library/files/2726877/download";
       "type" = "remote";
-      "md5" = "0825306f9ef61099703d797596b84ef3";
+      "md5" = "40a846858743ff74ef6365b85eac558c";
     };
     "packmode" = {
       "title" = "PackMode";
@@ -2511,13 +2511,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "ToolBelt-1.12.0-1.7.1.jar";
-      "maturity" = "release";
-      "encoded" = "ToolBelt-1.12.0-1.7.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/tool-belt/files/2461671";
-      "src" = "https://minecraft.curseforge.com/projects/tool-belt/files/2461671/download";
+      "filename" = "ToolBelt-1.12.2-1.9.0.jar";
+      "maturity" = "beta";
+      "encoded" = "ToolBelt-1.12.2-1.9.0.jar";
+      "page" = "https://minecraft.curseforge.com/projects/tool-belt/files/2727241";
+      "src" = "https://minecraft.curseforge.com/projects/tool-belt/files/2727241/download";
       "type" = "remote";
-      "md5" = "167acc144addada8c0ff75f2795073c6";
+      "md5" = "3371ec3ef80f75705157971fceb79205";
     };
     "top-addons" = {
       "title" = "TOP Addons";
@@ -2557,13 +2557,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "UnlimitedChiselWorks-0.2.1.jar";
+      "filename" = "UnlimitedChiselWorks-0.2.2.jar";
       "maturity" = "release";
-      "encoded" = "UnlimitedChiselWorks-0.2.1.jar";
-      "page" = "https://minecraft.curseforge.com/projects/unlimited-chisel-works/files/2705883";
-      "src" = "https://minecraft.curseforge.com/projects/unlimited-chisel-works/files/2705883/download";
+      "encoded" = "UnlimitedChiselWorks-0.2.2.jar";
+      "page" = "https://minecraft.curseforge.com/projects/unlimited-chisel-works/files/2728014";
+      "src" = "https://minecraft.curseforge.com/projects/unlimited-chisel-works/files/2728014/download";
       "type" = "remote";
-      "md5" = "b10a6d7eb3d2485b09a49793fe45df7f";
+      "md5" = "64c410ce9199a8f03e01f855737d0253";
     };
     "vanillafix" = {
       "title" = "VanillaFix";
@@ -2603,13 +2603,14 @@
       "side" = "both";
       "required" = true;
       "default" = true;
-      "deps" = ["ae2-wireless-terminal-library" "applied-energistics-2" "p455w0rds-library"];
-      "filename" = "WirelessCraftingTerminal-1.12.2-3.9.62.jar";
-      "encoded" = "WirelessCraftingTerminal-1.12.2-3.9.62.jar";
-      "page" = "https://minecraft.curseforge.com/projects/244559/files/2537802";
-      "src" = "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2537802/download";
+      "deps" = ["ae2wtlib" "applied-energistics-2" "p455w0rds-library"];
+      "filename" = "WirelessCraftingTerminal-1.12.2-3.12.93.jar";
+      "maturity" = "release";
+      "encoded" = "WirelessCraftingTerminal-1.12.2-3.12.93.jar";
+      "page" = "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2725872";
+      "src" = "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2725872/download";
       "type" = "remote";
-      "md5" = "d8aa96ed79712d1ae173740f84b893ee";
+      "md5" = "7e46208a35505f189f6346a1c17c34fd";
     };
     "world-stripper" = {
       "title" = "World Stripper";
