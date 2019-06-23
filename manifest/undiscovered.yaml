@@ -1921,23 +1921,6 @@ mods:
   default: true
   curse: true
 - name: "wireless-crafting-terminal"
-  id: 244559
-  title: "Wireless Crafting Terminal"
-  files:
-  - name: "WirelessCraftingTerminal-1.12.2-3.9.62.jar"
-    id: 2537802
-    maturity: null
-    filePageUrl: "https://minecraft.curseforge.com/projects/244559/files/2537802"
-    src: "https://minecraft.curseforge.com/projects/wireless-crafting-terminal/files/2537802/download"
-    md5: "d8aa96ed79712d1ae173740f84b893ee"
-  side: "both"
-  deps:
-  - "ae2-wireless-terminal-library"
-  - "applied-energistics-2"
-  - "p455w0rds-library"
-  required: true
-  default: true
-  curse: true
 - name: "realbench"
   id: 237414
   title: "RealBench"
