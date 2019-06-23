@@ -38,8 +38,6 @@ in
 rec {
 
   packs = {
-    e22-leisurely = buildPack e22-leisurely;
-    e22 = buildPack e22;
     e22-5 = buildPack e22-5;
     elncognito = buildPack elncognito;
     mettle = buildPack mettle;
