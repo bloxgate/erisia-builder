@@ -1,6 +1,7 @@
 # *======= Import =======*
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.item.IItemStack;
+mods.thermalexpansion.Pulverizer
 
 # *======= Changes =======*
 #Stone sickle
@@ -165,6 +166,9 @@ recipes.remove(<rftools:powercell>);
 mods.thermalexpansion.Transposer.addFillRecipe(<rftools:powercell>, <rftools:powercell_simple>, <liquid:redstone> * 1000, 40000);
 
 # *----- Pulverizer -----*
+mods.thermalexpansion.Pulverizer.removeRecipe(<minecraft:wheat>);
+mods.thermalexpansion.Pulverizer.addRecipe(<betterwithmods:raw_pastry:3>, <minecraft:wheat>, 400);
+
 mods.thermalexpansion.Pulverizer.removeRecipe(<techreborn:ore:8>);
 
 # *----- Compactor -----*

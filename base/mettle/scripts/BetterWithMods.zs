@@ -69,6 +69,9 @@ mods.betterwithmods.Crucible.addStoked([<pyrotech:material:22>, <techreborn:smal
 recipes.remove(<minecraft:ender_eye>);
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:23>, <minecraft:ender_pearl>], [<minecraft:ender_eye>]);
 
+#Clay brick
+mods.betterwithmods.Crucible.addUnstoked([<minecraft:clay_ball>, <quark:basalt>], [<forestry:ash_brick>]);
+
 # *======= Anvil =======*
 #Soulsteel plate armour
 mods.betterwithmods.Anvil.removeShaped(<betterwithmods:material:42>);
@@ -96,8 +99,3 @@ rh(<witherskelefix:blade>);
 # *======= Removals =======*
 #Wooden gear
 rh(<betterwithmods:material>);
-
-val piles = <ore:pile>;
-for item in piles.items {
-	rh(item);
-}
