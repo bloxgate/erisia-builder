@@ -1,7 +1,6 @@
 # *======= Import =======*
 import mods.jei.JEI.removeAndHide as rh;
 import crafttweaker.item.IItemStack;
-mods.thermalexpansion.Pulverizer
 
 # *======= Changes =======*
 #Stone sickle
