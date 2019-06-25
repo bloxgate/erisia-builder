@@ -40,6 +40,20 @@ recipes.addShaped(<minecraft:golden_hoe>, [
 	[null, <ore:stickWood>]
 ]);
 
+#Rails
+recipes.remove(<minecraft:rail>);
+recipes.addShaped(<minecraft:rail>, [
+	[<minecraft:iron_nugget>, <minecraft:stick>, <minecraft:iron_nugget>],
+	[<minecraft:iron_nugget>, <minecraft:stick>, <minecraft:iron_nugget>],
+	[<minecraft:iron_nugget>, <minecraft:stick>, <minecraft:iron_nugget>]
+]);
+recipes.remove(<minecraft:golden_rail>);
+recipes.addShaped(<minecraft:golden_rail>, [
+	[<minecraft:gold_nugget>, <minecraft:redstone>, <minecraft:gold_nugget>],
+	[<minecraft:gold_nugget>, <minecraft:stick>, <minecraft:gold_nugget>],
+	[<minecraft:gold_nugget>, <minecraft:redstone>, <minecraft:gold_nugget>]
+]);
+
 #Enchanter
 recipes.addShaped(<minecraft:enchanting_table>, [
 	[null, <minecraft:book>, null],
