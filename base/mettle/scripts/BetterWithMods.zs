@@ -1,5 +1,6 @@
 # *======= Import =======*
 import mods.jei.JEI.removeAndHide as rh;
+import crafttweaker.item.IItemStack;
 
 # *======= Changes =======*
 #Brick
@@ -39,7 +40,7 @@ recipes.addShaped(<betterwithmods:material:36>, [
 	[null, <ore:glue>],
 	[null, moulding]
 ]);
-
+/*
 #Soul forged anvil
 recipes.remove(<betterwithmods:steel_anvil>);
 recipes.addShaped(<betterwithmods:steel_anvil>, [
@@ -47,7 +48,7 @@ recipes.addShaped(<betterwithmods:steel_anvil>, [
 	[null, <betterwithmods:material:14>],
 	[<betterwithmods:material:14>, <betterwithmods:material:14>, <betterwithmods:material:14>]
 ]);
-	
+*/	
 # *======= Millstone =======*
 #Manganese processing
 mods.betterwithmods.Mill.addRecipe([<quark:basalt>], [<techreborn:smalldust:31>, <rustic:dust_tiny_iron>]);
@@ -70,16 +71,35 @@ recipes.remove(<minecraft:ender_eye>);
 mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:23>, <minecraft:ender_pearl>], [<minecraft:ender_eye>]);
 
 #Clay brick
-mods.betterwithmods.Crucible.addUnstoked([<minecraft:clay_ball>, <quark:basalt>], [<forestry:ash_brick>]);
+mods.betterwithmods.Crucible.addStoked([<minecraft:clay_ball>, <quark:basalt>], [<forestry:ash_brick>]);
+
+#Stone compat
+val stones = [
+	<minecraft:stone:1>,
+	<minecraft:stone:3>,
+	<minecraft:stone:5>
+	] as IItemStack[];
+	
+for item in stones {
+	mods.betterwithmods.Crucible.remove([item]);
+}
+
+var meta = 0;
+val pyroStone = <pyrotech:cobblestone>.definition;
+for item in stones {
+	mods.betterwithmods.Crucible.addStoked([pyroStone.makeStack(meta)], [item]);
+	meta += 1;
+}
 
 # *======= Anvil =======*
+#<embers:ashen_cloth>
 #Soulsteel plate armour
 mods.betterwithmods.Anvil.removeShaped(<betterwithmods:material:42>);
 mods.betterwithmods.Anvil.addShaped(<betterwithmods:material:42>, [
-	[<embers:ashen_cloth>], 
+	[<betterwithmods:material:8>], 
 	[<betterwithmods:material:51>], 
 	[<betterwithmods:material:41>], 
-	[<embers:ashen_cloth>]
+	[<betterwithmods:material:8>]
 ]);
 
 #Immolation blade

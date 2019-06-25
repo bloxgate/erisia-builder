@@ -76,3 +76,19 @@ val remove = [
 for item in remove {
 	recipes.remove(item);
 }
+
+val removeHide = [
+	<pyrotech:rock:9>,
+	<pyrotech:rock:5>,
+	<betterwithmods:dirt_pile>,
+	<betterwithmods:gravel_pile>,
+	<betterwithmods:sand_pile>,
+	<betterwithmods:red_sand_pile>,
+	<betterwithmods:cobblestone>,
+	<betterwithmods:cobblestone:1>,
+	<betterwithmods:cobblestone:2>
+	] as IItemStack[];
+
+for item in removeHide {
+	rh(item);
+}

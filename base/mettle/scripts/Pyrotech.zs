@@ -70,6 +70,10 @@ Bloomery.createBloomeryBuilder(
 SoakingPot.addRecipe("Clay_hardened_brick_from_clay", <forestry:ash_brick>, <liquid:clay>*1000, <quark:basalt>, 1200);
 
 # *----- Plates -----*
+#Soulforged steel
+GraniteAnvil.addRecipe("sfs_plate_from_sfs", <betterwithmods:material:51>, <betterwithmods:material:14>, 3, "hammer");
+IroncladAnvil.addRecipe("isfs_plate_from_sfs", <betterwithmods:material:51>, <betterwithmods:material:14>, 3, "hammer");
+
 #Brass
 GraniteAnvil.addRecipe("brass_plate_from_brass", <techreborn:plates:17>, <techreborn:ingot:1>, 3, "hammer");
 IroncladAnvil.addRecipe("ibrass_plate_from_brass", <techreborn:plates:17>, <techreborn:ingot:1>, 3, "hammer");

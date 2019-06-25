@@ -42,13 +42,13 @@ recipes.addShaped(<minecraft:golden_hoe>, [
 
 #Rails
 recipes.remove(<minecraft:rail>);
-recipes.addShaped(<minecraft:rail>, [
+recipes.addShaped(<minecraft:rail>*16, [
 	[<minecraft:iron_nugget>, <minecraft:stick>, <minecraft:iron_nugget>],
 	[<minecraft:iron_nugget>, <minecraft:stick>, <minecraft:iron_nugget>],
 	[<minecraft:iron_nugget>, <minecraft:stick>, <minecraft:iron_nugget>]
 ]);
 recipes.remove(<minecraft:golden_rail>);
-recipes.addShaped(<minecraft:golden_rail>, [
+recipes.addShaped(<minecraft:golden_rail>*16, [
 	[<minecraft:gold_nugget>, <minecraft:redstone>, <minecraft:gold_nugget>],
 	[<minecraft:gold_nugget>, <minecraft:stick>, <minecraft:gold_nugget>],
 	[<minecraft:gold_nugget>, <minecraft:redstone>, <minecraft:gold_nugget>]

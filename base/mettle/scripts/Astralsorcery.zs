@@ -17,6 +17,13 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/
 	<astralsorcery:itemcraftingcomponent>, <astralsorcery:blockmarble>, <astralsorcery:itemcraftingcomponent>
 ]); 
 
+#Starlight altar
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("mypackname:shaped/internal/altar/upgrade_tier2", <astralsorcery:blockaltar:1>, 250, 5, [
+    <astralsorcery:blockmarble:2>, <astralsorcery:blockblackmarble>, <astralsorcery:blockmarble:2>,
+    <astralsorcery:blockinfusedwood>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:blockinfusedwood>,
+    <astralsorcery:blockmarble:4>, <betterwithmods:material:14>, <astralsorcery:blockmarble:4>
+]);
+
 #Ritual pedestal
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/ritualpedestal");
 mods.astralsorcery.Altar.addConstellationAltarRecipe("astralsorcery/internal/altar/ritualpedestal", <astralsorcery:blockritualpedestal>, 2000, 10, [
