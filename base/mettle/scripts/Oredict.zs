@@ -1,6 +1,7 @@
 # *======= Import =======*
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
+import mods.jei.JEI.removeAndHide as rh;
 
 # *======= Changes =======*
 #TR hardened glass
