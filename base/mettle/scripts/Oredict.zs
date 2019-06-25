@@ -87,7 +87,10 @@ val removeHide = [
 	<betterwithmods:red_sand_pile>,
 	<betterwithmods:cobblestone>,
 	<betterwithmods:cobblestone:1>,
-	<betterwithmods:cobblestone:2>
+	<betterwithmods:cobblestone:2>,
+	<thaumcraft:plate>,
+	<thaumcraft:plate:1>,
+	<thaumcraft:plate:3>
 	] as IItemStack[];
 
 for item in removeHide {

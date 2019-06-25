@@ -18,7 +18,8 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/
 ]); 
 
 #Starlight altar
-mods.astralsorcery.Altar.addDiscoveryAltarRecipe("mypackname:shaped/internal/altar/upgrade_tier2", <astralsorcery:blockaltar:1>, 250, 5, [
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2");
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2", <astralsorcery:blockaltar:1>, 250, 5, [
     <astralsorcery:blockmarble:2>, <astralsorcery:blockblackmarble>, <astralsorcery:blockmarble:2>,
     <astralsorcery:blockinfusedwood>, <astralsorcery:itemrockcrystalsimple>, <astralsorcery:blockinfusedwood>,
     <astralsorcery:blockmarble:4>, <betterwithmods:material:14>, <astralsorcery:blockmarble:4>

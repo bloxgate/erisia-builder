@@ -75,9 +75,9 @@ mods.betterwithmods.Crucible.addStoked([<minecraft:clay_ball>, <quark:basalt>], 
 
 #Stone compat
 val stones = [
-	<minecraft:stone:1>,
+	<minecraft:stone:5>,
 	<minecraft:stone:3>,
-	<minecraft:stone:5>
+	<minecraft:stone:1>
 	] as IItemStack[];
 	
 for item in stones {
