@@ -75,8 +75,8 @@ GraniteAnvil.addRecipe("sfs_plate_from_sfs", <betterwithmods:material:51>, <bett
 IroncladAnvil.addRecipe("isfs_plate_from_sfs", <betterwithmods:material:51>, <betterwithmods:material:14>, 3, "hammer");
 
 #Void metal 
-GraniteAnvil.addRecipe("void_plate_from_sfs", <thaumcraft:plate:3>, <thaumcraft:ingot:1>, 3, "hammer");
-IroncladAnvil.addRecipe("ivoid_plate_from_sfs", <thaumcraft:plate:3>, <thaumcraft:ingot:1>, 3, "hammer");
+GraniteAnvil.addRecipe("void_plate_from_void", <thaumcraft:plate:3>, <thaumcraft:ingot:1>, 3, "hammer");
+IroncladAnvil.addRecipe("ivoid_plate_from_void", <thaumcraft:plate:3>, <thaumcraft:ingot:1>, 3, "hammer");
 
 #Brass
 GraniteAnvil.addRecipe("brass_plate_from_brass", <techreborn:plates:17>, <techreborn:ingot:1>, 3, "hammer");
@@ -101,6 +101,10 @@ IroncladAnvil.addRecipe("icopper_plate_from_copper", <thermalfoundation:material
 #Nickel 
 GraniteAnvil.addRecipe("nickle_plate_from_nickle", <thermalfoundation:material:325>, <thermalfoundation:material:133>, 3, "hammer");
 IroncladAnvil.addRecipe("inickle_plate_from_nickle", <thermalfoundation:material:325>, <thermalfoundation:material:133>, 3, "hammer");
+
+#Lead
+GraniteAnvil.addRecipe("lead_plate_from_lead", <thermalfoundation:material:323>, <thermalfoundation:material:131>, 3, "hammer");
+IroncladAnvil.addRecipe("ilead_plate_from_lead", <thermalfoundation:material:323>, <thermalfoundation:material:131>, 3, "hammer");
 
 #Bronze
 GraniteAnvil.addRecipe("bronze_plate_from_bronze", <thermalfoundation:material:355>, <thermalfoundation:material:163>, 3, "hammer");

@@ -57,7 +57,7 @@ mods.betterwithmods.Mill.addRecipe([<quark:basalt>], [<techreborn:smalldust:31>,
 mods.betterwithmods.Mill.addRecipe([<techreborn:dust:39>], [<techreborn:smalldust:52>, <techreborn:smalldust:27>]);
 
 #Galena processing 
-mods.betterwithmods.Mill.addRecipe([<techreborn:dust:23>], [<techreborn:smalldust:29>, <techreborn:smalldust:47>]);
+mods.betterwithmods.Mill.addRecipe([<techreborn:ore>], [<techreborn:smalldust:29>, <techreborn:smalldust:47>]);
 
 #Zinc processing
 mods.betterwithmods.Mill.addRecipe([<thermalfoundation:ore:1>], [<techreborn:smalldust:59>, <techreborn:smalldust:53>]);
@@ -74,11 +74,13 @@ mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:23>, <minecraft
 mods.betterwithmods.Crucible.addStoked([<minecraft:clay_ball>, <quark:basalt>], [<forestry:ash_brick>]);
 
 #Melt down fixes
+mods.betterwithmods.Crucible.remove([<minecraft:gold_ingot>*6]);
 mods.betterwithmods.Crucible.remove([<minecraft:iron_ingot>*3]);
 mods.betterwithmods.Crucible.addStoked([<minecraft:rail>*8], [<minecraft:iron_nugget>*3]);
 mods.betterwithmods.Crucible.addStoked([<minecraft:bucket>], [<minecraft:iron_ingot>*3]);
 mods.betterwithmods.Crucible.addStoked([<minecraft:iron_bars>*8], [<minecraft:iron_ingot>*3]);
- 
+mods.betterwithmods.Crucible.addStoked([<minecraft:golden_rail>*8], [<minecraft:gold_nugget>*3]);
+
 #Stone compat
 val stones = [
 	<minecraft:stone:5>,
