@@ -17,3 +17,10 @@ recipes.addShaped(<quark:thatch>, [
 #Ranged pump
 recipes.remove(<rangedpumps:pump>);
 <rangedpumps:pump>.addTooltip(format.red("WIP"));
+
+#Beneath portal
+recipes.addShaped(<beneath:teleporterbeneath>, [
+	[<botania:quartztypedark>, <betterwithmods:material:14>, <botania:quartztypedark>],
+	[<betterwithmods:material:14>, <minecraft:ender_pearl>, <betterwithmods:material:14>],
+	[<botania:quartztypedark>, <betterwithmods:material:14>, <botania:quartztypedark>]
+]);

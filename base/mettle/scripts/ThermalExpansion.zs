@@ -170,8 +170,19 @@ mods.thermalexpansion.Pulverizer.addRecipe(<betterwithmods:raw_pastry:3>, <minec
 
 mods.thermalexpansion.Pulverizer.removeRecipe(<techreborn:ore:8>);
 
+# *----- Induction smelter -----*
+#Rails
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:rail>, <minecraft:sand>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:golden_rail>, <minecraft:sand>);
+mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:iron_nugget>, <minecraft:sand>, <minecraft:rail>*3, 1500);
+mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:gold_nugget>, <minecraft:sand>, <minecraft:golden_rail>*3, 1500);
+
 # *----- Compactor -----*
 mods.thermalexpansion.Compactor.removeStorageRecipe(<techreborn:ingot:22>);
+
+# *----- Factorizer -----*
+mods.thermalexpansion.Factorizer.removeRecipeCombine(<betterwithmods:material:14> * 9);
+mods.thermalexpansion.Factorizer.addRecipeCombine(<betterwithmods:material:14> * 16, <betterwithmods:steel_block>);
 
 # *======= Removals =======*
 #Compressed sawdust

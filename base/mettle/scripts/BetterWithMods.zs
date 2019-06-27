@@ -31,7 +31,7 @@ recipes.addShaped(<betterwithmods:hibachi>, [
 	[<ore:stone>, <betterwithmods:material:27>, <ore:stone>],
 	[<ore:stone>, <betterwithmods:material:34>, <ore:stone>]
 ]); 
-
+/*
 #Haft
 val moulding = mods.betterwithmods.MiniBlocks.getMiniBlock("moulding", <ore:plankWood>);
 recipes.remove(<betterwithmods:material:36>);
@@ -40,7 +40,7 @@ recipes.addShaped(<betterwithmods:material:36>, [
 	[null, <ore:glue>],
 	[null, moulding]
 ]);
-/*
+
 #Soul forged anvil
 recipes.remove(<betterwithmods:steel_anvil>);
 recipes.addShaped(<betterwithmods:steel_anvil>, [
@@ -73,6 +73,12 @@ mods.betterwithmods.Cauldron.addStoked([<betterwithmods:material:23>, <minecraft
 #Clay brick
 mods.betterwithmods.Crucible.addStoked([<minecraft:clay_ball>, <quark:basalt>], [<forestry:ash_brick>]);
 
+#Melt down fixes
+mods.betterwithmods.Crucible.remove([<minecraft:iron_ingot>*3]);
+mods.betterwithmods.Crucible.addStoked([<minecraft:rail>*8], [<minecraft:iron_nugget>*3]);
+mods.betterwithmods.Crucible.addStoked([<minecraft:bucket>], [<minecraft:iron_ingot>*3]);
+mods.betterwithmods.Crucible.addStoked([<minecraft:iron_bars>*8], [<minecraft:iron_ingot>*3]);
+ 
 #Stone compat
 val stones = [
 	<minecraft:stone:5>,
