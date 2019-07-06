@@ -202,22 +202,20 @@ object Curse {
             title
         }
         val files = async(CommonPool) {
-            val filesUrl = "$site/projects/${name.await()}/files?$filter"
+            val filesUrl = "https://www.curseforge.com/minecraft/mc-mods/${name.await()}/files/all?$filter"
             Browser.soup(filesUrl)
-                    .getElementsByClass("project-file-list-item")
+                    .select("table.project-file-listing tbody tr")
                     .map {
-                        val fileContainer = it.getElementsByClass("project-file-name-container")
-                                .first()
-                                .getElementsByAttributeValue("data-action", "file-link")
-                                .singleOrNull()
-                        check(fileContainer != null, { "Failed to parse files page, $filesUrl" })
-                        val fileName = fileContainer!!.attr("data-name")
-                        val url = site + fileContainer.attr("href")
-                        val releaseContainer = it.getElementsByClass("project-file-release-type").single()
-                        val maturity = if (releaseContainer.select(".release-phase").isNotEmpty()) Maturity.release
-                        else if (releaseContainer.select(".beta-phase").isNotEmpty()) Maturity.beta
-                        else if (releaseContainer.select(".alpha-phase").isNotEmpty()) Maturity.alpha
-                        else throw Exception("Unknown maturity")
+		        val fileName = it.select("td:nth-child(2)").text()
+			val url = "https://www.curseforge.com" + it.select("td:nth-child(2) a").attr("href")
+			val typeText = it.select("td:nth-child(1)").text()
+			val maturity = when (typeText) {
+			  "R" -> Maturity.release
+			  "B" -> Maturity.beta
+			  "A" -> Maturity.alpha
+			  else -> throw Exception("Unknown maturity $typeText at filesUrl")
+			}
+			check(url != "", error)
                         FileInfo(
                                 name = fileName,
                                 maturity = maturity,
@@ -249,12 +247,18 @@ object Curse {
     suspend fun fillFileInfo(basePath: Path, info: FileInfo): FileInfo {
         if (info.filePageUrl != null) {
             // We're on curse.
-            val page = Browser.soup(info.filePageUrl)
-            return info.copy(
-                    src = Curse.site + page.select(".project-file-download-container a").attr("href"),
-                    md5 = page.select(".md5").single().text(),
-                    name = page.select(".details-info .info-data").first().text()
-            )
+	    try {
+              val page = Browser.soup(info.filePageUrl)
+	      val fileId = info.filePageUrl.substringAfterLast("/")
+	      val projectUrl = page.select("#nav-description > a").attr("href")
+              return info.copy(
+                      src = "https://www.curseforge.com${projectUrl}/download/${fileId}/file",
+                      md5 = page.select("body main article div:nth-child(7) > span:nth-child(2)").single().text(),
+                      name = page.select("body main article div:nth-child(1) > span:nth-child(2)").single().text()
+              )
+	    } catch (e: Exception) {
+	      throw Exception("Unable to fill file info from ${info.filePageUrl}: $e")
+	    }
         } else {
             // Not Curse. We'll need to grab the actual file.
             val bytes: ByteArray = if (info.src!!.startsWith("http")) {
