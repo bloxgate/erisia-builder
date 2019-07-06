@@ -1,0 +1,24 @@
+mods:
+
+# General additions
+- name: "grappling-hook-mod"
+- name: "pams-harvestcraft"
+- name: "antique-atlas"
+
+# Useful mods we usually want
+#- name: "not-enough-wands"
+#- name: "notenoughthaumcrafttabs"
+#- name: "thaumic-exploration"
+- name: "nofov"
+  side: "client"
+  required: false
+
+- name: "prometheus-integration"
+  side: "server"
+- name: "chunkpregenerator"
+- name: "thump"
+  side: "server"
+
+imports:
+- "omnifactory.yaml"
+- "tools-1.12.2.yaml"
