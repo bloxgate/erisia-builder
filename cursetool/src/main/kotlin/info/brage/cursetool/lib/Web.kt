@@ -122,6 +122,13 @@ object Browser {
         }
     }
 
+    fun getRedirect(url: String): String {
+      with(limit) {
+        val response = Jsoup.connect(url).followRedirects(true).execute()
+	return response.url().toExternalForm()
+      }
+    }
+
     suspend fun getCached(url: String) = DiskCache.get(url, {
         getUncached(url).responseBodyAsStream.readBytes()
     })
@@ -160,21 +167,37 @@ object Curse {
         val soup = async(CommonPool) { Browser.soup(modUrl) }
         val error = { "Failed to parse ${info.name}, at $modUrl" }
         val name = async(CommonPool) {
-            val url = soup.await().select("section.atf .e-menu a").first().attr("href")
-            val name = url.substringAfterLast('/')
+	    val name: String
+	    try {
+                //val url = soup.await().select("section.atf .e-menu a").first().attr("href")
+		val url = soup.await().select("nav.container.mx-auto a").first().attr("href")
+                name = url.substringAfterLast('/')
+	    } catch (e: Exception) {
+	        throw Exception("Failed to parse url, at $modUrl: ${e}");
+	    }
             check(name != "", error)
             name
         }
         val id = async(CommonPool) {
-            // val url = soup.await().getElementsByClass("view-on-curse").first().getElementsByTag("a").attr("href")
-            // val id = Integer.parseInt(url.substringAfterLast('/'))
-            val ids = soup.await().getElementsByClass("cf-details project-details").first().getElementsByClass("info-data").first().text()
-            val id = Integer.parseInt(ids)
+	    val id: Int
+	    try {
+                //val ids = soup.await().getElementsByClass("cf-details project-details").first().getElementsByClass("info-data").first().text()
+		val ids = soup.await().select("body main section aside > div.my-4 > div > div:nth-child(1) > div.flex.flex-col.mb-3 > div:nth-child(1) > span:nth-child(2)").first().text()
+                id = Integer.parseInt(ids)
+	    } catch (e: Exception) {
+	      throw Exception("Failed to parse id, at $modUrl: $e")
+	    }
             check(id != 0, error)
             id
         }
         val title = async(CommonPool) {
-            val title = soup.await().getElementsByClass("project-title").first().text()
+	    val title: String
+	    try {
+              //title = soup.await().getElementsByClass("project-title").first().text()
+	      title = soup.await().select("body main header.game-header > .container h2").first().text()
+	    } catch (e: Exception) {
+	      throw Exception("Failed to parse title, at $modUrl: $e")
+	    }
             check(title != "", error)
             title
         }
@@ -246,16 +269,21 @@ object Curse {
         }
     }
 
-    suspend fun getFileInfo(projectId: Int, fileId: Int): FileInfo {
-        val url = "${site}/projects/$projectId/files/$fileId"
-        val page = Browser.soup(url)
-        return FileInfo(
-                src = site + page.select(".project-file-download-container a").attr("href"),
-                md5 = page.select(".md5").single().text(),
-                name = page.select(".details-info > ul .info-data").first().text(),
+    suspend fun getFileInfo(projectID: Int, fileId: Int): FileInfo {
+        val projectUrl = Browser.getRedirect("${site}/projects/${projectID}")
+        val url = "${projectUrl}/files/${fileId}"
+	try {
+          val page = Browser.soup(url)
+          return FileInfo(
+                src = "${projectUrl}/download/${fileId}/file",
+                md5 = page.select("body main article div:nth-child(7) > span:nth-child(2)").single().text(),
+                name = page.select("body main article div:nth-child(1) > span:nth-child(2)").single().text(),
                 filePageUrl = url,
                 id = fileId
-        )
+          )
+	} catch (e: Exception) {
+	  throw Exception("Failed getting file info for $url: $e")
+	}
     }
 
     fun download(file: FileInfo): Unit {
