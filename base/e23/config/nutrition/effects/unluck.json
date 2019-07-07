@@ -1,0 +1,9 @@
+{
+	"name": "weakness",
+	"potion": "minecraft:unluck",
+	"amplifier": 0,
+	"minimum": 0,
+	"maximum": 10,
+	"detect": "any",
+	"enabled": true
+}

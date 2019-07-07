@@ -57,6 +57,7 @@ rec {
     };
     extraDirs = [
       ./base/omnifactory
+      ./base/e23
     ];
     extraServerDirs = [
       ./base/server
