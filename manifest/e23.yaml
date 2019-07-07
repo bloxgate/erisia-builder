@@ -4,6 +4,11 @@ mods:
 - name: "grappling-hook-mod"
 - name: "pams-harvestcraft"
 - name: "antique-atlas"
+- name: "cooking-for-blockheads"
+- name: "nutrition"
+  curse: false
+  files:
+    - src: https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar
 
 # Useful mods we usually want
 #- name: "not-enough-wands"

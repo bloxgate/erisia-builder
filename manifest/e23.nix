@@ -706,6 +706,22 @@
       "type" = "remote";
       "md5" = "f640a63ddae6419a706e4beaec4a9f31";
     };
+    "cooking-for-blockheads" = {
+      "title" = "Cooking for Blockheads";
+      "name" = "cooking-for-blockheads";
+      "id" = 231484;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "CookingForBlockheads_1.12.2-6.4.71.jar";
+      "maturity" = "release";
+      "encoded" = "CookingForBlockheads_1.12.2-6.4.71.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads/files/2733516";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads/download/2733516/file";
+      "type" = "remote";
+      "md5" = "995ffd1af0f16bdae20ab62b46fcd492";
+    };
     "craftable-elytra" = {
       "title" = "Craftable Elytra";
       "name" = "craftable-elytra";
@@ -1372,6 +1388,22 @@
       "type" = "remote";
       "md5" = "33debbd704840d9bceb170c44f1e3a2d";
     };
+    "in-control" = {
+      "title" = "In Control!";
+      "name" = "in-control";
+      "id" = 257356;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "incontrol-1.12-3.9.12.jar";
+      "maturity" = "release";
+      "encoded" = "incontrol-1.12-3.9.12.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/in-control/files/2736287";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/in-control/download/2736287/file";
+      "type" = "remote";
+      "md5" = "1abb60cee6c49f4220576a36e49790a9";
+    };
     "inspirations" = {
       "title" = "Inspirations";
       "name" = "inspirations";
@@ -1461,6 +1493,22 @@
       "src" = "https://www.curseforge.com/minecraft/mc-mods/just-enough-energistics-jee/download/2726897/file";
       "type" = "remote";
       "md5" = "d4e3b8bad7e42e1d0baed63dd32538af";
+    };
+    "laggoggles" = {
+      "title" = "LagGoggles";
+      "name" = "laggoggles";
+      "id" = 283525;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "LagGoggles-FAT-1.12.2-4.6.jar";
+      "maturity" = "release";
+      "encoded" = "LagGoggles-FAT-1.12.2-4.6.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/laggoggles/files/2732828";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/laggoggles/download/2732828/file";
+      "type" = "remote";
+      "md5" = "8e4a8b7d1d576bc945eee2dadd0883a8";
     };
     "librarianlib" = {
       "title" = "LibrarianLib";
@@ -1833,6 +1881,19 @@
       "type" = "remote";
       "md5" = "da325813df6382cec40768d61f5b2ada";
     };
+    "nutrition" = {
+      "title" = "nutrition";
+      "name" = "nutrition";
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Nutrition-1.12.2-4.4.0.jar";
+      "encoded" = "Nutrition-1.12.2-4.4.0.jar";
+      "src" = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar";
+      "type" = "remote";
+      "md5" = "868370cf7494f9953dd79eaede4330af";
+    };
     "open-glider" = {
       "title" = "Open Glider";
       "name" = "open-glider";
@@ -1862,6 +1923,22 @@
       "src" = "https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator/download/2715224/file";
       "type" = "remote";
       "md5" = "a38506a649af7f66b2967ef0ca736948";
+    };
+    "orelib" = {
+      "title" = "OreLib";
+      "name" = "orelib";
+      "id" = 307806;
+      "side" = "client";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "OreLib-1.12.2-3.5.2.2.jar";
+      "maturity" = "release";
+      "encoded" = "OreLib-1.12.2-3.5.2.2.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/orelib/files/2664386";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/orelib/download/2664386/file";
+      "type" = "remote";
+      "md5" = "d4a01946d05fb29e18a505c000007e0c";
     };
     "p455w0rds-library" = {
       "title" = "p455w0rd's Library";

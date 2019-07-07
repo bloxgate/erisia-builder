@@ -1,6 +1,16 @@
 mods:
+# Building:
+- name: "effortless-building"
+
+# Spawn control
+- name: "in-control"
+
+# Performance tools
+- name: "laggoggles"
 - name: "chunkpurge"
   side: "server"
+
+# Unsorted old list:
 - name: "better-placement"
   side: "client"
   required: false
@@ -25,6 +35,9 @@ mods:
 - name: "dynamic-surroundings"
   side: "client"
   required: false
+# Dep for DS
+- name: "orelib"
+  side: "client"
 - name: "sound-filters"
   side: "client"
   required: "false"

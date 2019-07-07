@@ -78,8 +78,20 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "661cb118-8131-4e25-b607-b217873ec8b8",
+    "name": "theburper",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "e754f74d-d67f-4a55-9884-dec0b8903e8d",
     "name": "TheCowKing_moo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "101b4517-0cba-4e71-bd0c-59966451a721",
+    "name": "maxwell_lt",
     "level": 4,
     "bypassesPlayerLimit": false
   },

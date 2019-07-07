@@ -47,10 +47,10 @@ rec {
   e23 = {
     name = "Omnifactory";
     screenName = "e23";
-    description = "Per Omnis Ad Nullus";
-    ram = "14000m";
-    port = 25565;
-    prometheusPort = 1234;
+    description = "E23: Per Omnis Ad Nullus";
+    ram = "12000m";
+    port = 25523;
+    prometheusPort = 1223;
     forge = {
       major = "1.12.2";
       minor = "14.23.5.2838";
@@ -76,7 +76,7 @@ rec {
     name = "mettle";
     screenName = "mettle";
     description = "Mettle Alpha";
-    ram = "20000m";
+    ram = "12000m";
     port = 25565;
     prometheusPort = 1234;
     forge = {
