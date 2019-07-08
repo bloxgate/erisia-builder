@@ -799,13 +799,6 @@ mods:
 - name: "effortless-building"
   id: 302113
   title: "Effortless Building"
-  files:
-  - name: "effortlessbuilding-1.12.2-2.12.jar"
-    id: 2720456
-    maturity: null
-    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/effortless-building/files/2720456"
-    src: "https://www.curseforge.com/minecraft/mc-mods/effortless-building/download/2720456/file"
-    md5: "72f336cac08ffa4c0c3ed356aa975d0d"
   side: "both"
   deps: []
   required: true

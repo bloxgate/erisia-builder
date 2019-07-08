@@ -1019,6 +1019,7 @@
       "default" = true;
       "deps" = [];
       "filename" = "effortlessbuilding-1.12.2-2.12.jar";
+      "maturity" = "release";
       "encoded" = "effortlessbuilding-1.12.2-2.12.jar";
       "page" = "https://www.curseforge.com/minecraft/mc-mods/effortless-building/files/2720456";
       "src" = "https://www.curseforge.com/minecraft/mc-mods/effortless-building/download/2720456/file";
