@@ -56,8 +56,8 @@ rec {
       minor = "14.23.5.2838";
     };
     extraDirs = [
-      ./base/omnifactory
       ./base/e23
+      ./base/omnifactory
     ];
     extraServerDirs = [
       ./base/server
