@@ -358,12 +358,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "questbook-3.1.EXP_NET2-1.12.jar";
-      "encoded" = "questbook-3.1.EXP_NET2-1.12.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/files/2652635";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/download/2652635/file";
+      "filename" = "questbook-3.1.1-1.12.jar";
+      "maturity" = "release";
+      "encoded" = "questbook-3.1.1-1.12.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/files/2539562";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/download/2539562/file";
       "type" = "remote";
-      "md5" = "78c6baad74be8326cf8de3f7006890af";
+      "md5" = "aa802b89cd4244d0bfaff4b60a0f5654";
     };
     "better-questing-standard-expansion" = {
       "title" = "Better Questing - Standard Expansion";
@@ -706,6 +707,22 @@
       "type" = "remote";
       "md5" = "f640a63ddae6419a706e4beaec4a9f31";
     };
+    "cookiecore" = {
+      "title" = "CookieCore";
+      "name" = "cookiecore";
+      "id" = 222908;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "cookiecore-1.12-2.0.0.jar";
+      "maturity" = "release";
+      "encoded" = "cookiecore-1.12-2.0.0.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/cookiecore/files/2525823";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/cookiecore/download/2525823/file";
+      "type" = "remote";
+      "md5" = "a392d76086df9f81264b26171f1a0148";
+    };
     "cooking-for-blockheads" = {
       "title" = "Cooking for Blockheads";
       "name" = "cooking-for-blockheads";
@@ -1018,13 +1035,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "effortlessbuilding-1.12.2-2.12.jar";
+      "filename" = "effortlessbuilding-1.12.2-2.13.jar";
       "maturity" = "release";
-      "encoded" = "effortlessbuilding-1.12.2-2.12.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/effortless-building/files/2720456";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/effortless-building/download/2720456/file";
+      "encoded" = "effortlessbuilding-1.12.2-2.13.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/effortless-building/files/2737853";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/effortless-building/download/2737853/file";
       "type" = "remote";
-      "md5" = "72f336cac08ffa4c0c3ed356aa975d0d";
+      "md5" = "37549c2b3fce5f1fa144dea12ddc7740";
     };
     "ender-io" = {
       "title" = "Ender IO";
@@ -1585,6 +1602,22 @@
       "src" = "https://www.curseforge.com/minecraft/mc-mods/lumberjack/download/2675502/file";
       "type" = "remote";
       "md5" = "625f44cde54ff0607fd5241c32cce998";
+    };
+    "magic-feather" = {
+      "title" = "Magic Feather";
+      "name" = "magic-feather";
+      "id" = 284745;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "magicfeather-1.12.1-2.1.0.jar";
+      "maturity" = "release";
+      "encoded" = "magicfeather-1.12.1-2.1.0.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/magic-feather/files/2526155";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/magic-feather/download/2526155/file";
+      "type" = "remote";
+      "md5" = "03a2687f094cf799f053dbac0051f9a1";
     };
     "mantle" = {
       "title" = "Mantle";

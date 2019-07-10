@@ -1482,13 +1482,6 @@ mods:
 - name: "better-questing-quest-book"
   id: 242106
   title: "Better Questing - Quest Book"
-  files:
-  - name: "questbook-3.1.EXP_NET2-1.12.jar"
-    id: 2652635
-    maturity: null
-    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/files/2652635"
-    src: "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/download/2652635/file"
-    md5: "78c6baad74be8326cf8de3f7006890af"
   side: "both"
   deps: []
   required: true
