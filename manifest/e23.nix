@@ -381,6 +381,22 @@
       "type" = "remote";
       "md5" = "663167c1d207db087cb53aa0efcf9198";
     };
+    "bibliocraft" = {
+      "title" = "BiblioCraft";
+      "name" = "bibliocraft";
+      "id" = 228027;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "BiblioCraft[v2.4.5][MC1.12.2].jar";
+      "maturity" = "release";
+      "encoded" = "BiblioCraft%5Bv2.4.5%5D%5BMC1.12.2%5D.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/bibliocraft/files/2574880";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/bibliocraft/download/2574880/file";
+      "type" = "remote";
+      "md5" = "5b9f1a1543a1fdf687fe4761e3d63ed4";
+    };
     "bloodylib" = {
       "title" = "BloodyLib";
       "name" = "bloodylib";
@@ -2202,6 +2218,22 @@
       "type" = "remote";
       "md5" = "51141e882f96ce756b9b3d25f2acdf57";
     };
+    "rustic" = {
+      "title" = "Rustic";
+      "name" = "rustic";
+      "id" = 256141;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "rustic-1.1.0.jar";
+      "maturity" = "release";
+      "encoded" = "rustic-1.1.0.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/rustic/files/2670073";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/rustic/download/2670073/file";
+      "type" = "remote";
+      "md5" = "06fc80e3f9ab85e988ccd725a3ab74af";
+    };
     "scannable" = {
       "title" = "Scannable";
       "name" = "scannable";
@@ -2519,6 +2551,22 @@
       "src" = "https://www.curseforge.com/minecraft/mc-mods/tipthescales/download/2689835/file";
       "type" = "remote";
       "md5" = "eb4bba23a510da1a6f9c4e916c45714f";
+    };
+    "tis-3d" = {
+      "title" = "TIS-3D";
+      "name" = "tis-3d";
+      "id" = 238603;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "TIS-3D-MC1.12.2-1.5.1.37.jar";
+      "maturity" = "release";
+      "encoded" = "TIS-3D-MC1.12.2-1.5.1.37.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/tis-3d/files/2704877";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/tis-3d/download/2704877/file";
+      "type" = "remote";
+      "md5" = "f44ac12f51c03941551e1b4669260d41";
     };
     "toast-control" = {
       "title" = "Toast Control";
