@@ -84,6 +84,19 @@ mods:
   files:
   - src: "https://madoka.brage.info/baughn/OptiFine_1.7.10_HD_U_E7.jar"
 
+# Dependecies we fail to detec after curse web udpate
+- name: "CodeChickenCore"
+- name: "OpenModsLib"
+- name: "Aroma1997Core"
+- name: "Cofhcore"
+- name: "baubles"
+- name: "AppleCore"
+- name: "bdlib"
+- name: "McJtyLib"
+- name: "Player-API"
+- name: "farseek"
+
+
 # Useful mods we usually want
 #- name: "not-enough-wands"
 - name: "nofov"

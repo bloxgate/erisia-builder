@@ -76,6 +76,22 @@
       "type" = "remote";
       "md5" = "4b0ab763b63275d7f4abefb772961773";
     };
+    "applecore" = {
+      "title" = "AppleCore";
+      "name" = "applecore";
+      "id" = 224472;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "AppleCore-mc1.7.10-3.1.1.jar";
+      "maturity" = "release";
+      "encoded" = "AppleCore-mc1.7.10-3.1.1.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/applecore/files/2530879";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/applecore/download/2530879/file";
+      "type" = "remote";
+      "md5" = "169c63b60ec8a8195733b94cb47ae694";
+    };
     "applied-energistics-2" = {
       "title" = "Applied Energistics 2";
       "name" = "applied-energistics-2";
@@ -92,6 +108,22 @@
       "type" = "remote";
       "md5" = "0a555df010345a27e0956a3f05517510";
     };
+    "aroma1997core" = {
+      "title" = "Aroma1997Core";
+      "name" = "aroma1997core";
+      "id" = 223735;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Aroma1997Core-1.7.10-1.0.2.16.jar";
+      "maturity" = "release";
+      "encoded" = "Aroma1997Core-1.7.10-1.0.2.16.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/aroma1997core/files/2257644";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/aroma1997core/download/2257644/file";
+      "type" = "remote";
+      "md5" = "acadd2e64f5621f0e87f25a02c3dda14";
+    };
     "aroma1997s-dimensional-world" = {
       "title" = "Aroma1997s Dimensional World";
       "name" = "aroma1997s-dimensional-world";
@@ -107,6 +139,38 @@
       "src" = "https://www.curseforge.com/minecraft/mc-mods/aroma1997s-dimensional-world/download/2219018/file";
       "type" = "remote";
       "md5" = "756e446bbcb0e045ed1907d7f56c91ae";
+    };
+    "baubles" = {
+      "title" = "Baubles";
+      "name" = "baubles";
+      "id" = 227083;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Baubles-1.7.10-1.0.1.10.jar";
+      "maturity" = "release";
+      "encoded" = "Baubles-1.7.10-1.0.1.10.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/baubles/files/2224857";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/baubles/download/2224857/file";
+      "type" = "remote";
+      "md5" = "0e711d6535970f62d4964edaa26f4623";
+    };
+    "bdlib" = {
+      "title" = "BdLib";
+      "name" = "bdlib";
+      "id" = 70496;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "bdlib-1.9.4.109-mc1.7.10.jar";
+      "maturity" = "release";
+      "encoded" = "bdlib-1.9.4.109-mc1.7.10.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/bdlib/files/2269259";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/bdlib/download/2269259/file";
+      "type" = "remote";
+      "md5" = "e446121e3e94b77d1c610ceed0fd3f68";
     };
     "better-foliage" = {
       "title" = "Better Foliage";
@@ -312,6 +376,38 @@
       "src" = "https://www.curseforge.com/minecraft/mc-mods/climate-control-geographicraft/download/2359685/file";
       "type" = "remote";
       "md5" = "d0886b4d772556aa55903205a484b79b";
+    };
+    "codechickencore" = {
+      "title" = "CodeChickenCore";
+      "name" = "codechickencore";
+      "id" = 222213;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "CodeChickenCore-1.7.10-1.0.7.47-universal.jar";
+      "maturity" = "release";
+      "encoded" = "CodeChickenCore-1.7.10-1.0.7.47-universal.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/codechickencore/files/2262089";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/codechickencore/download/2262089/file";
+      "type" = "remote";
+      "md5" = "07690caf86ecf79739852154f5e44750";
+    };
+    "cofh-core" = {
+      "title" = "CoFH Core";
+      "name" = "cofh-core";
+      "id" = 69162;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "CoFHCore-[1.7.10]3.1.4-329.jar";
+      "maturity" = "release";
+      "encoded" = "CoFHCore-%5B1.7.10%5D3.1.4-329.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/cofh-core/files/2388750";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/cofh-core/download/2388750/file";
+      "type" = "remote";
+      "md5" = "de527c101a1f2c62203f99515f3d0957";
     };
     "cofhtweaks" = {
       "title" = "CoFHTweaks";
@@ -531,6 +627,22 @@
       "type" = "remote";
       "md5" = "0b1848ece3f6e1370e6caa8124c1480d";
     };
+    "farseek" = {
+      "title" = "Farseek";
+      "name" = "farseek";
+      "id" = 229708;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "Farseek-1.7.10-2.0.1.jar";
+      "maturity" = "release";
+      "encoded" = "Farseek-1.7.10-2.0.1.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/farseek/files/2457658";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/farseek/download/2457658/file";
+      "type" = "remote";
+      "md5" = "58d6f0c966b37bf82cd2e711632ee7bc";
+    };
     "forge-multi-part" = {
       "title" = "Forge Multi Part";
       "name" = "forge-multi-part";
@@ -717,6 +829,22 @@
       "type" = "remote";
       "md5" = "4661438a4c2e92067845810c02198af5";
     };
+    "mcjtylib" = {
+      "title" = "McJtyLib";
+      "name" = "mcjtylib";
+      "id" = 233105;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "mcjtylib-1.8.1.jar";
+      "maturity" = "release";
+      "encoded" = "mcjtylib-1.8.1.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/mcjtylib/files/2272449";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/mcjtylib/download/2272449/file";
+      "type" = "remote";
+      "md5" = "2ebbefd7fa32bf96159f6d305f932fcf";
+    };
     "minetweaker3" = {
       "title" = "MineTweaker3";
       "name" = "minetweaker3";
@@ -897,6 +1025,22 @@
       "type" = "remote";
       "md5" = "26aa01a40b9eeb35a4d291ec9d6dd598";
     };
+    "openmodslib" = {
+      "title" = "OpenModsLib";
+      "name" = "openmodslib";
+      "id" = 228815;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "OpenModsLib-1.7.10-0.10.jar";
+      "maturity" = "release";
+      "encoded" = "OpenModsLib-1.7.10-0.10.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/openmodslib/files/2386726";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/openmodslib/download/2386726/file";
+      "type" = "remote";
+      "md5" = "7af56161fea4b81d7c8504133b269710";
+    };
     "optifine" = {
       "title" = "optifine";
       "name" = "optifine";
@@ -925,6 +1069,22 @@
       "src" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/download/2270206/file";
       "type" = "remote";
       "md5" = "27115781353d0528f6f1c280e48c7ae1";
+    };
+    "player-api" = {
+      "title" = "Player API";
+      "name" = "player-api";
+      "id" = 228969;
+      "side" = "both";
+      "required" = true;
+      "default" = true;
+      "deps" = [];
+      "filename" = "PlayerAPI-1.7.10-1.4.jar";
+      "maturity" = "release";
+      "encoded" = "PlayerAPI-1.7.10-1.4.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/player-api/files/2248928";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/player-api/download/2248928/file";
+      "type" = "remote";
+      "md5" = "a86805d3720f12610ae1f28f7eb08b53";
     };
     "pneumaticcraft" = {
       "title" = "PneumaticCraft";
