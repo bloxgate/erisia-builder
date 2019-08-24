@@ -38,10 +38,67 @@ in
 rec {
 
   packs = {
-    e22-leisurely = buildPack e22-leisurely;
-    e22 = buildPack e22;
     e22-5 = buildPack e22-5;
     elncognito = buildPack elncognito;
+#    mettle = buildPack mettle;
+    e23 = buildPack e23;
+  };
+
+  e23 = {
+    name = "Omnifactory";
+    screenName = "e23";
+    description = "E23: Per Omnis Ad Nullus";
+    ram = "12000m";
+    port = 25523;
+    prometheusPort = 1223;
+    forge = {
+      major = "1.12.2";
+      minor = "14.23.5.2838";
+    };
+    extraDirs = [
+      ./base/e23
+      ./base/omnifactory
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      resources_12
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/e23.nix
+    ];
+    blacklist = [
+    ];
+  };
+  
+  mettle = {
+    name = "mettle";
+    screenName = "mettle";
+    description = "Mettle Alpha";
+    ram = "12000m";
+    port = 25565;
+    prometheusPort = 1234;
+    forge = {
+      major = "1.12.2";
+      minor = "14.23.5.2837";
+    };
+    extraDirs = [
+      ./base/mettle
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      resources_12
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/mettle.nix
+    ];
+    blacklist = [
+    ];
   };
 
   e22-5 = {

@@ -122,6 +122,13 @@ object Browser {
         }
     }
 
+    fun getRedirect(url: String): String {
+      with(limit) {
+        val response = Jsoup.connect(url).followRedirects(true).execute()
+	return response.url().toExternalForm()
+      }
+    }
+
     suspend fun getCached(url: String) = DiskCache.get(url, {
         getUncached(url).responseBodyAsStream.readBytes()
     })
@@ -147,7 +154,7 @@ object Browser {
  * Represents the Curse website itself.
  */
 object Curse {
-    private val site = "https://minecraft.curseforge.com"
+    private val site = "https://www.curseforge.com/minecraft"
 
     /**
      * Fills in mod-info from Curse.
@@ -156,45 +163,59 @@ object Curse {
         if (!info.curse) return info
 
         check(info.name != null || info.id != null)
-        val modUrl = "${site}/projects/${info.name ?: info.id.toString()}"
+        val modUrl = "${site}/mc-mods/${info.name ?: info.id.toString()}"
         val soup = async(CommonPool) { Browser.soup(modUrl) }
         val error = { "Failed to parse ${info.name}, at $modUrl" }
         val name = async(CommonPool) {
-            val url = soup.await().select("section.atf .e-menu a").first().attr("href")
-            val name = url.substringAfterLast('/')
+	    val name: String
+	    try {
+                //val url = soup.await().select("section.atf .e-menu a").first().attr("href")
+		val url = soup.await().select("nav.container.mx-auto a").first().attr("href")
+                name = url.substringAfterLast('/')
+	    } catch (e: Exception) {
+	        throw Exception("Failed to parse url, at $modUrl: ${e}");
+	    }
             check(name != "", error)
             name
         }
         val id = async(CommonPool) {
-            // val url = soup.await().getElementsByClass("view-on-curse").first().getElementsByTag("a").attr("href")
-            // val id = Integer.parseInt(url.substringAfterLast('/'))
-            val ids = soup.await().getElementsByClass("cf-details project-details").first().getElementsByClass("info-data").first().text()
-            val id = Integer.parseInt(ids)
+	    val id: Int
+	    try {
+                //val ids = soup.await().getElementsByClass("cf-details project-details").first().getElementsByClass("info-data").first().text()
+		val ids = soup.await().select("body main section aside > div.my-4 > div > div:nth-child(1) > div.flex.flex-col.mb-3 > div:nth-child(1) > span:nth-child(2)").first().text()
+                id = Integer.parseInt(ids)
+	    } catch (e: Exception) {
+	      throw Exception("Failed to parse id, at $modUrl: $e")
+	    }
             check(id != 0, error)
             id
         }
         val title = async(CommonPool) {
-            val title = soup.await().getElementsByClass("project-title").first().text()
+	    val title: String
+	    try {
+              //title = soup.await().getElementsByClass("project-title").first().text()
+	      title = soup.await().select("body main header.game-header > .container h2").first().text()
+	    } catch (e: Exception) {
+	      throw Exception("Failed to parse title, at $modUrl: $e")
+	    }
             check(title != "", error)
             title
         }
         val files = async(CommonPool) {
-            val filesUrl = "$site/projects/${name.await()}/files?$filter"
+            val filesUrl = "https://www.curseforge.com/minecraft/mc-mods/${name.await()}/files/all?$filter"
             Browser.soup(filesUrl)
-                    .getElementsByClass("project-file-list-item")
+                    .select("table.project-file-listing tbody tr")
                     .map {
-                        val fileContainer = it.getElementsByClass("project-file-name-container")
-                                .first()
-                                .getElementsByAttributeValue("data-action", "file-link")
-                                .singleOrNull()
-                        check(fileContainer != null, { "Failed to parse files page, $filesUrl" })
-                        val fileName = fileContainer!!.attr("data-name")
-                        val url = site + fileContainer.attr("href")
-                        val releaseContainer = it.getElementsByClass("project-file-release-type").single()
-                        val maturity = if (releaseContainer.select(".release-phase").isNotEmpty()) Maturity.release
-                        else if (releaseContainer.select(".beta-phase").isNotEmpty()) Maturity.beta
-                        else if (releaseContainer.select(".alpha-phase").isNotEmpty()) Maturity.alpha
-                        else throw Exception("Unknown maturity")
+		        val fileName = it.select("td:nth-child(2)").text()
+			val url = "https://www.curseforge.com" + it.select("td:nth-child(2) a").attr("href")
+			val typeText = it.select("td:nth-child(1)").text()
+			val maturity = when (typeText) {
+			  "R" -> Maturity.release
+			  "B" -> Maturity.beta
+			  "A" -> Maturity.alpha
+			  else -> throw Exception("Unknown maturity $typeText at filesUrl")
+			}
+			check(url != "", error)
                         FileInfo(
                                 name = fileName,
                                 maturity = maturity,
@@ -203,7 +224,7 @@ object Curse {
                     }
         }
         val deps = async(CommonPool) {
-            val depsUrl = "$site/projects/${name.await()}/relations/dependencies?filter-related-dependencies=3"
+            val depsUrl = "$site/mc-mods/${name.await()}/relations/dependencies?filter-related-dependencies=3"
             Browser.soup(depsUrl)
                     .getElementsByClass("project-list-item")
                     .map {
@@ -226,12 +247,18 @@ object Curse {
     suspend fun fillFileInfo(basePath: Path, info: FileInfo): FileInfo {
         if (info.filePageUrl != null) {
             // We're on curse.
-            val page = Browser.soup(info.filePageUrl)
-            return info.copy(
-                    src = Curse.site + page.select(".project-file-download-container a").attr("href"),
-                    md5 = page.select(".md5").single().text(),
-                    name = page.select(".details-info .info-data").first().text()
-            )
+	    try {
+              val page = Browser.soup(info.filePageUrl)
+	      val fileId = info.filePageUrl.substringAfterLast("/")
+	      val projectUrl = page.select("#nav-description > a").attr("href")
+              return info.copy(
+                      src = "https://www.curseforge.com${projectUrl}/download/${fileId}/file",
+                      md5 = page.select("body main article div:nth-child(7) > span:nth-child(2)").single().text(),
+                      name = page.select("body main article div:nth-child(1) > span:nth-child(2)").single().text()
+              )
+	    } catch (e: Exception) {
+	      throw Exception("Unable to fill file info from ${info.filePageUrl}: $e")
+	    }
         } else {
             // Not Curse. We'll need to grab the actual file.
             val bytes: ByteArray = if (info.src!!.startsWith("http")) {
@@ -246,16 +273,21 @@ object Curse {
         }
     }
 
-    suspend fun getFileInfo(projectId: Int, fileId: Int): FileInfo {
-        val url = "${site}/projects/$projectId/files/$fileId"
-        val page = Browser.soup(url)
-        return FileInfo(
-                src = site + page.select(".project-file-download-container a").attr("href"),
-                md5 = page.select(".md5").single().text(),
-                name = page.select(".details-info > ul .info-data").first().text(),
+    suspend fun getFileInfo(projectID: Int, fileId: Int): FileInfo {
+        val projectUrl = Browser.getRedirect("${site}/mc-mods/${projectID}")
+        val url = "${projectUrl}/files/${fileId}"
+	try {
+          val page = Browser.soup(url)
+          return FileInfo(
+                src = "${projectUrl}/download/${fileId}/file",
+                md5 = page.select("body main article div:nth-child(7) > span:nth-child(2)").single().text(),
+                name = page.select("body main article div:nth-child(1) > span:nth-child(2)").single().text(),
                 filePageUrl = url,
                 id = fileId
-        )
+          )
+	} catch (e: Exception) {
+	  throw Exception("Failed getting file info for $url: $e")
+	}
     }
 
     fun download(file: FileInfo): Unit {
