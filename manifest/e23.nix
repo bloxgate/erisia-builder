@@ -723,22 +723,6 @@
       "type" = "remote";
       "md5" = "f640a63ddae6419a706e4beaec4a9f31";
     };
-    "cookiecore" = {
-      "title" = "CookieCore";
-      "name" = "cookiecore";
-      "id" = 222908;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "cookiecore-1.12-2.0.0.jar";
-      "maturity" = "release";
-      "encoded" = "cookiecore-1.12-2.0.0.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/cookiecore/files/2525823";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/cookiecore/download/2525823/file";
-      "type" = "remote";
-      "md5" = "a392d76086df9f81264b26171f1a0148";
-    };
     "cooking-for-blockheads" = {
       "title" = "Cooking for Blockheads";
       "name" = "cooking-for-blockheads";
@@ -1430,13 +1414,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "incontrol-1.12-3.9.12.jar";
+      "filename" = "incontrol-1.12-3.9.16.jar";
       "maturity" = "release";
-      "encoded" = "incontrol-1.12-3.9.12.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/in-control/files/2736287";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/in-control/download/2736287/file";
+      "encoded" = "incontrol-1.12-3.9.16.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/in-control/files/2763309";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/in-control/download/2763309/file";
       "type" = "remote";
-      "md5" = "1abb60cee6c49f4220576a36e49790a9";
+      "md5" = "a413d976441ab9dd9d6896d95bb0c761";
     };
     "inspirations" = {
       "title" = "Inspirations";
@@ -1491,12 +1475,12 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "journeymap-1.12.2-5.5.5b7.jar";
-      "encoded" = "journeymap-1.12.2-5.5.5b7.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/2714302";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/journeymap/download/2714302/file";
+      "filename" = "journeymap-1.12.2-5.5.5.jar";
+      "encoded" = "journeymap-1.12.2-5.5.5.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/2755458";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/journeymap/download/2755458/file";
       "type" = "remote";
-      "md5" = "c8aa57883c9a2ccc588920b482c9570c";
+      "md5" = "d2249af8a61002ee976fcea804e46f3b";
     };
     "just-enough-calculation" = {
       "title" = "Just Enough Calculation";
@@ -1536,13 +1520,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "LagGoggles-FAT-1.12.2-4.6.jar";
+      "filename" = "LagGoggles-FAT-1.12.2-4.8.jar";
       "maturity" = "release";
-      "encoded" = "LagGoggles-FAT-1.12.2-4.6.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/laggoggles/files/2732828";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/laggoggles/download/2732828/file";
+      "encoded" = "LagGoggles-FAT-1.12.2-4.8.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/laggoggles/files/2757184";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/laggoggles/download/2757184/file";
       "type" = "remote";
-      "md5" = "8e4a8b7d1d576bc945eee2dadd0883a8";
+      "md5" = "3f3b0870972f909d0e1731faea977486";
     };
     "librarianlib" = {
       "title" = "LibrarianLib";
@@ -1618,22 +1602,6 @@
       "src" = "https://www.curseforge.com/minecraft/mc-mods/lumberjack/download/2675502/file";
       "type" = "remote";
       "md5" = "625f44cde54ff0607fd5241c32cce998";
-    };
-    "magic-feather" = {
-      "title" = "Magic Feather";
-      "name" = "magic-feather";
-      "id" = 284745;
-      "side" = "both";
-      "required" = true;
-      "default" = true;
-      "deps" = [];
-      "filename" = "magicfeather-1.12.1-2.1.0.jar";
-      "maturity" = "release";
-      "encoded" = "magicfeather-1.12.1-2.1.0.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/magic-feather/files/2526155";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/magic-feather/download/2526155/file";
-      "type" = "remote";
-      "md5" = "03a2687f094cf799f053dbac0051f9a1";
     };
     "mantle" = {
       "title" = "Mantle";
@@ -2043,13 +2011,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Pam_s HarvestCraft 1.12.2zd Surprise for Yogcast.jar";
+      "filename" = "Pam_s HarvestCraft 1.12.2ze.jar";
       "maturity" = "release";
-      "encoded" = "Pam_s%20HarvestCraft%201.12.2zd%20Surprise%20for%20Yogcast.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/files/2717443";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/download/2717443/file";
+      "encoded" = "Pam_s%20HarvestCraft%201.12.2ze.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/files/2751199";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/download/2751199/file";
       "type" = "remote";
-      "md5" = "d383ea51ccdd80e51ef8079d36c03ef1";
+      "md5" = "386f64f19b1b739a7cfa954753aa397e";
     };
     "patchouli" = {
       "title" = "Patchouli";
@@ -2226,13 +2194,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "rustic-1.1.0.jar";
+      "filename" = "rustic-1.1.1.jar";
       "maturity" = "release";
-      "encoded" = "rustic-1.1.0.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/rustic/files/2670073";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/rustic/download/2670073/file";
+      "encoded" = "rustic-1.1.1.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/rustic/files/2746408";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/rustic/download/2746408/file";
       "type" = "remote";
-      "md5" = "06fc80e3f9ab85e988ccd725a3ab74af";
+      "md5" = "81fb900f832cc2e8f8c58b45eb25c607";
     };
     "scannable" = {
       "title" = "Scannable";
