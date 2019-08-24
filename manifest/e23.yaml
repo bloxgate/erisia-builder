@@ -5,8 +5,6 @@ mods:
 - name: "pams-harvestcraft"
 - name: "antique-atlas"
 - name: "cooking-for-blockheads"
-- name: "magic-feather"
-- name: "cookiecore"  # Dependency of MF
 - name: "nutrition"
   curse: false
   files:

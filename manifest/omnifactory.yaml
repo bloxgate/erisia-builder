@@ -2151,12 +2151,12 @@ mods:
   id: 32274
   title: "JourneyMap"
   files:
-  - name: "journeymap-1.12.2-5.5.5b7.jar"
+  - name: "journeymap-1.12.2-5.5.5.jar"
     id: 2714302
     maturity: null
-    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/2714302"
-    src: "https://www.curseforge.com/minecraft/mc-mods/journeymap/download/2714302/file"
-    md5: "c8aa57883c9a2ccc588920b482c9570c"
+    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/2755458"
+    src: "https://www.curseforge.com/minecraft/mc-mods/journeymap/download/2755458/file"
+    md5: "d2249af8a61002ee976fcea804e46f3b"
   side: "both"
   deps: []
   required: true
