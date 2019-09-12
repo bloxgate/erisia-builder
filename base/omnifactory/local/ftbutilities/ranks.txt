@@ -1,0 +1,6 @@
+[player is default_player_rank]
+ftbutilities.claims.max_chunks: 256
+ftbutilities.chunkloader.max_chunks: 128
+
+[admin is default_op_rank]
+ftbutilities.chunkloader.max_chunks: 128
