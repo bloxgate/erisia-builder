@@ -1329,21 +1329,12 @@ mods:
   required: true
   default: true
   curse: true
+# Switching to patched jar with fix for robot arms bug
 - name: "gregtechce"
-  id: 293327
   title: "GregTech Community Edition"
+  curse: false
   files:
-  - name: "gregtech-1.12.2-1.8.4.419.jar"
-    id: 2731853
-    maturity: null
-    filePageUrl: "https://www.curseforge.com/minecraft/mc-mods/gregtechce/files/2731853"
-    src: "https://www.curseforge.com/minecraft/mc-mods/gregtechce/download/2731853/file"
-    md5: "9427022bcc0eaac9fd7c912e3fe1a282"
-  side: "both"
-  deps: []
-  required: true
-  default: true
-  curse: true
+  - src: "https://github.com/guineawheek/GregTech/releases/download/v1.8.4-fork-armfix/gregtech-1.12.2-1.8.4.419-COVERFIX.jar"
 - name: "more-cauldrons"
   id: 290545
   title: "More Cauldrons"

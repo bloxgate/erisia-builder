@@ -1333,17 +1333,15 @@
     "gregtechce" = {
       "title" = "GregTech Community Edition";
       "name" = "gregtechce";
-      "id" = 293327;
       "side" = "both";
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "gregtech-1.12.2-1.8.4.419.jar";
-      "encoded" = "gregtech-1.12.2-1.8.4.419.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/gregtechce/files/2731853";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/gregtechce/download/2731853/file";
+      "filename" = "gregtech-1.12.2-1.8.4.419-COVERFIX.jar";
+      "encoded" = "gregtech-1.12.2-1.8.4.419-COVERFIX.jar";
+      "src" = "https://github.com/guineawheek/GregTech/releases/download/v1.8.4-fork-armfix/gregtech-1.12.2-1.8.4.419-COVERFIX.jar";
       "type" = "remote";
-      "md5" = "9427022bcc0eaac9fd7c912e3fe1a282";
+      "md5" = "9e8f01e05559422934d1a83096b23ee9";
     };
     "guide-api" = {
       "title" = "Guide-API";
@@ -2011,13 +2009,13 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "Pam_s HarvestCraft 1.12.2ze.jar";
+      "filename" = "Pam_s HarvestCraft 1.12.2zf.jar";
       "maturity" = "release";
-      "encoded" = "Pam_s%20HarvestCraft%201.12.2ze.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/files/2751199";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/download/2751199/file";
+      "encoded" = "Pam_s%20HarvestCraft%201.12.2zf.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/files/2771840";
+      "src" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft/download/2771840/file";
       "type" = "remote";
-      "md5" = "386f64f19b1b739a7cfa954753aa397e";
+      "md5" = "d49e4034973a38b9a92d1f9939decd70";
     };
     "patchouli" = {
       "title" = "Patchouli";
