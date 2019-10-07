@@ -1579,12 +1579,12 @@
       "required" = true;
       "default" = true;
       "deps" = [];
-      "filename" = "logisticspipes-0.10.2.183.jar";
-      "encoded" = "logisticspipes-0.10.2.183.jar";
-      "page" = "https://www.curseforge.com/minecraft/mc-mods/logistics-pipes/files/2732727";
-      "src" = "https://www.curseforge.com/minecraft/mc-mods/logistics-pipes/download/2732727/file";
+      "filename" = "logisticspipes-0.10.2.210.jar";
+      "encoded" = "logisticspipes-0.10.2.210.jar";
+      "page" = "https://www.curseforge.com/minecraft/mc-mods/logistics-pipes/files/2803157";
+      "src" = "https://media.forgecdn.net/files/2803/157/logisticspipes-0.10.2.210.jar";
       "type" = "remote";
-      "md5" = "0d6f6415450c31736cf0692aa39f959d";
+      "md5" = "468574d6b86339185c524bdcd86f9ebe";
     };
     "lumberjack" = {
       "title" = "Lumberjack";
