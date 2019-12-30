@@ -38,16 +38,13 @@ in
 rec {
 
   packs = {
-    e22-5 = buildPack e22-5;
-    elncognito = buildPack elncognito;
-#    mettle = buildPack mettle;
-    e23 = buildPack e23;
+    bloof = buildPack bloof;
   };
 
-  e23 = {
-    name = "Omnifactory";
-    screenName = "e23";
-    description = "E23: Per Omnis Ad Nullus";
+  bloof = {
+    name = "bloof";
+    screenName = "bloof";
+    description = "E24: Ad Perditio";
     ram = "12000m";
     port = 25523;
     prometheusPort = 1223;
@@ -56,8 +53,6 @@ rec {
       minor = "14.23.5.2838";
     };
     extraDirs = [
-      ./base/e23
-      ./base/omnifactory
     ];
     extraServerDirs = [
       ./base/server
@@ -67,210 +62,9 @@ rec {
       ./base/client
     ];
     manifests = [
-      ./manifest/e23.nix
+      ./manifest/bloof.nix
     ];
     blacklist = [
-    ];
-  };
-  
-  mettle = {
-    name = "mettle";
-    screenName = "mettle";
-    description = "Mettle Alpha";
-    ram = "12000m";
-    port = 25565;
-    prometheusPort = 1234;
-    forge = {
-      major = "1.12.2";
-      minor = "14.23.5.2837";
-    };
-    extraDirs = [
-      ./base/mettle
-    ];
-    extraServerDirs = [
-      ./base/server
-    ];
-    extraClientDirs = [
-      resources_12
-      ./base/client
-    ];
-    manifests = [
-      ./manifest/mettle.nix
-    ];
-    blacklist = [
-    ];
-  };
-
-  e22-5 = {
-    name = "e22.5";
-    screenName = "e225";
-    description = "Undiscovered: Half Episode";
-    ram = "20000m";
-    port = 25567;
-    prometheusPort = 1237;
-    forge = {
-      major = "1.12.2";
-      minor = "14.23.5.2836";
-    };
-    extraDirs = [
-      ./base/undiscovered
-    ];
-    extraServerDirs = [
-      ./base/server
-      ./base/e22.5
-    ];
-    extraClientDirs = [
-      resources_12
-      ./base/client
-    ];
-    manifests = [
-      ./manifest/e22.5.nix
-    ];
-    blacklist = [
-    ];
-  };
-
-  elncognito = {
-    name = "elncognito";
-    screenName = "elncognito";
-    description = "Experimental Eln pack";
-    ram = "10000m";
-    port = 25566;
-    prometheusPort = 1235;
-    forge = {
-      major = "1.7.10";
-      minor = "10.13.4.1614";
-    };
-    extraDirs = [
-      ./base/elncognito
-    ];
-    extraServerDirs = [
-      ./base/server
-    ];
-    extraClientDirs = [
-      resources_7
-      ./base/client
-    ];
-    manifests = [
-      ./manifest/elncognito.nix
-    ];
-    blacklist = [
-    ];
-  };
-
-
-  e22-leisurely = e22base // {
-    screenName = "e22lei";
-    port = 25567;
-    prometheusPort = 1236;
-    description = "Erisia #22 Take it slow server: Ovilis uniusque Pastoris coccineam";
-    extraDirs = [ ./base/e22-lei ] ++ e22base.extraDirs;
-  };
-
-  e22 = e22base // {
-    extraDirs = [ ./base/e22 ] ++ e22base.extraDirs;
-  };
-
-  e22base = {
-    name = "erisia22";
-    screenName = "e22";
-    description = "Erisia #22: Ovilis uniusque Pastoris coccineam";
-    ram = "20000m";
-    port = 25565;
-    prometheusPort = 1234;
-    forge = {
-      major = "1.7.10";
-      minor = "10.13.4.1614";
-    };
-    extraDirs = [
-      ./base/erisia
-      ./third_party/ruins-1.12
-      ./base/unabridged
-    ];
-    extraServerDirs = [
-      ./base/server
-    ];
-    extraClientDirs = [
-      resources_7
-      ./base/client
-      ./base/unabridged/oresources
-      ./base/unabridged/armourersWorkshop
-      ./base/unabridged/TCSchematics
-    ];
-    manifests = [
-      ./manifest/e22.nix
-    ];
-    blacklist = [
-    ];
-  };
-
-  e21 = {
-    name = "erisia21";
-    screenName = "e21";
-    description = "Erisia #21: Armodulu Emmayhus";
-    ram = "20000m";
-    port = 25565;
-    forge = {
-      major = "1.12.2";
-      minor = "14.23.5.2768";  # TODO: Should be able to get this from manifest.json
-    };
-    # These are copied to the client as well as the server.
-    # Suggested use: Configs. Scripts. That sort of thing.
-    # Higher entries override later ones.
-    extraDirs = [
-      ./base/erisia
-      ./third_party/ruins-1.12
-      ./base/mm2
-    ];
-    extraServerDirs = [
-      ./base/server
-    ];
-    extraClientDirs = [
-      resources_12
-      ./base/client
-    ];
-    # These are all the mods we'd like to include in this pack.
-    manifests = [
-      ./manifest/e21.nix
-    ];
-    blacklist = [
-      "drcyanos-lootable-bodies"
-      "silents-gems"
-      "silents-gems-extra-parts"
-      "refined-storage-addons"
-      "refined-storage"
-      "rebornstorage"
-      "silent-lib"
-      "creeperhost-minetogether"  # Fuck that.
-      "fps-reducer"  # Seems to cause a memory leak?
-      "signals"  # Reduces TPS a lot. Wow this is terrible.
-      "aromabackup"  # We use ZFS snapshots, so never want this.
-    ];
-  };
-
-  farmingValley = {
-    name = "incognito";
-    screenName = "incognito";
-    description = "Incognito: Farming Valley (experimental Eln pack)";
-    ram = "2800m";
-    port = 25566;
-    forge = {
-      major = "1.10.2";
-      minor = "12.18.3.2511";
-    };
-    extraDirs = [
-      ./third_party/ruins-1.12
-      ./base/farmingvalley
-    ];
-    extraServerDirs = [
-      ./base/server
-    ];
-    extraClientDirs = [
-      resources_10
-      ./base/client
-    ];
-    manifests = [
-      ./manifest/i20.nix
     ];
   };
 
