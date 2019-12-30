@@ -5,4 +5,4 @@ runCommand "erisia-website" {
     (path: type: type != "symlink")
     ./.;
   buildInputs = [ jekyll ];
-} "cd $src; jekyll build -d $out"
+} "cd $src; jekyll build --safe --trace -d $out"
