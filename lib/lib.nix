@@ -154,9 +154,13 @@ rec {
   fetchMods = mods: let
     fetchMod = info: {
       local = info.src;
-      remote = fetchmd5 {
+      remote = fetchurl {
+        name = builtins.replaceStrings
+          [" " "[" "]" "'"]
+          ["_" "_" "_" "_"]
+          info.filename;
         url = info.src;
-        md5 = info.md5;
+        sha256 = info.sha256;
       };
     }.${info.type};
     modFile = name: mod: {
@@ -188,7 +192,7 @@ rec {
         modId = name;
         name = mod.title or name;
         isDefault = mod.default or true;
-        md5 = mod.md5;
+        # TODO: Add md5 or sha256 from mod.
         modpath = "mods/" + mod.filename;
         modtype = mod.modType or "Regular";
         required = mod.required or true;
@@ -321,9 +325,4 @@ rec {
     preferLocalBuild = true;
     allowSubstitutes = false;
   } // env) cmd;
-
-  /**
-   * A fetchurl fork that still supports md5. :/
-   */
-  fetchmd5 = import <nix/fetchurl.nix>;
 }
