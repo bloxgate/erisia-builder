@@ -41,10 +41,10 @@ rec {
     bloof = buildPack bloof;
   };
 
-  bloof = {
-    name = "bloof";
-    screenName = "bloof";
-    description = "E24: Ad Perditio";
+  e24 = {
+    name = "The Dawn of Cow";
+    screenName = "e24";
+    description = "E24: Aurora Bovialis";
     ram = "12000m";
     port = 25523;
     prometheusPort = 1223;
@@ -53,6 +53,7 @@ rec {
       minor = "14.23.5.2838";
     };
     extraDirs = [
+      ./base/e24
     ];
     extraServerDirs = [
       ./base/server
@@ -62,7 +63,7 @@ rec {
       ./base/client
     ];
     manifests = [
-      ./manifest/bloof.nix
+      ./manifest/the_dawn_of_cow.nix
     ];
     blacklist = [
     ];
