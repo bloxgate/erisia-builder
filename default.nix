@@ -38,7 +38,7 @@ in
 rec {
 
   packs = {
-    bloof = buildPack bloof;
+    e24 = buildPack e24;
   };
 
   e24 = {
