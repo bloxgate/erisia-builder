@@ -42,7 +42,7 @@ rec {
   };
 
   e24 = {
-    name = "The Dawn of Cow";
+    name = "TheDawnofCow";
     screenName = "e24";
     description = "E24: Aurora Bovialis";
     ram = "12000m";
