@@ -9,6 +9,7 @@ mods:
 - name: 'apotheosis'
 - name: 'appleskin'
 - name: 'applied-energistics-2'
+  maturity: beta
 - name: 'arcane-archives'
 - name: 'architecturecraft-tridev'
 - name: 'aroma1997core'
@@ -21,6 +22,7 @@ mods:
 - name: 'bdlib'
 - name: 'bed-patch'
 - name: 'better-builders-wands'
+  maturity: beta
 - name: 'betterfps'
 - name: 'binnies-mods'
 - name: 'biomes-o-plenty'
@@ -201,8 +203,11 @@ mods:
 - name: 'tetra'
 - name: 'the-one-probe'
 - name: 'thermal-dynamics'
+  maturity: beta
 - name: 'thermal-expansion'
+  maturity: beta
 - name: 'thermal-foundation'
+  maturity: beta
 - name: 'tipthescales'
 - name: 'tis-3d'
 - name: 'top-addons'
@@ -212,6 +217,7 @@ mods:
 - name: 'wanionlib'
 - name: 'waystones'
 - name: 'wireless-crafting-terminal'
+  maturity: beta
 - name: 'wither-skeleton-tweaks'
 - name: 'xnet'
 - name: 'xtones'

@@ -50,7 +50,7 @@ rec {
     prometheusPort = 1223;
     forge = {
       major = "1.12.2";
-      minor = "14.23.5.2838";
+      minor = "14.23.5.2847";
     };
     extraDirs = [
       ./base/e24
