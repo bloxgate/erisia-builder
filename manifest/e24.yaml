@@ -1,0 +1,5 @@
+version: '1.12.2'
+imports:
+  - 'the_dawn_of_cow.yaml'
+  - 'server_tools_1_12.yaml'
+mods: []
