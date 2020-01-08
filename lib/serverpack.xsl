@@ -44,7 +44,7 @@
                 </xsl:attribute>
                 <xsl:value-of select="attrs/attr[@name='required']/bool/@value" />
               </Required>
-              <MD5><xsl:value-of select="attrs/attr[@name='md5']/string/@value" /></MD5>
+<!--              <MD5><xsl:value-of select="attrs/attr[@name='md5']/string/@value" /></MD5>-->
               <ModType><xsl:value-of select="attrs/attr[@name='modtype']/string/@value" /></ModType>
               <ModPath><xsl:value-of select="attrs/attr[@name='modpath']/string/@value" /></ModPath>
               <Size><xsl:value-of select="attrs/attr[@name='size']/int/@value" /></Size>
@@ -60,7 +60,7 @@
               </xsl:attribute>
               <URL><xsl:value-of select="attrs/attr[@name='url']/string/@value" /></URL>
               <Required>true</Required>
-              <MD5><xsl:value-of select="attrs/attr[@name='md5']/string/@value" /></MD5>
+<!--              <MD5><xsl:value-of select="attrs/attr[@name='md5']/string/@value" /></MD5>-->
               <ModType inRoot="true">Extract</ModType>
             </Module>
           </xsl:for-each>
