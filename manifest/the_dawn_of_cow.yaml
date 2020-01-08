@@ -9,7 +9,6 @@ mods:
 - name: 'apotheosis'
 - name: 'appleskin'
 - name: 'applied-energistics-2'
-  maturity: beta
 - name: 'arcane-archives'
 - name: 'architecturecraft-tridev'
 - name: 'aroma1997core'
@@ -59,6 +58,8 @@ mods:
 - name: 'cosmetic-armor-reworked'
 - name: 'crafttweaker'
 - name: 'custom-main-menu'
+- name: 'custom-stuff-4'
+  id: 266516
 - name: 'cyclops-core'
 - name: 'deathquotes-death-quotes'
 - name: 'deep-mob-learning'
@@ -77,6 +78,7 @@ mods:
 - name: 'exchangers'
 - name: 'fancy-lamps'
 - name: 'farming-for-blockheads'
+- name: 'farseek'
 - name: 'fast-leaf-decay'
 - name: 'faster-ladder-climbing'
 - name: 'fastworkbench'
@@ -203,11 +205,8 @@ mods:
 - name: 'tetra'
 - name: 'the-one-probe'
 - name: 'thermal-dynamics'
-  maturity: beta
 - name: 'thermal-expansion'
-  maturity: beta
 - name: 'thermal-foundation'
-  maturity: beta
 - name: 'tipthescales'
 - name: 'tis-3d'
 - name: 'top-addons'
@@ -217,7 +216,6 @@ mods:
 - name: 'wanionlib'
 - name: 'waystones'
 - name: 'wireless-crafting-terminal'
-  maturity: beta
 - name: 'wither-skeleton-tweaks'
 - name: 'xnet'
 - name: 'xtones'
