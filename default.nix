@@ -63,7 +63,7 @@ rec {
       ./base/client
     ];
     manifests = [
-      ./manifest/the_dawn_of_cow.nix
+      ./manifest/e24.nix
     ];
     blacklist = [
     ];
