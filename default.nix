@@ -54,6 +54,7 @@ rec {
     };
     extraDirs = [
       ./base/e24
+      ./base/erisia
     ];
     extraServerDirs = [
       ./base/server
