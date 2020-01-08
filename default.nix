@@ -46,7 +46,7 @@ rec {
     screenName = "e24";
     description = "E24: Aurora Bovialis";
     ram = "12000m";
-    port = 25523;
+    port = 25565;
     prometheusPort = 1223;
     forge = {
       major = "1.12.2";
