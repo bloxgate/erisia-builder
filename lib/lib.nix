@@ -62,6 +62,7 @@ rec {
       value = rec {
         zipDir = mkZipDir name "${clientConfigDir}/${name}";
         md5 = builtins.readFile "${zipDir}/${name}.md5";
+        size = import "${zipDir}/${name}.size";
       };
     }) (builtins.attrNames (builtins.readDir clientConfigDir)));
 
@@ -187,6 +188,7 @@ rec {
         configId = "config-" + name;
         url = packUrlBase + "configs/" + urlencode name + ".zip";
         md5 = config.md5;
+        size = config.size;
       }) pack.clientConfigs;
       mods = lib.mapAttrs (name: mod: {
         modId = name;
@@ -278,6 +280,7 @@ rec {
       xargs -0 zip -X --latest-time $out/${name}.zip
     md5=$(md5sum $out/${name}.zip | awk '{print $1}')
     echo -n $md5 > $out/${name}.md5
+    stat -L -c %s $out/${name}.zip > $out/${name}.size
   '';
 
   /**
@@ -306,15 +309,6 @@ rec {
   } ''
     echo -e "import sys, urllib as ul\nsys.stdout.write(ul.pathname2url(sys.stdin.read()))" > program
     python program < $textPath > $out
-  '');
-
-  /**
-   * Gets the size of a file.
-   */
-  fileSize = file: import (runLocally "size" {
-    inherit file;
-  } ''
-    stat -L -c %s "$file" > $out
   '');
 
   /**

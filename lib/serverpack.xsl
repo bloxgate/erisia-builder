@@ -60,6 +60,7 @@
               <URL><xsl:value-of select="attrs/attr[@name='url']/string/@value" /></URL>
               <Required>true</Required>
               <MD5><xsl:value-of select="attrs/attr[@name='md5']/string/@value" /></MD5>
+              <Size><xsl:value-of select="attrs/attr[@name='size']/int/@value" /></Size>
               <ModType inRoot="true">Extract</ModType>
             </Module>
           </xsl:for-each>
