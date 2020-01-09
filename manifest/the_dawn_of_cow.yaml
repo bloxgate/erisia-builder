@@ -1,6 +1,7 @@
 version: '1.12.2'
 imports: []
 mods:
+- name: 'recurrent-complex'
 - name: 'climatic-biomes'
 - name: 'actually-additions'
 - name: 'actually-baubles'
