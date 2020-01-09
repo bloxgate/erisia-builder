@@ -197,8 +197,7 @@ rec {
         modtype = mod.modType or "Regular";
         required = mod.required or true;
         side = mod.side or "BOTH";
-        # This slows down the build, and isn't currently useful due to an MCUpdater bug.
-        # size = fileSize (pack.clientModsDir + "/" + mod.filename);
+        size = mod.size;
         url = packUrlBase + "mods/" + mod.encoded;
       }) pack.clientMods;
     }; in revless // {
