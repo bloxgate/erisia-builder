@@ -152,7 +152,7 @@ rec {
    * Returns a derivation bundling all the given mods in a directory.
    */
   fetchMods = mods: let
-    fetchMod = info: {
+    fetchMod = info: rec {
       local = info.src;
       remote = fetchurl {
         name = builtins.replaceStrings
@@ -192,7 +192,7 @@ rec {
         modId = name;
         name = mod.title or name;
         isDefault = mod.default or true;
-        # TODO: Add md5 or sha256 from mod.
+        md5 = mod.md5;
         modpath = "mods/" + mod.filename;
         modtype = mod.modType or "Regular";
         required = mod.required or true;
