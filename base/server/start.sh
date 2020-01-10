@@ -128,6 +128,7 @@ fi
 java -d64 -server -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
+  -Dfml.readTimeout=180 \
   -XX:+AggressiveOpts \
   -XX:+UseTransparentHugePages \
   -XX:+UseG1GC \
