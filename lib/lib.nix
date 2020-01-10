@@ -62,6 +62,7 @@ rec {
       value = rec {
         zipDir = mkZipDir name "${clientConfigDir}/${name}";
         md5 = builtins.readFile "${zipDir}/${name}.md5";
+        size = import "${zipDir}/${name}.size";
       };
     }) (builtins.attrNames (builtins.readDir clientConfigDir)));
 
@@ -152,7 +153,7 @@ rec {
    * Returns a derivation bundling all the given mods in a directory.
    */
   fetchMods = mods: let
-    fetchMod = info: {
+    fetchMod = info: rec {
       local = info.src;
       remote = fetchurl {
         name = builtins.replaceStrings
@@ -182,23 +183,23 @@ rec {
       serverDesc = pack.description or name;
       serverAddress = hostname + ":" + toString pack.port;
       minecraftVersion = pack.forge.major;
-      forgeUrl = "https://files.mcupdater.com/example/forge.php?mc=${pack.forge.major}&forge=${pack.forge.minor}";
+      forgeVersion = "${pack.forge.major}-${pack.forge.minor}";
       configs = lib.mapAttrs (name: config: {
         configId = "config-" + name;
         url = packUrlBase + "configs/" + urlencode name + ".zip";
         md5 = config.md5;
+        size = config.size;
       }) pack.clientConfigs;
       mods = lib.mapAttrs (name: mod: {
         modId = name;
         name = mod.title or name;
         isDefault = mod.default or true;
-        # TODO: Add md5 or sha256 from mod.
+        md5 = mod.md5;
         modpath = "mods/" + mod.filename;
         modtype = mod.modType or "Regular";
         required = mod.required or true;
         side = mod.side or "BOTH";
-        # This slows down the build, and isn't currently useful due to an MCUpdater bug.
-        # size = fileSize (pack.clientModsDir + "/" + mod.filename);
+        size = mod.size;
         url = packUrlBase + "mods/" + mod.encoded;
       }) pack.clientMods;
     }; in revless // {
@@ -279,6 +280,7 @@ rec {
       xargs -0 zip -X --latest-time $out/${name}.zip
     md5=$(md5sum $out/${name}.zip | awk '{print $1}')
     echo -n $md5 > $out/${name}.md5
+    stat -L -c %s $out/${name}.zip > $out/${name}.size
   '';
 
   /**
@@ -307,15 +309,6 @@ rec {
   } ''
     echo -e "import sys, urllib as ul\nsys.stdout.write(ul.pathname2url(sys.stdin.read()))" > program
     python program < $textPath > $out
-  '');
-
-  /**
-   * Gets the size of a file.
-   */
-  fileSize = file: import (runLocally "size" {
-    inherit file;
-  } ''
-    stat -L -c %s "$file" > $out
   '');
 
   /**

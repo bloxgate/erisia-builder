@@ -20,12 +20,11 @@
           <xsl:attribute name='revision'>
             <xsl:value-of select="attr[@name='revision']/string/@value" />
           </xsl:attribute>
-          <Import>
-          <xsl:attribute name='url'>
-            <xsl:value-of select="attr[@name='forgeUrl']/string/@value" />
-          </xsl:attribute>
-          forge
-          </Import>
+          <Loader type='Forge' loadOrder='0'>
+            <xsl:attribute name='version'>
+              <xsl:value-of select="attr[@name='forgeVersion']/string/@value" />
+            </xsl:attribute>
+          </Loader>
           <xsl:for-each select="attr[@name='mods']/attrs/attr">
             <Module>
               <xsl:attribute name='id'>
@@ -61,6 +60,7 @@
               <URL><xsl:value-of select="attrs/attr[@name='url']/string/@value" /></URL>
               <Required>true</Required>
               <MD5><xsl:value-of select="attrs/attr[@name='md5']/string/@value" /></MD5>
+              <Size><xsl:value-of select="attrs/attr[@name='size']/int/@value" /></Size>
               <ModType inRoot="true">Extract</ModType>
             </Module>
           </xsl:for-each>

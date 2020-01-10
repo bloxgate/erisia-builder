@@ -20,6 +20,7 @@ mods:
   required: false
   default: false
 - name: "fastworkbench"
+- name: chunkpregenerator
 
 # client
 - name: 'dynamic-surroundings'
