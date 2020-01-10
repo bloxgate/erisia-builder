@@ -43,7 +43,6 @@ mods:
 - name: 'chest-transporter'
 - name: 'chisel'
 - name: 'chisels-bits'
-- name: 'chunkpregenerator'
 - name: 'client-tweaks'
 - name: 'climate-control-geographicraft'
 - name: 'clipboard'
