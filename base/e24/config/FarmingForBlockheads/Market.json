@@ -75,7 +75,16 @@
 	 "roots:wildwood_sapling": "2*minecraft:emerald",
 	 "silentgems:fluffypuffseeds": "2*minecraft:emerald",
 	 "silentgear:flaxseeds": "2*minecraft:emerald",
-	 "immersiveengineering:seed": "2*minecraft:emerald"
+	 "immersiveengineering:seed": "2*minecraft:emerald",
+	 "rustic:aloe_vera": "2*minecraft:emerald",
+	 "rustic:blood_orchid": "2*minecraft:emerald",
+	 "rustic:chamomile": "2*minecraft:emerald",
+	 "rustic:cohosh": "2*minecraft:emerald",
+	 "rustic:deathstalk_mushroom": "2*minecraft:emerald",
+	 "rustic:horsetail": "2*minecraft:emerald",
+	 "rustic:mooncap_mushroom": "2*minecraft:emerald",
+	 "rustic:wind_thistle": "2*minecraft:emerald",
+	 "rustic:cloudsbluff": "2*minecraft:emerald"
 	 
 	 
 
