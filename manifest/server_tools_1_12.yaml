@@ -13,6 +13,7 @@ mods:
   side: "server"
 - name: "prometheus-integration"
   side: "server"
+  id: 254573
 - name: "thump"
   required: false
 - name: "vanillafix"
