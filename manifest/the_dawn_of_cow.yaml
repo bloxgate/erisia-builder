@@ -1,6 +1,8 @@
 version: '1.12.2'
 imports: []
 mods:
+- name: 'helpfixer'
+  side: 'server'
 - name: 'recurrent-complex'
 - name: 'ivtoolkit'
 - name: 'climatic-biomes'
