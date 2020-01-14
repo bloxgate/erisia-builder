@@ -24,7 +24,7 @@ rec {
   buildPack = self@{
     name,
     description ? name,
-    screenName,
+    tmuxName,
     serverName ? name,
     port,
     prometheusPort,
@@ -90,7 +90,7 @@ rec {
     server = symlinkJoin {
       name = name + "-server";
 
-      inherit screenName ram serverName port prometheusPort;
+      inherit tmuxName ram serverName port prometheusPort;
 
       paths = [
         forgeDir

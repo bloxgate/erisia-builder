@@ -43,7 +43,7 @@ rec {
 
   e24 = {
     name = "TheDawnofCow";
-    screenName = "e24";
+    tmuxName = "e24";
     description = "E24: Aurora Bovialis";
     ram = "12000m";
     port = 25565;

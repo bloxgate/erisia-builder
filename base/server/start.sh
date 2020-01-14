@@ -20,14 +20,14 @@ tmux_session() {
 
 
 if [[ "$(tmux_session)" =~ "no server running on" ]]; then
-    echo "Expected to run inside a tmux session named @screenName@."
+    echo "Expected to run inside a tmux session named @tmuxName@."
     if [[ -z ${FORCE:-} ]]; then
         echo "Press enter if you know what you're doing, otherwise ctrl-c. Maintenance scripts will not be run."
         read
     fi
     EXTRAS=0
-  elif [[ "$(tmux_session)" != "@screenName@" ]]; then
-    echo "Expected to run inside a tmux session named @screenName@."
+  elif [[ "$(tmux_session)" != "@tmuxName@" ]]; then
+    echo "Expected to run inside a tmux session named @tmuxName@."
     echo "Actually running in $(tmux_session)"
     echo "Aborting."
     exit 1
