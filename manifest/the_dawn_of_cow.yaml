@@ -1,6 +1,7 @@
 version: '1.12.2'
 imports: []
 mods:
+- name: 'tickprofiler'
 - name: 'helpfixer'
   side: 'server'
 - name: 'recurrent-complex'
