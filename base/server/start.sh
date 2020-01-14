@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p jre8 rsync screen
+#!nix-shell -i bash -p jre8 rsync tmux
 
 set -eu
 
@@ -14,16 +14,21 @@ fixperms() {
     fi
 }
 
-if [[ -z ${STY:-} ]]; then
-    echo "Expected to run inside a screen session named @screenName@."
+tmux_session() {
+  tmux display-message -p '#S' 2>&1
+}
+
+
+if [[ "$(tmux_session)" =~ "no server running on" ]]; then
+    echo "Expected to run inside a tmux session named @screenName@."
     if [[ -z ${FORCE:-} ]]; then
         echo "Press enter if you know what you're doing, otherwise ctrl-c. Maintenance scripts will not be run."
         read
     fi
     EXTRAS=0
-elif [[ ${STY##*.} != @screenName@ ]]; then
-    echo "Expected to run inside a screen session named @screenName@."
-    echo "Actually running in ${STY##*.}."
+  elif [[ "$(tmux_session)" != "@screenName@" ]]; then
+    echo "Expected to run inside a tmux session named @screenName@."
+    echo "Actually running in $(tmux_session)"
     echo "Aborting."
     exit 1
 else
@@ -63,10 +68,7 @@ done
 
 rm -f gc.log
 
-say() {
-  screen -S @screenName@ -p 0 -X stuff  "$@"`echo -ne '\015'`
-}
-
+source scripts.sh
 
 ## Maintenance scripts ##
 dailyRestart() {

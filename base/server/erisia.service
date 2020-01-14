@@ -1,11 +1,13 @@
 [Unit]
 Description=Erisia
+After=network.target
 
 [Service]
+Type=forking
+GuessMainPID=true
 WorkingDirectory=/home/minecraft/erisia
-ExecStartPre=/run/current-system/sw/bin/rm -f screenlog.*
-ExecStart=/run/current-system/sw/bin/screen -D -m -S @screenName@ -U -L
-ExecStartPost=/home/minecraft/erisia/init-screen.sh
+ExecStart=/run/current-system/sw/bin/tmux -S /run/user/1018/tmux-1018/default new-session -s @screenName@ -d
+ExecStartPost=/run/current-system/sw/bin/tmux -S /run/user/1018/tmux-1018/default send-keys -t @screenName@.0 './update-and-loop.sh' ENTER
 
 [Install]
 WantedBy=default.target

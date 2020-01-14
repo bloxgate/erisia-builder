@@ -1,16 +1,11 @@
 #! /run/current-system/sw/bin/nix-shell
-#! nix-shell -i bash -p screen curl coreutils
+#! nix-shell -i bash -p curl coreutils tmux
 
 set -eu -o pipefail
 
 cd "$(dirname "$(readlink -f "$0")")"
 
 source ./scripts.sh
-
-#say 'difficulty 0'
-sleep 5
-#say 'difficulty 3'
-sleep 10
 
 maybestop() {
   if [[ $(players) = 0 ]]; then

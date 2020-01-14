@@ -1,5 +1,5 @@
 say() {
-  screen -S @screenName@ -p 0 -X stuff  "$@"`echo -ne '\015'`
+  tmux send-keys -t @screenName@.0 "$@" ENTER
 }
 
 players() {
