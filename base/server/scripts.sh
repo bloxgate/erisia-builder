@@ -1,5 +1,5 @@
 say() {
-  tmux send-keys -t @tmuxName@.0 "$@" ENTER
+  tmux send-keys -t @tmuxName@:0 "$@" ENTER
 }
 
 players() {
