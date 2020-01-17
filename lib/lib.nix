@@ -95,6 +95,7 @@ rec {
       paths = [
         forgeDir
         (wrapDir "mods" serverModsDir)
+        (callPackage ../tools/control {})
       ] ++ extraServerDirs ++ extraDirs;
 
       postBuild = ''
