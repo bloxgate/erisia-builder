@@ -25,6 +25,7 @@ enum Command {
         #[structopt(short, default_value = "180")]
         time: u64,
     },
+    Check {},
 }
 
 // Server toolbox
@@ -153,6 +154,11 @@ impl Server {
         }
         return Ok(());
     }
+
+    pub fn check(&self) -> Result<()> {
+        // Presently a no-op. If we got this far then the server is running.
+        Ok(())
+    }
 }
 
 #[tokio::main]
@@ -164,7 +170,7 @@ async fn main() -> Result<()> {
     )?;
 
     match opts.cmd {
-        Command::Stop { time } => server.stop(Duration::from_secs(time)),
+        Command::Stop { time } => server.stop(Duration::from_secs(time)).await,
+        Command::Check {} => server.check(),
     }
-    .await
 }
