@@ -1,6 +1,8 @@
 use reqwest;
-use structopt::StructOpt;
+use std::process;
 use std::time::Duration;
+use structopt::StructOpt;
+use tokio::time::delay_for;
 
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error + Send + Sync>>;
 
@@ -29,15 +31,17 @@ enum Command {
 struct Server {
     tmux_id: String,
     prometheus_port: u16,
+    pid: u64,
 }
 
 impl Server {
     pub fn new(tmux_id: String, prometheus_port: u16) -> Result<Server> {
-        let server = Server {
+        let mut server = Server {
             tmux_id: tmux_id,
             prometheus_port: prometheus_port,
+            pid: 0,
         };
-        let _ = server.serverpid()?;
+        server.pid = server.get_pid()?;
         Ok(server)
     }
 
@@ -80,7 +84,7 @@ impl Server {
         Ok(())
     }
 
-    pub fn serverpid(&self) -> Result<u64> {
+    fn get_pid(&self) -> Result<u64> {
         let err = Err("server.pid does not match a running Erisia instance".into());
 
         let pid = std::fs::read_to_string("server.pid")?.trim().parse()?;
@@ -122,16 +126,32 @@ impl Server {
                 ))?;
             }
 
-            tokio::time::delay_for(second).await;
+            delay_for(second).await;
             elapsed += second;
         }
 
+        println!("Stopping {}", self.tmux_id);
         self.send("save-on")?;
         self.send("save-all")?;
-        tokio::time::delay_for(second * 5).await;
+        delay_for(second * 5).await;
         self.send("stop")?;
 
-        Ok(())
+        // Wait until it's stopped.
+        elapsed = second * 0;
+        while let Ok(current_pid) = self.get_pid() {
+            if current_pid != self.pid {
+                break;
+            }
+            delay_for(second).await;
+            elapsed += second;
+            if elapsed >= second * 20 {
+                println!("Server did not stop. Attempting to kill.");
+                println!("Please manually confirm the state if this fails.");
+                process::Command::new("kill").args(&[format!("{}", self.pid)]).output()?;
+                break;
+            }
+        }
+        return Ok(());
     }
 }
 
