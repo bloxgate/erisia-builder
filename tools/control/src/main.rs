@@ -1,6 +1,5 @@
 use reqwest;
 use structopt::StructOpt;
-
 use std::time::Duration;
 
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error + Send + Sync>>;
@@ -33,6 +32,15 @@ struct Server {
 }
 
 impl Server {
+    pub fn new(tmux_id: String, prometheus_port: u16) -> Result<Server> {
+        let server = Server {
+            tmux_id: tmux_id,
+            prometheus_port: prometheus_port,
+        };
+        let _ = server.serverpid()?;
+        Ok(server)
+    }
+
     async fn get(&self, metric: &str) -> Result<f64> {
         let body: String = reqwest::get(&format!(
             "http://localhost:{}/metrics",
@@ -72,6 +80,28 @@ impl Server {
         Ok(())
     }
 
+    pub fn serverpid(&self) -> Result<u64> {
+        let err = Err("server.pid does not match a running Erisia instance".into());
+
+        let pid = std::fs::read_to_string("server.pid")?.trim().parse()?;
+        // Confirm it's running, and isn't a pun.
+        let procslurp = std::fs::read_to_string(&format!(
+                "/proc/{}/cmdline", pid))?;
+        let cmdline: Vec<&str> = procslurp.split('\0').collect();
+        if let Some(bash_param) = cmdline.get(1) {
+            let actual = std::path::PathBuf::from(bash_param);
+            let mut expected = std::env::current_dir()?;
+            expected.push("server/start.sh");
+
+            if expected != actual {
+                return err;
+            }
+            return Ok(pid);
+        } else {
+            return err;
+        }
+    }
+
     // Stop command
     pub async fn stop(&mut self, grace_period: Duration) -> Result<()> {
         let second = Duration::from_secs(1);
@@ -108,10 +138,10 @@ impl Server {
 #[tokio::main]
 async fn main() -> Result<()> {
     let opts: Opts = Opts::from_args();
-    let mut server = Server {
-        tmux_id: opts.server.to_owned(),
-        prometheus_port: opts.port,
-    };
+    let mut server = Server::new(
+        opts.server.to_owned(),
+        opts.port,
+    )?;
 
     match opts.cmd {
         Command::Stop { time } => server.stop(Duration::from_secs(time)),
