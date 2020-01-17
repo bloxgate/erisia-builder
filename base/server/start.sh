@@ -127,6 +127,8 @@ if [[ -e ~/web/deploy.sh ]]; then
     ~/web/deploy.sh
 fi
 
+echo $$ > server.pid
+
 java -d64 -server -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
