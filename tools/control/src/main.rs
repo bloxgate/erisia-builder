@@ -1,5 +1,4 @@
-use hyper::body::HttpBody as _;
-use hyper::Client;
+use reqwest;
 use structopt::StructOpt;
 
 use std::time::Duration;
@@ -33,23 +32,14 @@ struct Server {
     prometheus_port: u16,
 }
 
-async fn http_get(url: &str) -> Result<String> {
-    let client = Client::new();
-    let mut response = client.get(url.parse()?).await?;
-    let mut body = String::new();
-    while let Some(chunk) = response.body_mut().data().await {
-        let uc = String::from_utf8(chunk?.to_vec());
-        body.push_str(&uc?);
-    }
-    Ok(body)
-}
-
 impl Server {
     async fn get(&self, metric: &str) -> Result<f64> {
-        let body: String = http_get(&format!(
+        let body: String = reqwest::get(&format!(
             "http://localhost:{}/metrics",
             self.prometheus_port
         ))
+        .await?
+        .text()
         .await?;
 
         for line in body.split_terminator('\n') {

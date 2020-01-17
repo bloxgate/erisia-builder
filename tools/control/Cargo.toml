@@ -8,8 +8,12 @@ edition = "2018"
 
 [dependencies]
 structopt = "0.3.7"
-hyper = "0.13"
 
 [dependencies.tokio]
 version = "0.2"
 features = ["full"]
+
+[dependencies.reqwest]
+version = "0.10"
+default-features = false
+features = ["rustls-tls"]
