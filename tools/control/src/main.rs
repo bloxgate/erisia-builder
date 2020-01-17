@@ -59,7 +59,7 @@ impl Server {
         }
     }
 
-    fn send(&self, command: &str) -> Result<()> {
+    pub fn send(&mut self, command: &str) -> Result<()> {
         std::process::Command::new("tmux")
             .args(&[
                 "send-keys",
@@ -71,50 +71,50 @@ impl Server {
             .output()?;
         Ok(())
     }
-}
 
-// Stop command
-async fn stop(server: &Server, grace_period: Duration) -> Result<()> {
-    let second = Duration::from_secs(1);
-    let mut elapsed = Duration::from_secs(0);
+    // Stop command
+    pub async fn stop(&mut self, grace_period: Duration) -> Result<()> {
+        let second = Duration::from_secs(1);
+        let mut elapsed = Duration::from_secs(0);
 
-    while elapsed < grace_period {
-        let players = server.players().await?;
+        while elapsed < grace_period {
+            let players = self.players().await?;
 
-        if players == 0 {
-            break;
+            if players == 0 {
+                break;
+            }
+
+            if elapsed.as_secs() % 60 == 0 {
+                println!("{} players on server", players);
+                self.send(&format!(
+                    "say Server restarting in {} minutes, or when empty",
+                    (grace_period - elapsed).as_secs() / 60
+                ))?;
+            }
+
+            tokio::time::delay_for(second).await;
+            elapsed += second;
         }
 
-        if elapsed.as_secs() % 60 == 0 {
-            println!("{} players on server", players);
-            server.send(&format!(
-                "say Server restarting in {} minutes, or when empty",
-                (grace_period - elapsed).as_secs() / 60
-            ))?;
-        }
+        self.send("save-on")?;
+        self.send("save-all")?;
+        tokio::time::delay_for(second * 5).await;
+        self.send("stop")?;
 
-        tokio::time::delay_for(second).await;
-        elapsed += second;
+        Ok(())
     }
-
-    server.send("save-on")?;
-    server.send("save-all")?;
-    tokio::time::delay_for(second * 5).await;
-    server.send("stop")?;
-
-    Ok(())
 }
 
 #[tokio::main]
 async fn main() -> Result<()> {
     let opts: Opts = Opts::from_args();
-    let server = Server {
+    let mut server = Server {
         tmux_id: opts.server.to_owned(),
         prometheus_port: opts.port,
     };
 
     match opts.cmd {
-        Command::Stop { time } => stop(&server, Duration::from_secs(time)),
+        Command::Stop { time } => server.stop(Duration::from_secs(time)),
     }
     .await
 }
