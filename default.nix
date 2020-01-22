@@ -58,6 +58,7 @@ rec {
     ];
     extraServerDirs = [
       ./base/server
+      ./base/e24-server
     ];
     extraClientDirs = [
       resources_12

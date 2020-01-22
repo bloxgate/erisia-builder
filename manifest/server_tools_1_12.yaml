@@ -9,8 +9,8 @@ mods:
 - name: "worldedit"
 - name: "signal-catcher"
   side: "server"
-- name: "dynmapforge"
-  side: "server"
+#- name: "dynmapforge"
+#  side: "server"
 - name: "prometheus-integration"
   side: "server"
   id: 254573
