@@ -1,7 +1,7 @@
 #!/usr/bin/env nix-shell
 #!nix-shell -i bash -p jre8 rsync tmux
 
-set -eu
+set -eum
 
 BASE=$(dirname $0)
 JAR='forge/forge-*-universal.jar'
@@ -143,4 +143,7 @@ java -d64 -server -Xmx@ram@ \
   -XX:+UseAdaptiveGCBoundary \
   -XX:+StartAttachListener \
   -XX:+PrintGC -XX:+PrintGCTimeStamps -Xloggc:gc.log \
-  -jar $JAR nogui
+  -jar $JAR nogui &
+
+echo $! > server-jvm.pid
+fg
