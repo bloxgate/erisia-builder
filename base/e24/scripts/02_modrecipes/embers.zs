@@ -31,7 +31,6 @@ var disabledItems as IIngredient[] = [
  <embers:shovel_lead>, //Embers Rekindled:Lead Shovel
  <embers:nugget_aluminum>, //Embers Rekindled:Aluminium Nugget
  <embers:axe_tin>, //Embers Rekindled:Tin Axe
- <embers:item_transfer>, //Embers Rekindled:Item Transfer
  <embers:plate_silver>, //Embers Rekindled:Silver Plate
  <embers:nugget_electrum>, //Embers Rekindled:Electrum Nugget
  <embers:block_silver>, //Embers Rekindled:Silver Block
@@ -45,9 +44,7 @@ var disabledItems as IIngredient[] = [
  <embers:hoe_aluminum>, //Embers Rekindled:Aluminium Hoe
  <embers:plate_bronze>, //Embers Rekindled:Bronze Plate
  <embers:pickaxe_electrum>, //Embers Rekindled:Electrum Pickaxe
- <embers:mechanical_pump>, //Embers Rekindled:Mechanical Pump
  <embers:plate_electrum>, //Embers Rekindled:Electrum Plate
- <embers:item_pipe>, //Embers Rekindled:Item Pipe
  <embers:axe_bronze>, //Embers Rekindled:Bronze Axe
  <embers:pickaxe_bronze>, //Embers Rekindled:Bronze Pickaxe
  <embers:ore_copper>, //Embers Rekindled:Copper Ore
