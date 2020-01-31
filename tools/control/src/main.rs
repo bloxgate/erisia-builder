@@ -1,8 +1,8 @@
 use reqwest;
 use std::process;
-use std::time::Duration;
 use structopt::StructOpt;
-use tokio::time::delay_for;
+use tokio::time::{Duration,Instant,DelayQueue,delay_for};
+use tokio::stream::StreamExt;
 
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error + Send + Sync>>;
 
@@ -109,26 +109,43 @@ impl Server {
 
     // Stop command
     pub async fn stop(&mut self, grace_period: Duration) -> Result<()> {
+        // Build a queue of restart warnings to be emitted in the future.
+        let start = Instant::now();
         let second = Duration::from_secs(1);
-        let mut elapsed = Duration::from_secs(0);
+        let minute = Duration::from_secs(60);
+        let mut warnings: DelayQueue<String> = DelayQueue::new();
+        let mut remaining = Duration::from_secs(0);
+        // These are inserted in reverse order from when they're emitted, starting at the end.
+        while remaining < grace_period {
+            if remaining < second * 30 {
+                remaining += second * 10;
+            } else if remaining < minute {
+                remaining = minute;
+            } else if remaining <= minute * 10 {
+                remaining += minute;
+            } else {
+                remaining += minute * 10;
+            }
+            if remaining > grace_period {
+                remaining = grace_period;
+            }
+            warnings.insert_at(
+                format!("say Server restarting in {}m {}s, or when empty",
+                        remaining.as_secs() / 60, remaining.as_secs() % 60),
+                start + grace_period - remaining);
+        }
 
-        while elapsed < grace_period {
+        while start.elapsed() < grace_period {
             let players = self.players().await?;
-
             if players == 0 {
                 break;
             }
 
-            if elapsed.as_secs() % 60 == 0 {
-                println!("{} players on server", players);
-                self.send(&format!(
-                    "say Server restarting in {} minutes, or when empty",
-                    (grace_period - elapsed).as_secs() / 60
-                ))?;
+            if let Some(warning) = warnings.try_next().await? {
+                self.send(warning.get_ref())?;
             }
 
             delay_for(second).await;
-            elapsed += second;
         }
 
         println!("Stopping {}", self.tmux_id);
@@ -138,14 +155,13 @@ impl Server {
         self.send("stop")?;
 
         // Wait until it's stopped.
-        elapsed = second * 0;
+        let stopping = Instant::now();
         while let Ok(current_pid) = self.get_pid() {
             if current_pid != self.pid {
                 break;
             }
             delay_for(second).await;
-            elapsed += second;
-            if elapsed >= second * 20 {
+            if stopping.elapsed() >= second * 20 {
                 println!("Server did not stop. Attempting to kill.");
                 println!("Please manually confirm the state if this fails.");
                 process::Command::new("kill").args(&[format!("{}", self.pid)]).output()?;
