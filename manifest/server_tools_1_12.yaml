@@ -5,6 +5,8 @@ mods:
 
 # Attempt to fix login timeouts
 - name: "randompatches"
+  required: false
+  default: true
 
 # Server management type mods:
 - name: "chunkpurge"
