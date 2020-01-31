@@ -3,6 +3,9 @@ imports: []
 mods:
 - name: streams
 
+# Attempt to fix login timeouts
+- name: "randompatches"
+
 # Server management type mods:
 - name: "chunkpurge"
   side: "server"
