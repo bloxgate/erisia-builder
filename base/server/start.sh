@@ -144,6 +144,9 @@ java -d64 -server -Xmx@ram@ \
   -XX:+UseAdaptiveGCBoundary \
   -XX:+StartAttachListener \
   -XX:+PrintGC -XX:+PrintGCTimeStamps -Xloggc:gc.log \
+  -XX:SymbolTableSize=1M \
+  -XX:StringTableSize=1M \
+  -XX:+PrintStringTableStatistics \
   -jar $JAR nogui &
 
 echo $! > server-jvm.pid
