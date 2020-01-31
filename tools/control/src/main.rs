@@ -121,7 +121,7 @@ impl Server {
                 remaining += second * 10;
             } else if remaining < minute {
                 remaining = minute;
-            } else if remaining <= minute * 10 {
+            } else if remaining < minute * 10 {
                 remaining += minute;
             } else {
                 remaining += minute * 10;
@@ -129,10 +129,18 @@ impl Server {
             if remaining > grace_period {
                 remaining = grace_period;
             }
-            warnings.insert_at(
-                format!("say Server restarting in {}m {}s, or when empty",
-                        remaining.as_secs() / 60, remaining.as_secs() % 60),
-                start + grace_period - remaining);
+            let time = start + grace_period - remaining;
+            if remaining >= minute {
+                warnings.insert_at(
+                    format!("say Server restarting in {} minutes, or when empty",
+                            remaining.as_secs() / 60),
+                            time);
+            } else {
+                warnings.insert_at(
+                    format!("say Server restarting in {} seconds, or when empty",
+                            remaining.as_secs()),
+                            time);
+            }
         }
 
         while start.elapsed() < grace_period {
