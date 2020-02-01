@@ -1,8 +1,8 @@
 use reqwest;
 use std::process;
 use structopt::StructOpt;
-use tokio::time::{Duration,Instant,DelayQueue,delay_for};
 use tokio::stream::StreamExt;
+use tokio::time::{Duration,Instant,DelayQueue,delay_for};
 
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error + Send + Sync>>;
 
@@ -149,11 +149,12 @@ impl Server {
                 break;
             }
 
-            if let Some(warning) = warnings.try_next().await? {
-                self.send(warning.get_ref())?;
+            tokio::select! {
+                Some(warning) = warnings.next() => {
+                    self.send(warning.unwrap().get_ref())?;
+                }
+                _ = delay_for(second) => { }
             }
-
-            delay_for(second).await;
         }
 
         println!("Stopping {}", self.tmux_id);
