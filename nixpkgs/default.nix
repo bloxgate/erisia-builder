@@ -1,8 +1,8 @@
 import (builtins.fetchTarball {
   # Descriptive name to make the store path easier to identify
-  name = "nixos-stable-19.09";
-  # Commit hash for nixos-19.09 as of 2020-02-08
-  url = https://github.com/nixos/nixpkgs/archive/cae7840b7639c56ad619cb8fb8f921298ae385b7.tar.gz;
+  name = "nixos-minecraft";
+  # Commit hash for nixos-unstable as of 2020-02-05 (or so)
+  url = https://github.com/nixos/nixpkgs/archive/a21c2fa3ea2b88e698db6fc151d9c7259ae14d96.tar.gz;
   # Hash obtained using `nix-prefetch-url --unpack <url>`
-  sha256 = "1mr5bp3vnag9nihcz1l0hdvm2n8n7lm84qh3cynbp00rcpwy0mhc";
+  sha256 = "1z3kxlbz6bqx1dlagcazg04vhk67r8byihzf959c3m0laf2a1w7y";
 })
