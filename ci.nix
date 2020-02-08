@@ -8,4 +8,7 @@ in {
   # The ServerPack recursively includes everything used client-side.
   # Let's build the website, too.
   inherit (builder) ServerPack web;
+
+  # Build the control tool separately, just because.
+  control = callPackage tools/control {};
 }
