@@ -1,8 +1,7 @@
-with import <nixpkgs> {};
+with import ./nixpkgs {};
 with stdenv;
 
-with import ./lib/lib.nix;
-with import ./lib/sprocket;
+with callPackage ./lib/lib.nix {};
 
 let resources_12 = runLocally "resources-1.12" {
     } ''
@@ -21,6 +20,7 @@ let resources_12 = runLocally "resources-1.12" {
      mkdir -p $out/resourcepacks
      #ln -s $erisia $out/resourcepacks/erisia-pack.zip
    '';
+   sprocket = callPackage ./lib/sprocket {};
 in
 
 rec {

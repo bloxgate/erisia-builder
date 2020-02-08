@@ -1,5 +1,4 @@
-with import <nixpkgs> {};
-with import ../lib.nix;
+{ fetchFromGitHub, runLocally, python }:
 
 rec {
   sprocket = fetchFromGitHub {
