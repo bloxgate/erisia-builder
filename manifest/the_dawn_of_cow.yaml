@@ -1,6 +1,8 @@
 version: '1.12.2'
 imports: []
 mods:
+- name: streams
+- name: 'farseek'
 - name: 'onlinepictureframe'
 - name: 'littletiles'
 - name: 'tickprofiler'

@@ -1,0 +1,115 @@
+version: '1.12.2'
+imports:
+  - 'server_tools_1_12.yaml'
+mods:
+# Decorative (worldgen)
+- name: 'biomes-o-plenty'
+- name: 'climate-control-geographicraft'
+#- name: 'climatic-biomes'
+- name: 'recurrent-complex'
+- name: 'yungs-better-caves'
+- name: 'ruins-structure-spawning-system'
+- name: 'cave-root'
+- name: 'streams'
+
+# Decorative (blocks)
+- name: 'architecturecraft-tridev'
+- name: 'blockcraftery'
+- name: 'cathedral'
+- name: 'catwalks-4'
+- name: 'chisel'
+- name: 'comforts'
+- name: 'earthworks'
+- name: 'fancy-lamps'
+- name: 'flat-colored-blocks'
+- name: 'littletiles'
+- name: 'onlinepictureframe'
+- name: 'platforms'
+- name: 'rustic'
+- name: 'rustic-bop-woods'
+
+# Decorative (entities)
+- name: 'mystical-world'
+
+# Decorative (client appearance)
+- name: 'appleskin'
+- name: 'blur'
+
+# Trolling
+- name: 'deathquotes-death-quotes'
+
+# Convenience
+- name: 'dimensionaldoors'
+- name: 'aroma1997s-dimensional-world'
+- name: 'better-builders-wands'
+  maturity: beta
+- name: 'building-gadgets'
+- name: 'cooking-for-blockheads'
+- name: 'farming-for-blockheads'
+- name: 'chest-transporter'
+- name: 'controlling'
+- name: 'clipboard'
+  #- name: 'inventory-tweaks'
+- name: 'journeymap'
+- name: 'initial-inventory'
+- name: 'fast-leaf-decay'
+- name: 'more-overlays'
+- name: 'client-tweaks'
+- name: 'common-capabilities'
+- name: 'not-enough-wands'
+- name: 'natures-compass'
+- name: 'screenshot-to-clipboard'
+- name: 'architect'
+- name: 'hwyla'
+- name: 'wawla-what-are-we-looking-at'
+
+# Inventory management
+- name: 'akashic-tome'
+- name: 'arcane-archives'
+- name: 'storage-drawers'
+- name: 'storage-drawers-extras'
+- name: 'iron-backpacks'
+
+# Gameplay-altering mods
+- name: 'astral-sorcery'
+- name: 'botania'
+- name: 'quark'
+- name: 'charm'
+- name: 'immersive-engineering'
+- name: 'engineers-doors'
+- name: 'immersive-petroleum'
+- name: 'immersiveposts'
+- name: 'tis-3d'
+- name: 'psi'
+
+# Management
+- name: 'ftblib'
+- name: 'ftb-utilities'
+- name: 'discordintegration'
+- name: 'chunkpregenerator'
+
+# Just enough mods
+- name: 'jei-integration'
+- name: 'jei'
+- name: 'just-enough-petroleum'
+- name: 'just-enough-resources-jer'
+
+# Misc. dependencies
+- name: 'autoreglib'    # Needed for botania, akashic
+- name: 'ivtoolkit'     # Needed for RC
+- name: 'aroma1997core' # Needed for Aroma's world
+- name: 'baubles'       # Needed by all baubles
+- name: 'farseek'       # Needed by Streams
+- name: 'bdlib'
+- name: 'bookshelf'
+- name: 'mysticallib'   # Mystical world
+- name: 'shadowfacts-forgelin'
+- name: 'shadowmc'
+
+# Things I might remove.
+- name: 'prefab'
+- name: 'default-options'
+- name: 'ender-storage-1-8'
+- name: 'pams-harvestcraft'
+- name: 'tomb-many-graves-2'
+- name: 'waystones'

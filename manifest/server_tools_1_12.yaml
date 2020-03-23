@@ -1,16 +1,31 @@
+# This file is for mods we want on basically every server.
+
 version: '1.12.2'
 imports: []
 mods:
-- name: streams
+
+# Performance
+- name: 'betterfps'
+- name: 'clumps'
+- name: 'foamfix-optimization-mod'
+- name: 'tickprofiler'
+- name: "chunkpurge"
+  side: "server"
+- name: 'phosphor'
 
 # Attempt to fix login timeouts
 - name: "randompatches"
   required: false
   default: true
 
+# Fix some random bugs
+- name: 'helpfixer'
+  side: 'server'
+- name: 'bed-patch'
+- name: 'netherportalfix'
+- name: 'reauth'
+
 # Server management type mods:
-- name: "chunkpurge"
-  side: "server"
 - name: "worldedit"
 - name: "signal-catcher"
   side: "server"
@@ -19,14 +34,14 @@ mods:
 - name: "prometheus-integration"
   side: "server"
   id: 254573
-- name: "thump"
-  side: "server"
 - name: "vanillafix"
   side: "client"
   required: false
   default: false
 - name: "fastworkbench"
 - name: chunkpregenerator
+- name: 'laggoggles'
+- name: 'morpheus'
 
 # client
 - name: 'dynamic-surroundings'
@@ -49,9 +64,12 @@ mods:
   side: client
   required: false
   default: true
+- name: 'ding'
+  side: 'client'
 - name: "notenoughkeys"
   side: "client"
   required: false
 - name: "fullscreen-windowed-borderless-for-minecraft"
   side: "client"
   required: false
+- name: 'mouse-tweaks'

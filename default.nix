@@ -27,6 +27,7 @@ rec {
 
   packs = {
     e24 = buildPack e24;
+    sv = buildPack sv;
   };
 
   e24 = {
@@ -54,6 +55,35 @@ rec {
     ];
     manifests = [
       ./manifest/e24.nix
+    ];
+    blacklist = [
+    ];
+  };
+
+  sv = {
+    name = "MeteoricDescent";
+    tmuxName = "sv";
+    description = "SV: Meteoric Descent";
+    ram = "12000m";
+    port = 25566;
+    prometheusPort = 1224;
+    forge = {
+      major = "1.12.2";
+      minor = "14.23.5.2847";
+    };
+    extraDirs = [
+      ./base/sv
+      ./base/erisia
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      resources_12
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/meteoric_descent.nix
     ];
     blacklist = [
     ];
