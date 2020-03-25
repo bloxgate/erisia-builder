@@ -26,38 +26,7 @@ in
 rec {
 
   packs = {
-    e24 = buildPack e24;
     sv = buildPack sv;
-  };
-
-  e24 = {
-    name = "TheDawnofCow";
-    tmuxName = "e24";
-    description = "E24: Aurora Bovialis";
-    ram = "12000m";
-    port = 25565;
-    prometheusPort = 1223;
-    forge = {
-      major = "1.12.2";
-      minor = "14.23.5.2847";
-    };
-    extraDirs = [
-      ./base/e24
-      ./base/erisia
-    ];
-    extraServerDirs = [
-      ./base/server
-      ./base/e24-server
-    ];
-    extraClientDirs = [
-      resources_12
-      ./base/client
-    ];
-    manifests = [
-      ./manifest/e24.nix
-    ];
-    blacklist = [
-    ];
   };
 
   sv = {
@@ -65,7 +34,7 @@ rec {
     tmuxName = "sv";
     description = "SV: Meteoric Descent";
     ram = "12000m";
-    port = 25566;
+    port = 25565;
     prometheusPort = 1224;
     forge = {
       major = "1.12.2";
@@ -91,8 +60,8 @@ rec {
 
   ServerPack = buildServerPack rec {
     inherit packs;
-    hostname = "madoka.brage.info";
-    urlBase = "https://madoka.brage.info/pack/";
+    hostname = "173.231.55.228";
+    urlBase = "https://minecraft.sufficientvelocity.com/pack/";
   };
 
   # To use:

@@ -4,7 +4,7 @@
   <xsl:template match='/'>
     <ServerPack version="3.3">
       <xsl:for-each select='/expr/attrs/attr/attrs'>
-        <Server autoConnect="false" mainClass='net.minecraft.launchwrapper.Launch' newsUrl='https://madoka.brage.info/'>
+        <Server autoConnect="false" mainClass='net.minecraft.launchwrapper.Launch' newsUrl='https://minecraft.sufficientvelocity.com/'>
           <xsl:attribute name='version'>
             <xsl:value-of select="attr[@name='minecraftVersion']/string/@value" />
           </xsl:attribute>
