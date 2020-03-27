@@ -39,6 +39,7 @@ mods:
 - name: 'deathquotes-death-quotes'
 
 # Convenience
+- name: 'dynmapforge'
 - name: 'dimensionaldoors'
 - name: 'aroma1997s-dimensional-world'
 - name: 'better-builders-wands'
