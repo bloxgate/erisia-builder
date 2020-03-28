@@ -127,6 +127,9 @@ if [[ -e ~/web/deploy.sh ]]; then
     ~/web/deploy.sh
 fi
 
+gzip -c logs/world.log >> logs/world.log.gz
+rm logs/world.log
+
 echo $$ > server.pid
 
 java -d64 -server -Xmx@ram@ \
