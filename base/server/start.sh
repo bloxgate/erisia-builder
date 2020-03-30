@@ -127,8 +127,10 @@ if [[ -e ~/web/deploy.sh ]]; then
     ~/web/deploy.sh
 fi
 
-gzip -c logs/world.log >> logs/world.log.gz
-rm logs/world.log
+if [[ -e logs/world.log ]]; then
+  gzip -c logs/world.log >> logs/world.log.gz
+  rm logs/world.log
+fi
 
 echo $$ > server.pid
 
