@@ -62,7 +62,6 @@ mods:
 - name: 'not-enough-wands'
 - name: 'natures-compass'
 - name: 'screenshot-to-clipboard'
-- name: 'architect'
 - name: 'hwyla'
 - name: 'wawla-what-are-we-looking-at'
 
