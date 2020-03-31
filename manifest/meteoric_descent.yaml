@@ -85,6 +85,7 @@ mods:
 - name: 'psi'
 - name: 'crafttweaker'
 - name: 'modtweaker'
+- name: 'buildcraft'
 
 # Management
 - name: 'ftblib'
