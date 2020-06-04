@@ -26,42 +26,45 @@ in
 rec {
 
   packs = {
-    sv = buildPack sv;
+    e25 = buildPack e25;
   };
 
-  sv = {
-    name = "MeteoricDescent";
-    tmuxName = "sv";
-    description = "SV: Meteoric Descent";
+
+  e25 = {
+    name = "TheDawnofCow";
+    tmuxName = "e25";
+    description = "E25: Artocarpus integrifolia Et monumentum";
     ram = "12000m";
     port = 25565;
-    prometheusPort = 1224;
+    prometheusPort = 1223;
     forge = {
       major = "1.12.2";
       minor = "14.23.5.2847";
     };
     extraDirs = [
-      ./base/sv
+      ./base/e24
       ./base/erisia
     ];
     extraServerDirs = [
       ./base/server
+      ./base/e24-server
     ];
     extraClientDirs = [
       resources_12
       ./base/client
     ];
     manifests = [
-      ./manifest/meteoric_descent.nix
+      ./manifest/e24.nix
     ];
     blacklist = [
     ];
   };
 
+
   ServerPack = buildServerPack rec {
     inherit packs;
-    hostname = "173.231.55.228";
-    urlBase = "https://minecraft.sufficientvelocity.com/pack/";
+    hostname = "madoka.brage.info";
+    urlBase = "https://madoka.brage.info/pack/";
   };
 
   # To use:
