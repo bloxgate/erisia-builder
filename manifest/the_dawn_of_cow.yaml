@@ -201,7 +201,7 @@ mods:
 - name: 'smart-crafting-table'
 - name: 'snad'
 - name: 'sonar-core'
-- name: 'soot'
+# - name: 'soot'
 - name: 'more-sound-config'
 - name: 'steves-carts-reborn'
 - name: 'storage-drawers'
