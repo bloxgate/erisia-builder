@@ -26,35 +26,34 @@ in
 rec {
 
   packs = {
-    e25 = buildPack e25;
+    e26 = buildPack e26;
   };
 
 
-  e25 = {
-    name = "TheDawnofCow";
-    tmuxName = "e25";
-    description = "E25: Artocarpus integrifolia Et monumentum";
+  e26 = {
+    name = "MCEternal";
+    tmuxName = "e26";
+    description = "E26: Perfodio Fabrico Aeternum";
     ram = "12000m";
     port = 25565;
     prometheusPort = 1223;
     forge = {
       major = "1.12.2";
-      minor = "14.23.5.2847";
+      minor = "14.23.5.2854";
     };
     extraDirs = [
-      ./base/e24
+      ./base/mc-eternal
       ./base/erisia
     ];
     extraServerDirs = [
       ./base/server
-      ./base/e24-server
     ];
     extraClientDirs = [
       resources_12
       ./base/client
     ];
     manifests = [
-      ./manifest/e24.nix
+      ./manifest/e26.nix
     ];
     blacklist = [
     ];

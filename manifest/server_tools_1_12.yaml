@@ -9,12 +9,12 @@ mods:
 - name: 'clumps'
 - name: 'foamfix-optimization-mod'
 - name: 'tickprofiler'
-- name: "chunkpurge"
-  side: "server"
-- name: 'phosphor'
+- name: 'chunkpurge'
+  side: 'server'
+- name: 'phosphor-forge'
 
 # Attempt to fix login timeouts
-- name: "randompatches"
+- name: 'randompatches-forge'
   required: false
   default: true
 
@@ -26,50 +26,47 @@ mods:
 - name: 'reauth'
 
 # Server management type mods:
-- name: "worldedit"
-- name: "signal-catcher"
-  side: "server"
-#- name: "dynmapforge"
-#  side: "server"
-- name: "prometheus-integration"
-  side: "server"
+- name: 'worldedit'
+- name: 'signal-catcher'
+  side: 'server'
+#- name: 'dynmapforge'
+#  side: 'server'
+- name: 'prometheus-integration'
+  side: 'server'
   id: 254573
-- name: "vanillafix"
-  side: "client"
+- name: 'vanillafix'
+  side: 'client'
   required: false
   default: false
-- name: "fastworkbench"
-- name: chunkpregenerator
+- name: 'fastworkbench'
+- name: 'chunkpregenerator'
 - name: 'laggoggles'
 - name: 'morpheus'
 
 # client
 - name: 'dynamic-surroundings'
-  side: client
+  side: 'client'
   required: false
-- name: nofov
-  side: client
+- name: 'nofov'
+  side: 'client'
   required: false
 - name: 'better-foliage'
-  side: client
+  side: 'client'
   required: false
-- name: "mouse-tweaks"
-  side: "client"
+- name: 'mouse-tweaks'
+  side: 'client'
   required: false
-- name: "better-placement"
-  side: "client"
-  required: false
-  default: true
-- name: Ding
-  side: client
+- name: 'better-placement'
+  side: 'client'
   required: false
   default: true
 - name: 'ding'
   side: 'client'
-- name: "notenoughkeys"
-  side: "client"
   required: false
-- name: "fullscreen-windowed-borderless-for-minecraft"
-  side: "client"
+  default: true
+- name: 'notenoughkeys'
+  side: 'client'
   required: false
-- name: 'mouse-tweaks'
+- name: 'fullscreen-windowed-borderless-for-minecraft'
+  side: 'client'
+  required: false
