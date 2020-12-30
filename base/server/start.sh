@@ -4,7 +4,7 @@
 set -eum
 
 BASE=$(dirname $0)
-JAR='forge/forge-*-universal.jar'
+JAR='forge/forge-*.jar'
 
 fixperms() {
     if [[ ! -L $1 ]]; then
