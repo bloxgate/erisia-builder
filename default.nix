@@ -35,7 +35,7 @@ rec {
     tmuxName = "e26";
     description = "E26: Perfodio Fabrico Aeternum";
     ram = "12000m";
-    port = 25565;
+    port = 25566;
     prometheusPort = 1223;
     forge = {
       major = "1.12.2";
