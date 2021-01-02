@@ -245,6 +245,7 @@ mods:
       - id: 2878542
   - name: custom-main-menu
     id: 226406
+    side: client
     files:
       - id: 2857869
   - name: customized-dungeon-loot
@@ -425,6 +426,9 @@ mods:
       - id: 2852431
   - name: hardcore-darkness
     id: 225957
+    side: client
+    required: false
+    default: false
     files:
       - id: 2499443
   - name: hats
@@ -593,6 +597,7 @@ mods:
       - id: 2560971
   - name: loot-capacitor-tooltips
     id: 316304
+    side: client
     files:
       - id: 2687139
   - name: loot-games
@@ -641,6 +646,7 @@ mods:
       - id: 2835178
   - name: menumobs
     id: 245933
+    side: client
     files:
       - id: 2515376
   - name: minecolonies
@@ -733,6 +739,7 @@ mods:
       - id: 2715198
   - name: oldjavawarning
     id: 293496
+    side: client
     files:
       - id: 2867050
   - name: omlib

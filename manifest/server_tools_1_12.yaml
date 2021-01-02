@@ -22,6 +22,9 @@ mods:
 - name: 'bed-patch'
 - name: 'netherportalfix'
 - name: 'reauth'
+  side: 'client'
+  required: false
+  default: true
 
 # Server management type mods:
 - name: 'worldedit'
