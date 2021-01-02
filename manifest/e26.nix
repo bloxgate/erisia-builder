@@ -4575,7 +4575,24 @@
         "sha256" = "5c72f0db4476dab72c5c9cb68e9ef21ddb45f7b4cbedf4673d069f7d194b9886";
         "size" = 182379;
     };
-    "tickprofiler" = {
+    "tickcentral" = {
+        "title" = "TickCentral";
+        "name" = "tickcentral";
+        "id" = 377201;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "TickCentral-3.2.jar";
+        "encoded" = "TickCentral-3.2.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/tickcentral";
+        "src" = "https://media.forgecdn.net/files/3140/670/TickCentral-3.2.jar";
+        "type" = "remote";
+        "md5" = "3d92957c560795cf2107c491dc1eb2ed";
+        "sha256" = "87f0f163162522c8379dce1ce7f802b46f7fe1c167905965037c3f42908fd19c";
+        "size" = 53554;
+    };
+   "tickprofiler" = {
         "title" = "TickProfiler";
         "name" = "tickprofiler";
         "id" = 270330;
