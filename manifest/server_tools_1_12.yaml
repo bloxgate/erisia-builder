@@ -9,8 +9,6 @@ mods:
 - name: 'clumps'
 - name: 'foamfix-optimization-mod'
 - name: 'tickprofiler'
-- name: 'chunkpurge'
-  side: 'server'
 - name: 'phosphor-forge'
 
 # Attempt to fix login timeouts
@@ -64,9 +62,6 @@ mods:
   side: 'client'
   required: false
   default: true
-- name: 'notenoughkeys'
-  side: 'client'
-  required: false
 - name: 'fullscreen-windowed-borderless-for-minecraft'
   side: 'client'
   required: false
