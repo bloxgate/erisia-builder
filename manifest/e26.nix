@@ -455,10 +455,10 @@
         "filename" = "BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar";
         "encoded" = "BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands";
-        "src" = "https://media.forgecdn.net/files/2691/84/BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar";
+        "src" = "https://media.forgecdn.net/files/2691/84/BetterBuildersWands-1.12.2-0.13.2.271%2B5997513.jar";
         "type" = "remote";
         "md5" = "82590890fdcaee18561cdb6c97905ac1";
-        "sha256" = "e0612491f124f99e2e9c17dcb1ae1044463d40e2ae4cf0b092c83a09a6243274";
+        "sha256" = "021inhmkv7pg5sca3lknikp6cbdysqq9knyvv63r1wc7bda0zd8b";
         "size" = 334;
     };
     "better-foliage" = {
@@ -625,7 +625,7 @@
         "filename" = "Botania r1.10-363.jar";
         "encoded" = "Botania r1.10-363.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/botania";
-        "src" = "https://media.forgecdn.net/files/2846/950/Botania r1.10-363.jar";
+        "src" = "https://media.forgecdn.net/files/2846/950/Botania+r1.10-363.jar";
         "type" = "remote";
         "md5" = "5ba76d3db9345fa9e398523bddda59f3";
         "sha256" = "e31c3aebdf631ebd68032d39cb02558db35841a55d568165efce7fdad64e9cd4";
@@ -829,7 +829,7 @@
         "filename" = "Chunk Pregenerator-V1.12-2.4.jar";
         "encoded" = "Chunk Pregenerator-V1.12-2.4.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/chunkpregenerator";
-        "src" = "https://media.forgecdn.net/files/3150/658/Chunk Pregenerator-V1.12-2.4.jar";
+        "src" = "https://media.forgecdn.net/files/3150/658/Chunk+Pregenerator-V1.12-2.4.jar";
         "type" = "remote";
         "md5" = "cd7682637a8037ec1f1db54c7cca4610";
         "sha256" = "4515228b2f065d13e65a7b2dbeca40422cfd70ff03358938564b85938e48fbbf";
@@ -1149,10 +1149,10 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "Customized-Dungeon-Loot-1.12 -(v.1.0.3).jar";
-        "encoded" = "Customized-Dungeon-Loot-1.12 -(v.1.0.3).jar";
+        "filename" = "Customized-Dungeon-Loot-1.12 -v.1.0.3.jar";
+        "encoded" = "Customized-Dungeon-Loot-1.12 -v.1.0.3.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/customized-dungeon-loot";
-        "src" = "https://media.forgecdn.net/files/2663/561/Customized-Dungeon-Loot-1.12 -(v.1.0.3).jar";
+        "src" = "https://media.forgecdn.net/files/2663/561/Customized-Dungeon-Loot-1.12+-(v.1.0.3).jar";
         "type" = "remote";
         "md5" = "b9b7e3f43139b183291d583e5c91f86f";
         "sha256" = "6d54b9d29e3f30c8d86a1b013b482b885671c2ddee6d958267bf65e578e66bab";
@@ -1645,7 +1645,7 @@
         "filename" = "Fish's Undead Rising-1.1.0b.jar";
         "encoded" = "Fish's Undead Rising-1.1.0b.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/fishs-undead-rising";
-        "src" = "https://media.forgecdn.net/files/2981/624/Fish's Undead Rising-1.1.0b.jar";
+        "src" = "https://media.forgecdn.net/files/2981/624/Fish's+Undead+Rising-1.1.0b.jar";
         "type" = "remote";
         "md5" = "85944d888dfd79b31b39348336b303f0";
         "sha256" = "2181fc8527d84284455b1d6bf9137ed1bed27b39c15d894ea1f06163a55a8995";
@@ -1900,7 +1900,7 @@
         "filename" = "Ghost's Explosives 2.3.0 - MC1.12.2.jar";
         "encoded" = "Ghost's Explosives 2.3.0 - MC1.12.2.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/ghosts-explosives";
-        "src" = "https://media.forgecdn.net/files/2642/488/Ghost's Explosives 2.3.0 - MC1.12.2.jar";
+        "src" = "https://media.forgecdn.net/files/2642/488/Ghost's+Explosives+2.3.0+-+MC1.12.2.jar";
         "type" = "remote";
         "md5" = "2c092144fc0ba8422f73e328a26b073d";
         "sha256" = "2e55ede4216fd6ef1a16ffaf4a45e8c39c338c6a0de4163b73b92eb6a49dafe9";
@@ -3583,7 +3583,7 @@
         "filename" = "Pam's HarvestCraft 1.12.2zg.jar";
         "encoded" = "Pam's HarvestCraft 1.12.2zg.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft";
-        "src" = "https://media.forgecdn.net/files/2904/825/Pam's HarvestCraft 1.12.2zg.jar";
+        "src" = "https://media.forgecdn.net/files/2904/825/Pam's+HarvestCraft+1.12.2zg.jar";
         "type" = "remote";
         "md5" = "e8e1ac67accdeea50116e1e92e592397";
         "sha256" = "9542e0863473b2cf61eff3fa7bdb9f096aaf7fc446c54750cbaa9db47a58f2fa";
@@ -4192,8 +4192,8 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "NoMoreRecipeConflict-0.13(1.12.2).jar";
-        "encoded" = "NoMoreRecipeConflict-0.13(1.12.2).jar";
+        "filename" = "NoMoreRecipeConflict-0.13-1.12.2.jar";
+        "encoded" = "NoMoreRecipeConflict-0.13-1.12.2.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/stimmedcow-nomorerecipeconflict";
         "src" = "https://media.forgecdn.net/files/2671/230/NoMoreRecipeConflict-0.13(1.12.2).jar";
         "type" = "remote";
@@ -4263,7 +4263,7 @@
         "filename" = "Stupid Things-1.12.X-1.1.5.jar";
         "encoded" = "Stupid Things-1.12.X-1.1.5.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/stupid-things";
-        "src" = "https://media.forgecdn.net/files/2530/785/Stupid Things-1.12.X-1.1.5.jar";
+        "src" = "https://media.forgecdn.net/files/2530/785/Stupid+Things-1.12.X-1.1.5.jar";
         "type" = "remote";
         "md5" = "c2a9db1c26348e35be7645d011d86d23";
         "sha256" = "62e8c56bb0abbe2aff7053001dbf8201a9a99307dfea1d319e4fde1b29c1b903";
@@ -4416,7 +4416,7 @@
         "filename" = "The Beneath-1.12.2-1.7.0.jar";
         "encoded" = "The Beneath-1.12.2-1.7.0.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/the-beneath";
-        "src" = "https://media.forgecdn.net/files/2850/842/The Beneath-1.12.2-1.7.0.jar";
+        "src" = "https://media.forgecdn.net/files/2850/842/The+Beneath-1.12.2-1.7.0.jar";
         "type" = "remote";
         "md5" = "71ebdee7b7d6af31a5060b073cc1dd43";
         "sha256" = "e7c7cb4a803bc99b1feb3436402d5da583fbe24ab9e6eb1ba47324c7838a3768";
