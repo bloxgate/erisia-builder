@@ -1,3 +1,6 @@
 [submodule "cursetool-rb"]
 	path = cursetool-rb
 	url = git@github.com:Erisia/cursetool-rb.git
+[submodule "cursetool-rs"]
+	path = cursetool-rs
+	url = git@github.com:Erisia/cursetool-rs.git

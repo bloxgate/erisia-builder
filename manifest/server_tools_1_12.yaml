@@ -9,8 +9,6 @@ mods:
 - name: 'clumps'
 - name: 'foamfix-optimization-mod'
 - name: 'tickprofiler'
-- name: 'chunkpurge'
-  side: 'server'
 - name: 'phosphor-forge'
 
 # Attempt to fix login timeouts
@@ -24,6 +22,9 @@ mods:
 - name: 'bed-patch'
 - name: 'netherportalfix'
 - name: 'reauth'
+  side: 'client'
+  required: false
+  default: true
 
 # Server management type mods:
 - name: 'worldedit'
@@ -41,6 +42,7 @@ mods:
 - name: 'fastworkbench'
 - name: 'chunkpregenerator'
 - name: 'laggoggles'
+- name: 'tickcentral' # Laggoggles dependency
 - name: 'morpheus'
 
 # client
@@ -64,9 +66,6 @@ mods:
   side: 'client'
   required: false
   default: true
-- name: 'notenoughkeys'
-  side: 'client'
-  required: false
 - name: 'fullscreen-windowed-borderless-for-minecraft'
   side: 'client'
   required: false
