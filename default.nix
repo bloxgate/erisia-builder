@@ -26,14 +26,14 @@ in
 rec {
 
   packs = {
-    e26 = buildPack e26;
+    e27 = buildPack e27;
   };
 
 
-  e26 = {
+  e27 = {
     name = "MCEternal";
-    tmuxName = "e26";
-    description = "E26: Perfodio Fabrico Aeternum";
+    tmuxName = "e27";
+    description = "E27: Perfodio Fabrico Aeternum";
     ram = "12000m";
     port = 25566;
     prometheusPort = 1223;
@@ -53,7 +53,7 @@ rec {
       ./base/client
     ];
     manifests = [
-      ./manifest/e26.nix
+      ./manifest/e27.nix
     ];
     blacklist = [
     ];
