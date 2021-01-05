@@ -137,7 +137,7 @@ echo $$ > server.pid
 java -d64 -server -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
-  -Dfml.readTimeout=360 \
+  -Dfml.readTimeout=1800 \
   -Dfml.doNotBackup=true \
   -XX:+AggressiveOpts \
   -XX:+UseTransparentHugePages \
