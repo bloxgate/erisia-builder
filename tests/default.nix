@@ -1,41 +1,53 @@
-with import <nixpkgs> {};
+{ builder ? import ./default.nix
+, pkgs ? (import ../nixpkgs {}).pkgs
+}:
 
 let
   packs = (import ../.).packs;
 
-  smokeTest = pack: runCommand "smoketest" {
+  smokeTest = pack: pkgs.runCommand "smoketest" {
     server = pack.server;
     world = ./testdata/SmokeTest.tar.gz;
     props = ./testdata/server.properties;
-    buildInputs = [ jre8 rsync procps psmisc ];
+    buildInputs = with pkgs; [ jre8 rsync procps psmisc tmux ];
+
+    # Enable web access
+    __noChroot = 1;
   } ''
     ln -s $server server
     tar xvzf $world
     cat $props > server.properties
     echo 'eula=true' > eula.txt
 
-    echo | bash server/start.sh -Dfml.queryResult=confirm &
+    export SKIP_TMUX=1
+    export KILL_PROMETHEUS=1
+
+    echo | timeout -s 9 300 bash server/start.sh -Dfml.queryResult=confirm &
+    sleep 3
 
     terminate() {
+      echo 'Exiting.'
       set +e
-      killall java
-      pkill -P $$
-      sleep 5
-      killall -9 java
-      pkill -9 -P $$
+      pgrep -s 0 | grep -v "^$$$" | xargs kill
       set -e
-      wait
+      echo 'Exited.'
     }
 
     time=0
     while true; do
-      grep '\[@\] Hello World' logs/latest.log && {
+      grep 'Task Failed Successfully' logs/latest.log && {
+        echo 'Smoke test successful. Exiting.'
         terminate
         cp logs/latest.log $out
         exit 0
       }
+      ps -u $UID | grep -q java || {
+        echo 'Java process unexpectedly terminated'
+	exit 1
+      }
       time=$(($time + 1))
       if [[ $time -gt 300 ]]; then
+        echo 'Exiting with timeout'
         terminate
         exit 1
       fi
@@ -44,6 +56,4 @@ let
   '';
 in
 
-rec {
-  smokeTests = lib.mapAttrsToList (n: pack: smokeTest pack) packs;
-}
+pkgs.lib.mapAttrs (name: pack: smokeTest pack) packs

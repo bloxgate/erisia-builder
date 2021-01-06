@@ -11,4 +11,7 @@ in {
 
   # Build the control tool separately, just because.
   control = callPackage tools/control {};
+
+  # Run the smoke tests
+  smokeTests = pkgs.recurseIntoAttrs (callPackage ./tests {});
 }
