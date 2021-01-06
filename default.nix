@@ -39,7 +39,7 @@ rec {
     prometheusPort = 1223;
     forge = {
       major = "1.12.2";
-      minor = "14.23.5.2854";
+      minor = "14.23.5.2855";
     };
     extraDirs = [
       ./base/mc-eternal
