@@ -144,6 +144,7 @@ java -d64 -server -Xmx@ram@ \
   "$@" \
   -Djava.net.preferIPv4Stack=true \
   -Dfml.readTimeout=1800 \
+  -Dfml.loginTimeout=36000 \
   -Dfml.doNotBackup=true \
   -XX:+AggressiveOpts \
   -XX:+UseTransparentHugePages \
