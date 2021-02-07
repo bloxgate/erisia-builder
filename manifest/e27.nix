@@ -2246,23 +2246,6 @@
         "sha256" = "6a0ade35d7827072761892943b7f9a363e59f5aa65e2160a450b5106d8db1252";
         "size" = 858298;
     };
-    "instantunify" = {
-        "title" = "InstantUnify";
-        "name" = "instantunify";
-        "id" = 277047;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "instantunify-1.12.2-1.1.2.jar";
-        "encoded" = "instantunify-1.12.2-1.1.2.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/instantunify";
-        "src" = "https://media.forgecdn.net/files/2578/325/instantunify-1.12.2-1.1.2.jar";
-        "type" = "remote";
-        "md5" = "edd6718ffee3f11039c146d0cba47424";
-        "sha256" = "f627e2149a0277b5dc1402edcb57918e66ecf0ce055df5c5e89980c8133db8a2";
-        "size" = 10301;
-    };
     "instrumental-mobs" = {
         "title" = "Instrumental Mobs";
         "name" = "instrumental-mobs";
