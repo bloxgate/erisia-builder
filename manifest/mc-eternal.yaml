@@ -1,16 +1,15 @@
 ---
 version: 1.12.2
-imports:
-  - server_tools_1_12.yaml
+imports: []
 mods:
   - name: actually-additions
     id: 228404
     files:
-      - id: 2844115
+      - id: 3117927
   - name: advanced-hook-launchers
     id: 244849
     files:
-      - id: 2856117
+      - id: 3001324
   - name: advanced-rocketry
     id: 236542
     files:
@@ -38,39 +37,59 @@ mods:
   - name: ambientsounds
     id: 254284
     files:
-      - id: 2905238
+      - id: 3223298
+  - name: ancient-spellcraft
+    id: 358124
+    files:
+      - id: 3238582
+  - name: ancient-warfare-2
+    id: 224602
+    files:
+      - id: 3199040
   - name: angry-pixel-the-betweenlands-mod
     id: 243363
     files:
-      - id: 3014525
+      - id: 3248202
   - name: applecore
     id: 224472
     files:
-      - id: 2679415
+      - id: 2969118
   - name: appleskin
     id: 248787
     files:
-      - id: 2496585
+      - id: 2987247
   - name: applied-energistics-2
     id: 223794
     files:
       - id: 2747063
+  - name: arcane-world
+    id: 302852
+    files:
+      - id: 2972860
   - name: architecturecraft-tridev
     id: 277631
     files:
       - id: 2750633
-  - name: armor-toughness-bar
-    id: 313816
-    files:
-      - id: 2851670
   - name: armory-expansion
     id: 293602
     files:
-      - id: 2815771
+      - id: 2925154
+  - name: aroma1997core
+    id: 223735
+    files:
+      - id: 2914062
+  - name: aromabackup
+    id: 225658
+    files:
+      - id: 3070947
+  - name: artifacts
+    id: 312353
+    files:
+      - id: 3127288
   - name: astral-sorcery
     id: 241721
     files:
-      - id: 2971187
+      - id: 3044416
   - name: atomicstrykers-battle-towers
     id: 227877
     files:
@@ -82,7 +101,7 @@ mods:
   - name: atum
     id: 59621
     files:
-      - id: 2928167
+      - id: 3116599
   - name: auto-ore-dictionary-converter
     id: 232650
     files:
@@ -94,7 +113,7 @@ mods:
   - name: bad-wither-no-cookie-reloaded
     id: 261251
     files:
-      - id: 2638317
+      - id: 3045651
   - name: baubles
     id: 227083
     files:
@@ -103,14 +122,22 @@ mods:
     id: 70496
     files:
       - id: 2518031
+  - name: beebetteratbees
+    id: 244516
+    files:
+      - id: 2627215
   - name: better-builders-wands
     id: 238403
     files:
       - id: 2691084
-  - name: bewitchment
+  - name: betterfps
+    id: 229876
+    files:
+      - id: 2483393
+  - name: bewitchment-legacy
     id: 285439
     files:
-      - id: 3016660
+      - id: 3212269
   - name: bibliocraft
     id: 228027
     files:
@@ -119,14 +146,22 @@ mods:
     id: 299907
     files:
       - id: 2597577
+  - name: biomeinfo
+    id: 291480
+    files:
+      - id: 2845257
   - name: biomes-o-plenty
     id: 220318
     files:
-      - id: 2842510
+      - id: 2715506
   - name: block-drops-jei-addon
     id: 244181
     files:
       - id: 2509046
+  - name: blood-magic
+    id: 224791
+    files:
+      - id: 2822288
   - name: bookshelf
     id: 228525
     files:
@@ -135,14 +170,22 @@ mods:
     id: 225643
     files:
       - id: 2846950
+  - name: bountiful
+    id: 309516
+    files:
+      - id: 2949667
+  - name: bountifulbaubles
+    id: 313536
+    files:
+      - id: 2952895
   - name: broken-wings
     id: 293704
     files:
-      - id: 2809046
+      - id: 3247511
   - name: buildcraft
     id: 61811
     files:
-      - id: 2914534
+      - id: 3204475
   - name: building-gadgets
     id: 298187
     files:
@@ -150,7 +193,11 @@ mods:
   - name: capability-adapter
     id: 281657
     files:
-      - id: 2812866
+      - id: 3196507
+  - name: capsule
+    id: 235338
+    files:
+      - id: 2963673
   - name: career-bees
     id: 281791
     files:
@@ -162,15 +209,19 @@ mods:
   - name: champions
     id: 307152
     files:
-      - id: 2951895
+      - id: 3177947
   - name: chance-cubes
     id: 233113
     files:
-      - id: 2883181
+      - id: 3087611
   - name: charm
     id: 318872
     files:
-      - id: 2934951
+      - id: 3146596
+  - name: cherished-worlds
+    id: 308240
+    files:
+      - id: 2837800
   - name: chisel
     id: 235279
     files:
@@ -179,6 +230,14 @@ mods:
     id: 231095
     files:
       - id: 2720655
+  - name: chunkpregenerator
+    id: 267193
+    files:
+      - id: 3214752
+  - name: clumps
+    id: 256717
+    files:
+      - id: 2666198
   - name: codechicken-lib-1-8
     id: 242818
     files:
@@ -191,6 +250,10 @@ mods:
     id: 271384
     files:
       - id: 2920434
+  - name: collective
+    id: 342584
+    files:
+      - id: 3248137
   - name: colorutility
     id: 259957
     files:
@@ -198,7 +261,7 @@ mods:
   - name: common-capabilities
     id: 247007
     files:
-      - id: 2831253
+      - id: 3053017
   - name: compact-machines
     id: 224218
     files:
@@ -206,19 +269,23 @@ mods:
   - name: constructs-armory
     id: 287683
     files:
-      - id: 2882794
+      - id: 3174535
   - name: controlling
     id: 250398
     files:
-      - id: 2857064
+      - id: 3025548
   - name: cooking-for-blockheads
     id: 231484
     files:
       - id: 2862651
+  - name: corail-tombstone
+    id: 243707
+    files:
+      - id: 3211403
   - name: cosmetic-armor-reworked
     id: 237307
     files:
-      - id: 2883493
+      - id: 2937869
   - name: crafting-tweaks
     id: 233071
     files:
@@ -226,11 +293,15 @@ mods:
   - name: crafttweaker
     id: 239197
     files:
-      - id: 2838090
+      - id: 3202907
   - name: creativecore
     id: 257814
     files:
-      - id: 2910976
+      - id: 3227279
+  - name: crimson-warfare
+    id: 361313
+    files:
+      - id: 2879737
   - name: ctm
     id: 267602
     files:
@@ -242,10 +313,9 @@ mods:
   - name: culinary-construct
     id: 296676
     files:
-      - id: 2878542
+      - id: 2937109
   - name: custom-main-menu
     id: 226406
-    side: client
     files:
       - id: 2857869
   - name: customized-dungeon-loot
@@ -255,27 +325,27 @@ mods:
   - name: cyclic
     id: 239286
     files:
-      - id: 2821917
+      - id: 3089348
   - name: cyclops-core
     id: 232758
     files:
-      - id: 3005725
+      - id: 3159497
   - name: dank-null
     id: 272514
     files:
-      - id: 2915364
+      - id: 2920596
   - name: darknesslib
     id: 349174
     files:
       - id: 2892127
-  - name: davincis-vessels
-    id: 228029
-    files:
-      - id: 2499846
   - name: dimensionaldoors
     id: 284876
     files:
-      - id: 2558528
+      - id: 2946179
+  - name: ding
+    id: 231275
+    files:
+      - id: 2801170
   - name: discordintegration
     id: 245288
     files:
@@ -283,23 +353,39 @@ mods:
   - name: doggy-talents
     id: 271050
     files:
-      - id: 2930764
+      - id: 3075311
   - name: dungeon-tactics
     id: 242500
     files:
-      - id: 2771733
-  - name: dungeons2
-    id: 273362
+      - id: 3008088
+  - name: dungeons-mod
+    id: 359619
     files:
-      - id: 2710510
+      - id: 3096667
+  - name: dynamic-darkness
+    id: 363102
+    files:
+      - id: 3234684
+  - name: dynamic-view
+    id: 366140
+    files:
+      - id: 2898681
+  - name: eerie-entities
+    id: 304879
+    files:
+      - id: 2728340
   - name: electroblobs-wizardry
     id: 265642
     files:
-      - id: 2929294
+      - id: 3189062
   - name: electroblobs-wizardry-twilight-forest-spell-pack
     id: 363993
     files:
-      - id: 2933862
+      - id: 3140441
+  - name: elenai-dodge-2
+    id: 442962
+    files:
+      - id: 3221490
   - name: enchantment-descriptions
     id: 250419
     files:
@@ -307,7 +393,7 @@ mods:
   - name: ender-io
     id: 64578
     files:
-      - id: 2989201
+      - id: 3124452
   - name: ender-storage-1-8
     id: 245174
     files:
@@ -319,11 +405,11 @@ mods:
   - name: endertweaker
     id: 312195
     files:
-      - id: 2858475
+      - id: 3131262
   - name: energy-converters
     id: 254818
     files:
-      - id: 2826061
+      - id: 2992813
   - name: extra-bit-manipulation
     id: 240959
     files:
@@ -339,7 +425,7 @@ mods:
   - name: fairy-lights
     id: 233342
     files:
-      - id: 2857644
+      - id: 3068499
   - name: farming-for-blockheads
     id: 261924
     files:
@@ -347,19 +433,31 @@ mods:
   - name: farseek
     id: 229708
     files:
-      - id: 2893083
+      - id: 3093852
   - name: fast-leaf-decay
     id: 230976
     files:
       - id: 2463272
+  - name: fastworkbench
+    id: 288885
+    files:
+      - id: 2838777
   - name: fishs-undead-rising
     id: 321139
     files:
-      - id: 2981624
+      - id: 3109137
   - name: flux-networks
     id: 248020
     files:
-      - id: 2842381
+      - id: 3178199
+  - name: fnars-roguelike-dungeons
+    id: 373157
+    files:
+      - id: 3189628
+  - name: foamfix-optimization-mod
+    id: 278494
+    files:
+      - id: 3137883
   - name: forestry
     id: 59751
     files:
@@ -371,11 +469,19 @@ mods:
   - name: forgeendertech
     id: 244844
     files:
-      - id: 2915897
+      - id: 3137504
+  - name: fossils
+    id: 223908
+    files:
+      - id: 3168678
   - name: from-the-depths
     id: 287171
     files:
-      - id: 2997349
+      - id: 3066865
+  - name: frozen-fiend
+    id: 443436
+    files:
+      - id: 3203284
   - name: ftb-library
     id: 237167
     files:
@@ -383,23 +489,23 @@ mods:
   - name: ftb-money
     id: 306283
     files:
-      - id: 3004620
+      - id: 3010526
   - name: ftb-quests
     id: 289412
     files:
-      - id: 3004160
+      - id: 3156637
   - name: ftb-utilities
     id: 237102
     files:
-      - id: 2990099
+      - id: 3157548
   - name: future-mc
     id: 310059
     files:
-      - id: 2976806
+      - id: 3194413
   - name: gas-conduits
     id: 309756
     files:
-      - id: 2989046
+      - id: 3060489
   - name: gendustry
     id: 70492
     files:
@@ -408,14 +514,22 @@ mods:
     id: 302381
     files:
       - id: 2642488
+  - name: glibys-voice-chat-reloaded
+    id: 296045
+    files:
+      - id: 3222659
   - name: gottschcore
     id: 272450
     files:
-      - id: 2968094
+      - id: 3138042
   - name: grue
     id: 235133
     files:
       - id: 2912661
+  - name: guard-illagers
+    id: 311899
+    files:
+      - id: 2693720
   - name: guide-api
     id: 228832
     files:
@@ -423,18 +537,19 @@ mods:
   - name: gunpowderlib
     id: 356646
     files:
-      - id: 2852431
-  - name: hardcore-darkness
-    id: 225957
-    side: client
-    required: false
-    default: false
+      - id: 3168863
+  - name: hammer-lib
+    id: 247401
     files:
-      - id: 2499443
+      - id: 3157564
   - name: hats
     id: 229073
     files:
       - id: 2960397
+  - name: hole-filler-mod
+    id: 440585
+    files:
+      - id: 3239971
   - name: hunterillager
     id: 318857
     files:
@@ -446,7 +561,7 @@ mods:
   - name: icbm-classic
     id: 244451
     files:
-      - id: 2661985
+      - id: 2918052
   - name: ice-and-fire-dragons
     id: 264231
     files:
@@ -455,6 +570,14 @@ mods:
     id: 229060
     files:
       - id: 2801262
+  - name: ido
+    id: 322131
+    files:
+      - id: 3096693
+  - name: illagers
+    id: 325851
+    files:
+      - id: 2750468
   - name: immersive-cables
     id: 283992
     files:
@@ -463,14 +586,18 @@ mods:
     id: 231951
     files:
       - id: 2974106
+  - name: immersive-intelligence
+    id: 344344
+    files:
+      - id: 2944142
   - name: immersive-petroleum
     id: 268250
     files:
       - id: 2544919
-  - name: immersive-tech
-    id: 274159
+  - name: immersiveposts
+    id: 314645
     files:
-      - id: 2568579
+      - id: 2951672
   - name: improvedbackpacks
     id: 270457
     files:
@@ -478,7 +605,7 @@ mods:
   - name: in-control
     id: 257356
     files:
-      - id: 2763309
+      - id: 3101719
   - name: industrial-foregoing
     id: 266515
     files:
@@ -487,26 +614,30 @@ mods:
     id: 251396
     files:
       - id: 2537265
+  - name: instantunify
+    id: 277047
+    files:
+      - id: 2578325
   - name: instrumental-mobs
     id: 299602
     files:
-      - id: 2767795
+      - id: 3096365
   - name: integrated-dynamics
     id: 236307
     files:
-      - id: 3005731
+      - id: 3159505
   - name: integrated-tunnels
     id: 251389
     files:
-      - id: 2920817
+      - id: 3159511
   - name: integration-foregoing
     id: 277938
     files:
-      - id: 2904594
+      - id: 3200529
   - name: inventory-pets
     id: 229380
     files:
-      - id: 2966477
+      - id: 3196214
   - name: inventory-tweaks
     id: 223094
     files:
@@ -522,7 +653,7 @@ mods:
   - name: its-the-little-things
     id: 232791
     files:
-      - id: 2818064
+      - id: 3172984
   - name: ivtoolkit
     id: 224535
     files:
@@ -534,7 +665,7 @@ mods:
   - name: jei
     id: 238222
     files:
-      - id: 2847112
+      - id: 3040523
   - name: jei-bees
     id: 248370
     files:
@@ -542,11 +673,11 @@ mods:
   - name: journeymap
     id: 32274
     files:
-      - id: 2888880
+      - id: 2916002
   - name: just-enough-calculation
     id: 242223
     files:
-      - id: 2849567
+      - id: 3201179
   - name: just-enough-energistics-jee
     id: 310812
     files:
@@ -554,15 +685,23 @@ mods:
   - name: just-enough-harvestcraft
     id: 267939
     files:
-      - id: 2849443
+      - id: 2997129
   - name: just-enough-resources-jer
     id: 240630
     files:
       - id: 2728585
+  - name: laggoggles
+    id: 283525
+    files:
+      - id: 2901775
   - name: large-ore-deposits
     id: 318833
     files:
-      - id: 2871929
+      - id: 2961524
+  - name: lemonlib
+    id: 306926
+    files:
+      - id: 2639879
   - name: letsencryptcraft
     id: 297057
     files:
@@ -570,7 +709,7 @@ mods:
   - name: level-up
     id: 251136
     files:
-      - id: 2883312
+      - id: 3069733
   - name: libvulpes
     id: 236541
     files:
@@ -578,11 +717,11 @@ mods:
   - name: littletiles
     id: 257818
     files:
-      - id: 2910975
+      - id: 3227278
   - name: llibrary
     id: 243298
     files:
-      - id: 2704186
+      - id: 3116493
   - name: lods-of-emone
     id: 364295
     files:
@@ -590,20 +729,31 @@ mods:
   - name: login-shield
     id: 233255
     files:
-      - id: 2560971
+      - id: 3022076
   - name: loot-capacitor-tooltips
     id: 316304
-    side: client
     files:
       - id: 2687139
   - name: loot-games
     id: 331876
     files:
       - id: 2886738
+  - name: lost-magic
+    id: 337000
+    files:
+      - id: 3171243
   - name: lunatriuscore
     id: 225605
     files:
       - id: 2489549
+  - name: macaws-roofs
+    id: 352039
+    files:
+      - id: 2879573
+  - name: magic-bees
+    id: 65764
+    files:
+      - id: 2566282
   - name: malisiscore
     id: 223896
     files:
@@ -620,6 +770,10 @@ mods:
     id: 229595
     files:
       - id: 2617399
+  - name: max-potion-id-extender
+    id: 303759
+    files:
+      - id: 2817842
   - name: mcjtylib
     id: 233105
     files:
@@ -628,6 +782,10 @@ mods:
     id: 239431
     files:
       - id: 2615930
+  - name: mct-immersive-technology
+    id: 359407
+    files:
+      - id: 3162436
   - name: mekanism
     id: 268560
     files:
@@ -642,7 +800,6 @@ mods:
       - id: 2835178
   - name: menumobs
     id: 245933
-    side: client
     files:
       - id: 2515376
   - name: minecolonies
@@ -673,18 +830,18 @@ mods:
     id: 243478
     files:
       - id: 2745657
+  - name: morpheus
+    id: 69118
+    files:
+      - id: 2664449
   - name: mouse-tweaks
     id: 60089
     files:
       - id: 2671937
-  - name: movingworld
-    id: 230495
-    files:
-      - id: 2485041
   - name: mowzies-mobs
     id: 250498
     files:
-      - id: 2976309
+      - id: 3048685
   - name: mputils
     id: 244940
     files:
@@ -708,11 +865,11 @@ mods:
   - name: mystical-world
     id: 282940
     files:
-      - id: 2918177
+      - id: 3244451
   - name: mysticallib
     id: 277064
     files:
-      - id: 2912859
+      - id: 3243257
   - name: natures-aura
     id: 306626
     files:
@@ -721,6 +878,18 @@ mods:
     id: 252848
     files:
       - id: 2893527
+  - name: nether-portal-spread
+    id: 342097
+    files:
+      - id: 3231310
+  - name: netherportalfix
+    id: 241160
+    files:
+      - id: 2612052
+  - name: no-recipe-book
+    id: 284904
+    files:
+      - id: 2568865
   - name: notenoughids
     id: 235107
     files:
@@ -728,14 +897,17 @@ mods:
   - name: nuclearcraft-mod
     id: 226254
     files:
-      - id: 2995656
+      - id: 3074246
   - name: numina
     id: 235440
     files:
       - id: 2715198
+  - name: obfuscate
+    id: 289380
+    files:
+      - id: 2916310
   - name: oldjavawarning
     id: 293496
-    side: client
     files:
       - id: 2867050
   - name: omlib
@@ -757,19 +929,11 @@ mods:
   - name: openmodularturrets
     id: 224663
     files:
-      - id: 2974732
+      - id: 3061229
   - name: ore-excavation
     id: 250898
     files:
       - id: 2897369
-  - name: orelib
-    id: 307806
-    files:
-      - id: 2820815
-  - name: overloaded-armor-bar
-    id: 314002
-    files:
-      - id: 2719400
   - name: p455w0rds-library
     id: 255232
     files:
@@ -789,7 +953,11 @@ mods:
   - name: patchouli
     id: 306770
     files:
-      - id: 2731963
+      - id: 3162874
+  - name: phosphor-forge
+    id: 318255
+    files:
+      - id: 2747710
   - name: pigstep-backport
     id: 381953
     files:
@@ -806,6 +974,10 @@ mods:
     id: 229084
     files:
       - id: 2684033
+  - name: potion-core
+    id: 242872
+    files:
+      - id: 2905184
   - name: practical-logistics-2
     id: 263048
     files:
@@ -814,26 +986,38 @@ mods:
     id: 282415
     files:
       - id: 2658551
-  - name: project-74246
-    id: 74246
+  - name: progressive-bosses
+    id: 289466
     files:
-      - id: 2905498
+      - id: 2821822
   - name: quark
     id: 243121
     files:
       - id: 2924091
+  - name: quark-oddities
+    id: 301051
+    files:
+      - id: 2604798
   - name: random-things
     id: 59816
     files:
       - id: 2905241
+  - name: randompatches-forge
+    id: 285612
+    files:
+      - id: 3133651
   - name: rats
     id: 323596
     files:
-      - id: 2992591
+      - id: 3028671
+  - name: reauth
+    id: 237701
+    files:
+      - id: 2560638
   - name: reborncore
     id: 237903
     files:
-      - id: 2898260
+      - id: 2926584
   - name: recurrent-complex
     id: 223150
     files:
@@ -841,7 +1025,11 @@ mods:
   - name: redstone-flux
     id: 270789
     files:
-      - id: 2623090
+      - id: 2920436
+  - name: reliquary-v1-3
+    id: 241319
+    files:
+      - id: 2761319
   - name: reskillable
     id: 286382
     files:
@@ -858,22 +1046,18 @@ mods:
     id: 240950
     files:
       - id: 2707390
-  - name: roguelike-dungeons-fnar-edition
-    id: 373157
-    files:
-      - id: 2956346
   - name: roots
     id: 246183
     files:
-      - id: 2912862
-  - name: ruins-structure-spawning-system
-    id: 227873
+      - id: 3243267
+  - name: save-my-stronghold
+    id: 355248
     files:
-      - id: 2721268
+      - id: 2845037
   - name: scannable
     id: 266784
     files:
-      - id: 2662364
+      - id: 3146549
   - name: shadowfacts-forgelin
     id: 248453
     files:
@@ -889,7 +1073,11 @@ mods:
   - name: simple-storage-network
     id: 268495
     files:
-      - id: 2847293
+      - id: 3227897
+  - name: simply-cats
+    id: 332910
+    files:
+      - id: 3031887
   - name: simply-jetpacks-2
     id: 251792
     files:
@@ -901,7 +1089,7 @@ mods:
   - name: spice-of-life-carrot-edition
     id: 277616
     files:
-      - id: 2731062
+      - id: 2959847
   - name: steves-carts-reborn
     id: 253462
     files:
@@ -913,7 +1101,7 @@ mods:
   - name: storage-drawers
     id: 223852
     files:
-      - id: 2887858
+      - id: 2952606
   - name: storage-drawers-extras
     id: 254879
     files:
@@ -921,11 +1109,15 @@ mods:
   - name: streams
     id: 229769
     files:
-      - id: 2861235
+      - id: 3109315
   - name: stupid-things
     id: 267901
     files:
-      - id: 2530785
+      - id: 3048231
+  - name: stygian-end-biome-expansion
+    id: 304894
+    files:
+      - id: 2650369
   - name: swingthroughgrass
     id: 264353
     files:
@@ -937,11 +1129,11 @@ mods:
   - name: techreborn
     id: 233564
     files:
-      - id: 2894949
+      - id: 2926589
   - name: tellme
     id: 225781
     files:
-      - id: 2722870
+      - id: 3060563
   - name: tesla-core-lib
     id: 254602
     files:
@@ -950,14 +1142,26 @@ mods:
     id: 223628
     files:
       - id: 2629023
+  - name: thaumic-additions
+    id: 232564
+    files:
+      - id: 3102463
+  - name: thaumic-augmentation
+    id: 319441
+    files:
+      - id: 3148983
   - name: thaumic-jei
     id: 285492
     files:
       - id: 2705304
+  - name: thaumic-periphery
+    id: 293505
+    files:
+      - id: 2766866
   - name: the-aurorian
     id: 352137
     files:
-      - id: 3006691
+      - id: 3249263
   - name: the-beneath
     id: 254629
     files:
@@ -965,7 +1169,7 @@ mods:
   - name: the-erebus
     id: 220698
     files:
-      - id: 2832138
+      - id: 3211974
   - name: the-midnight
     id: 304881
     files:
@@ -977,7 +1181,7 @@ mods:
   - name: the-twilight-forest
     id: 227639
     files:
-      - id: 2818055
+      - id: 3051450
   - name: thermal-cultivation
     id: 271835
     files:
@@ -1014,10 +1218,6 @@ mods:
     id: 250957
     files:
       - id: 2630860
-  - name: tomb-many-graves-2
-    id: 262823
-    files:
-      - id: 2619249
   - name: totemic
     id: 237541
     files:
@@ -1025,19 +1225,35 @@ mods:
   - name: treasure2
     id: 289760
     files:
-      - id: 2966053
+      - id: 3240236
+  - name: treechop
+    id: 421377
+    files:
+      - id: 3193897
   - name: tweakers-construct
     id: 282623
     files:
-      - id: 2863873
+      - id: 3229202
   - name: unidict
     id: 244258
     files:
-      - id: 2880863
+      - id: 3240606
+  - name: valkyrien-skies
+    id: 258371
+    files:
+      - id: 3169681
+  - name: valkyrien-skies-control
+    id: 404463
+    files:
+      - id: 3160203
+  - name: valkyrien-skies-world
+    id: 404464
+    files:
+      - id: 3061764
   - name: vampires-need-umbrellas
     id: 364129
     files:
-      - id: 2892282
+      - id: 2946161
   - name: vampirism-become-a-vampire
     id: 233029
     files:
@@ -1046,6 +1262,14 @@ mods:
     id: 282433
     files:
       - id: 2947539
+  - name: vanillafix
+    id: 292785
+    files:
+      - id: 2915154
+  - name: village-names
+    id: 259230
+    files:
+      - id: 3223824
   - name: waila-harvestability
     id: 79287
     files:
@@ -1053,7 +1277,7 @@ mods:
   - name: wanionlib
     id: 253043
     files:
-      - id: 2807433
+      - id: 3064112
   - name: waystones
     id: 245755
     files:
@@ -1062,6 +1286,10 @@ mods:
     id: 287321
     files:
       - id: 2884001
+  - name: wings
+    id: 302584
+    files:
+      - id: 2829351
   - name: wireless-crafting-terminal
     id: 244559
     files:
@@ -1090,7 +1318,15 @@ mods:
     id: 283589
     files:
       - id: 2708030
+  - name: yoyos
+    id: 262692
+    files:
+      - id: 2764292
+  - name: yungs-better-caves
+    id: 340583
+    files:
+      - id: 3003242
   - name: zerocore
     id: 247921
     files:
-      - id: 2670570
+      - id: 3194743
