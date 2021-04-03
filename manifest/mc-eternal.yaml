@@ -1,6 +1,7 @@
 ---
 version: 1.12.2
-imports: []
+imports:
+  - server_tools_1_12.yaml
 mods:
   - name: actually-additions
     id: 228404
@@ -74,14 +75,6 @@ mods:
     id: 293602
     files:
       - id: 2925154
-  - name: aroma1997core
-    id: 223735
-    files:
-      - id: 2914062
-  - name: aromabackup
-    id: 225658
-    files:
-      - id: 3070947
   - name: artifacts
     id: 312353
     files:
@@ -130,10 +123,6 @@ mods:
     id: 238403
     files:
       - id: 2691084
-  - name: betterfps
-    id: 229876
-    files:
-      - id: 2483393
   - name: bewitchment-legacy
     id: 285439
     files:
@@ -230,14 +219,6 @@ mods:
     id: 231095
     files:
       - id: 2720655
-  - name: chunkpregenerator
-    id: 267193
-    files:
-      - id: 3214752
-  - name: clumps
-    id: 256717
-    files:
-      - id: 2666198
   - name: codechicken-lib-1-8
     id: 242818
     files:
@@ -342,10 +323,6 @@ mods:
     id: 284876
     files:
       - id: 2946179
-  - name: ding
-    id: 231275
-    files:
-      - id: 2801170
   - name: discordintegration
     id: 245288
     files:
@@ -438,10 +415,6 @@ mods:
     id: 230976
     files:
       - id: 2463272
-  - name: fastworkbench
-    id: 288885
-    files:
-      - id: 2838777
   - name: fishs-undead-rising
     id: 321139
     files:
@@ -454,10 +427,6 @@ mods:
     id: 373157
     files:
       - id: 3189628
-  - name: foamfix-optimization-mod
-    id: 278494
-    files:
-      - id: 3137883
   - name: forestry
     id: 59751
     files:
@@ -686,10 +655,6 @@ mods:
     id: 240630
     files:
       - id: 2728585
-  - name: laggoggles
-    id: 283525
-    files:
-      - id: 2901775
   - name: large-ore-deposits
     id: 318833
     files:
@@ -826,10 +791,6 @@ mods:
     id: 243478
     files:
       - id: 2745657
-  - name: morpheus
-    id: 69118
-    files:
-      - id: 2664449
   - name: mouse-tweaks
     id: 60089
     files:
@@ -878,10 +839,6 @@ mods:
     id: 342097
     files:
       - id: 3231310
-  - name: netherportalfix
-    id: 241160
-    files:
-      - id: 2612052
   - name: no-recipe-book
     id: 284904
     files:
@@ -950,10 +907,6 @@ mods:
     id: 306770
     files:
       - id: 3162874
-  - name: phosphor-forge
-    id: 318255
-    files:
-      - id: 2747710
   - name: pigstep-backport
     id: 381953
     files:
@@ -998,18 +951,10 @@ mods:
     id: 59816
     files:
       - id: 2905241
-  - name: randompatches-forge
-    id: 285612
-    files:
-      - id: 3133651
   - name: rats
     id: 323596
     files:
       - id: 3028671
-  - name: reauth
-    id: 237701
-    files:
-      - id: 2560638
   - name: reborncore
     id: 237903
     files:
@@ -1258,10 +1203,6 @@ mods:
     id: 282433
     files:
       - id: 2947539
-  - name: vanillafix
-    id: 292785
-    files:
-      - id: 2915154
   - name: village-names
     id: 259230
     files:
