@@ -211,6 +211,7 @@ mods:
     id: 308240
     files:
       - id: 2837800
+    side: client
   - name: chisel
     id: 235279
     files:
@@ -299,6 +300,7 @@ mods:
     id: 226406
     files:
       - id: 2857869
+    side: client
   - name: customized-dungeon-loot
     id: 258944
     files:
@@ -343,6 +345,9 @@ mods:
     id: 363102
     files:
       - id: 3234684
+    side: client
+    required: false
+    default: false
   - name: dynamic-view
     id: 366140
     files:
@@ -695,6 +700,7 @@ mods:
     id: 316304
     files:
       - id: 2687139
+    side: client
   - name: loot-games
     id: 331876
     files:
@@ -763,6 +769,7 @@ mods:
     id: 245933
     files:
       - id: 2515376
+    side: client
   - name: minecolonies
     id: 245506
     files:
@@ -843,6 +850,7 @@ mods:
     id: 284904
     files:
       - id: 2568865
+    side: client
   - name: notenoughids
     id: 235107
     files:
@@ -863,6 +871,7 @@ mods:
     id: 293496
     files:
       - id: 2867050
+    side: client
   - name: omlib
     id: 254334
     files:
