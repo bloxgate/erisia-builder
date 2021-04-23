@@ -115,10 +115,6 @@ mods:
     id: 70496
     files:
       - id: 2518031
-  - name: beebetteratbees
-    id: 244516
-    files:
-      - id: 2627215
   - name: better-builders-wands
     id: 238403
     files:
@@ -341,13 +337,6 @@ mods:
     id: 359619
     files:
       - id: 3096667
-  - name: dynamic-darkness
-    id: 363102
-    files:
-      - id: 3234684
-    side: client
-    required: false
-    default: false
   - name: dynamic-view
     id: 366140
     files:
@@ -416,10 +405,6 @@ mods:
     id: 229708
     files:
       - id: 3093852
-  - name: fast-leaf-decay
-    id: 230976
-    files:
-      - id: 2463272
   - name: fishs-undead-rising
     id: 321139
     files:
@@ -516,6 +501,13 @@ mods:
     id: 247401
     files:
       - id: 3157564
+  - name: hardcore-darkness
+    id: 225957
+    files:
+      - id: 2499443
+    side: client
+    required: false
+    default: false
   - name: hats
     id: 229073
     files:
@@ -544,10 +536,6 @@ mods:
     id: 229060
     files:
       - id: 2801262
-  - name: ido
-    id: 322131
-    files:
-      - id: 3096693
   - name: illagers
     id: 325851
     files:
@@ -1080,10 +1068,6 @@ mods:
     id: 233564
     files:
       - id: 2926589
-  - name: tellme
-    id: 225781
-    files:
-      - id: 3060563
   - name: tesla-core-lib
     id: 254602
     files:
@@ -1228,10 +1212,6 @@ mods:
     id: 245755
     files:
       - id: 2859589
-  - name: wg-block-replacer
-    id: 287321
-    files:
-      - id: 2884001
   - name: wings
     id: 302584
     files:
@@ -1248,6 +1228,10 @@ mods:
     id: 255902
     files:
       - id: 2661187
+  - name: worldgen-block-replacer
+    id: 287321
+    files:
+      - id: 2884001
   - name: wrapup
     id: 275153
     files:

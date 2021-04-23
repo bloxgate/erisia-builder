@@ -495,23 +495,6 @@
         "sha256" = "e57dbe0b427e49d35a9184b5d541d0e6ea504128673c8645b8fe7e4a99ebedba";
         "size" = 21613;
     };
-    "beebetteratbees" = {
-        "title" = "BeeBetterAtBees";
-        "name" = "beebetteratbees";
-        "id" = 244516;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "beebetteratbees-1.12.2-2.0.3.jar";
-        "encoded" = "beebetteratbees-1.12.2-2.0.3.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/beebetteratbees";
-        "src" = "https://media.forgecdn.net/files/2627/215/beebetteratbees-1.12.2-2.0.3.jar";
-        "type" = "remote";
-        "md5" = "9a46ba14d7b6a883daee71925f39c210";
-        "sha256" = "0452f54eef5d3da09672bc381ed4ad24bb37d073354716ed783d581e3ebdfd85";
-        "size" = 44806;
-    };
     "better-builders-wands" = {
         "title" = "Better Builder's Wands";
         "name" = "better-builders-wands";
@@ -1549,23 +1532,6 @@
         "sha256" = "571be6b3437da840d27851d69b39e58bc9da11c5a6423db78c1536ac81def145";
         "size" = 896402;
     };
-    "dynamic-darkness" = {
-        "title" = "Dynamic Darkness";
-        "name" = "dynamic-darkness";
-        "id" = 363102;
-        "side" = "client";
-        "required" = false;
-        "default" = false;
-        "deps" = [];
-        "filename" = "darkness-forge-1.12.x-0.4.2.jar";
-        "encoded" = "darkness-forge-1.12.x-0.4.2.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/dynamic-darkness";
-        "src" = "https://media.forgecdn.net/files/3234/684/darkness-forge-1.12.x-0.4.2.jar";
-        "type" = "remote";
-        "md5" = "b68aee79b4f8d95c37cd78b6a7bb5383";
-        "sha256" = "70a1e2607cf177e2c4b984ffdc95e2c0b2c2ba0fa5ba9a9b2c452243bdde7f7f";
-        "size" = 28386;
-    };
     "dynamic-surroundings" = {
         "title" = "Dynamic Surroundings";
         "name" = "dynamic-surroundings";
@@ -1871,23 +1837,6 @@
         "md5" = "bd3c9c224b8b8d968db3dde02678d5e9";
         "sha256" = "28016063a5bce9f229305692795b1e64702985abc026d480e45d9663a96ea80c";
         "size" = 476561;
-    };
-    "fast-leaf-decay" = {
-        "title" = "Fast Leaf Decay";
-        "name" = "fast-leaf-decay";
-        "id" = 230976;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "FastLeafDecay-v14.jar";
-        "encoded" = "FastLeafDecay-v14.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay";
-        "src" = "https://media.forgecdn.net/files/2463/272/FastLeafDecay-v14.jar";
-        "type" = "remote";
-        "md5" = "18096ffb7f58d94f8e5a7bf2ff160f0f";
-        "sha256" = "6da4ff366330253e2fb4f6849ae0c81e4ddc9f6bd5814460ad9ecb63e9f65119";
-        "size" = 5200;
     };
     "fastworkbench" = {
         "title" = "FastWorkbench";
@@ -2348,6 +2297,23 @@
         "sha256" = "924f53c938f83236592821c103910dafe54f308139be4382085ce5554dcd82be";
         "size" = 2420178;
     };
+    "hardcore-darkness" = {
+        "title" = "Hardcore Darkness";
+        "name" = "hardcore-darkness";
+        "id" = 225957;
+        "side" = "client";
+        "required" = false;
+        "default" = false;
+        "deps" = [];
+        "filename" = "HardcoreDarkness-MC1.12.2-2.0.jar";
+        "encoded" = "HardcoreDarkness-MC1.12.2-2.0.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness";
+        "src" = "https://media.forgecdn.net/files/2499/443/HardcoreDarkness-MC1.12.2-2.0.jar";
+        "type" = "remote";
+        "md5" = "f4bdcba26a2f6d3dff66856e47ebbecc";
+        "sha256" = "fb13913e896f9d3fafedef90ac035f4ade9d92d8f33d2ccfc32c5487d559fdf8";
+        "size" = 32327;
+    };
     "hats" = {
         "title" = "Hats";
         "name" = "hats";
@@ -2483,23 +2449,6 @@
         "md5" = "bf13a2044ece544b449c7dc6f8aa40af";
         "sha256" = "e0b90727cbe54a11fe568f3d60cd59d64ff3c14f82437e1d1c10b575886ab8a3";
         "size" = 581963;
-    };
-    "ido" = {
-        "title" = "Idō";
-        "name" = "ido";
-        "id" = 322131;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "ido-1.12.2-2.0.0-B.jar";
-        "encoded" = "ido-1.12.2-2.0.0-B.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/ido";
-        "src" = "https://media.forgecdn.net/files/3096/693/ido-1.12.2-2.0.0-B.jar";
-        "type" = "remote";
-        "md5" = "54b99b2a96141a3ef0ce82b6aafde3c2";
-        "sha256" = "3ee14412d0f852c0cd25166806e7d05203209a7917499914adc6db701296187c";
-        "size" = 13396;
     };
     "illagers" = {
         "title" = "Illagers+";
@@ -4898,23 +4847,6 @@
         "sha256" = "4100f21cbdebe2421c93ddffcbfbbe353d890627fa17a5801f6696bca58deeda";
         "size" = 2736551;
     };
-    "tellme" = {
-        "title" = "TellMe";
-        "name" = "tellme";
-        "id" = 225781;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "tellme-1.12.2-0.7.0-dev.20200919.184303.jar";
-        "encoded" = "tellme-1.12.2-0.7.0-dev.20200919.184303.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/tellme";
-        "src" = "https://media.forgecdn.net/files/3060/563/tellme-1.12.2-0.7.0-dev.20200919.184303.jar";
-        "type" = "remote";
-        "md5" = "31c5ca9a6056a12fdccd2c5479623df7";
-        "sha256" = "b11c90aaa1d3731e6c7bf968b797b1a5334e90aeb06ff5be1c2c08fe4803ff94";
-        "size" = 282258;
-    };
     "tesla-core-lib" = {
         "title" = "Tesla Core Lib";
         "name" = "tesla-core-lib";
@@ -5578,23 +5510,6 @@
         "sha256" = "5e79f329154d9a6225130f2b29dbcb0f603e2e622637e39ca566f8179b02ca15";
         "size" = 178994;
     };
-    "wg-block-replacer" = {
-        "title" = "WorldGen Block Replacer";
-        "name" = "wg-block-replacer";
-        "id" = 287321;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "WorldgenBlockReplacer-1.12.2-2.2.0.jar";
-        "encoded" = "WorldgenBlockReplacer-1.12.2-2.2.0.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/wg-block-replacer";
-        "src" = "https://media.forgecdn.net/files/2884/1/WorldgenBlockReplacer-1.12.2-2.2.0.jar";
-        "type" = "remote";
-        "md5" = "d32a35dd4f6b321b0382aadfe5cbf1b2";
-        "sha256" = "9d59907058410d7cf3224d2d4286642a6b6a0492e9d68fcb4c210d97cc32d6d1";
-        "size" = 29696;
-    };
     "wings" = {
         "title" = "Wings";
         "name" = "wings";
@@ -5679,6 +5594,23 @@
         "md5" = "bdf6d8d20591c014fed66633f4ef3b23";
         "sha256" = "cd4768ded9e2b527e3fc093fdf4ce07f058187de7961bdc0d7fa821c1b756f75";
         "size" = 1479535;
+    };
+    "worldgen-block-replacer" = {
+        "title" = "WorldGen Block Replacer";
+        "name" = "worldgen-block-replacer";
+        "id" = 287321;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "WorldgenBlockReplacer-1.12.2-2.2.0.jar";
+        "encoded" = "WorldgenBlockReplacer-1.12.2-2.2.0.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/worldgen-block-replacer";
+        "src" = "https://media.forgecdn.net/files/2884/1/WorldgenBlockReplacer-1.12.2-2.2.0.jar";
+        "type" = "remote";
+        "md5" = "d32a35dd4f6b321b0382aadfe5cbf1b2";
+        "sha256" = "9d59907058410d7cf3224d2d4286642a6b6a0492e9d68fcb4c210d97cc32d6d1";
+        "size" = 29696;
     };
     "wrapup" = {
         "title" = "WrapUp";
