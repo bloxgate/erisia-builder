@@ -9,4 +9,4 @@ recipes.removeShapeless(<inventorypets:nugget_coal> * 8, [<minecraft:coal>]);
 #Add Recipes
 recipes.addShapeless(<inventorypets:nugget_coal> * 8, [<immersiveengineering:tool>, <ore:itemCoal>]);
 
-print("--- InventoryPets.zs initialized ---");	
+print("--- InventoryPets.zs initialized ---");
