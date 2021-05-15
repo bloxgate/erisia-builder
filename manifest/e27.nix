@@ -4018,7 +4018,7 @@
         "title" = "PackModeMenu";
         "name" = "packmodemenu";
         "id" = 421605;
-        "side" = "both";
+        "side" = "client";
         "required" = true;
         "default" = true;
         "deps" = [];

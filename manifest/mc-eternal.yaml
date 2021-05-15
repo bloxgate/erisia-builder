@@ -896,6 +896,7 @@ mods:
     id: 421605
     files:
       - id: 3156145
+    side: client
   - name: paintings
     id: 252042
     files:
