@@ -187,6 +187,10 @@ mods:
     id: 281791
     files:
       - id: 2534481
+  - name: cb-multipart
+    id: 258426
+    files:
+      - id: 2755790
   - name: chameleon
     id: 230497
     files:
@@ -408,7 +412,7 @@ mods:
   - name: fishs-undead-rising
     id: 321139
     files:
-      - id: 3109137
+      - id: 3283582
   - name: flux-networks
     id: 248020
     files:
@@ -421,10 +425,6 @@ mods:
     id: 59751
     files:
       - id: 2918418
-  - name: forge-multipart-cbe
-    id: 258426
-    files:
-      - id: 2755790
   - name: forgeendertech
     id: 244844
     files:
@@ -441,19 +441,19 @@ mods:
     id: 443436
     files:
       - id: 3203284
-  - name: ftb-library
+  - name: ftb-library-legacy-forge
     id: 237167
     files:
       - id: 2985811
-  - name: ftb-money
+  - name: ftb-money-forge
     id: 306283
     files:
       - id: 3010526
-  - name: ftb-quests
+  - name: ftb-quests-forge
     id: 289412
     files:
       - id: 3156637
-  - name: ftb-utilities
+  - name: ftb-utilities-forge
     id: 237102
     files:
       - id: 3157548
@@ -604,7 +604,7 @@ mods:
     id: 228756
     files:
       - id: 2747935
-  - name: item-filters
+  - name: item-filters-forge
     id: 309674
     files:
       - id: 3003364
@@ -740,7 +740,7 @@ mods:
   - name: mct-immersive-technology
     id: 359407
     files:
-      - id: 3162436
+      - id: 3251902
   - name: mekanism
     id: 268560
     files:
@@ -888,6 +888,14 @@ mods:
     id: 255232
     files:
       - id: 2830265
+  - name: packmode
+    id: 278398
+    files:
+      - id: 2567799
+  - name: packmodemenu
+    id: 421605
+    files:
+      - id: 3156145
   - name: paintings
     id: 252042
     files:
@@ -1172,18 +1180,6 @@ mods:
     id: 244258
     files:
       - id: 3240606
-  - name: valkyrien-skies
-    id: 258371
-    files:
-      - id: 3169681
-  - name: valkyrien-skies-control
-    id: 404463
-    files:
-      - id: 3160203
-  - name: valkyrien-skies-world
-    id: 404464
-    files:
-      - id: 3061764
   - name: vampires-need-umbrellas
     id: 364129
     files:
