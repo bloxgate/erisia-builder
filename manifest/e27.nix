@@ -520,14 +520,14 @@
         "required" = false;
         "default" = true;
         "deps" = [];
-        "filename" = "BetterFoliage-MC1.12-2.3.1.jar";
-        "encoded" = "BetterFoliage-MC1.12-2.3.1.jar";
+        "filename" = "BetterFoliage-MC1.12-2.3.2.jar";
+        "encoded" = "BetterFoliage-MC1.12-2.3.2.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/better-foliage";
-        "src" = "https://media.forgecdn.net/files/2852/872/BetterFoliage-MC1.12-2.3.1.jar";
+        "src" = "https://media.forgecdn.net/files/3295/738/BetterFoliage-MC1.12-2.3.2.jar";
         "type" = "remote";
-        "md5" = "fe8b72e0045c06136ca64f736090ac7a";
-        "sha256" = "1c17599b7682cc6df47c7c31920dd3287ab5cda561f01fa02122c002d6a29b36";
-        "size" = 937680;
+        "md5" = "28e861265d447ff2143692b937cb5e0f";
+        "sha256" = "8d4eb2eb08772b3afd6d7325afcb012a41ba0673facc3acfaf29854bacd68ccb";
+        "size" = 864592;
     };
     "better-placement" = {
         "title" = "Better Placement";
@@ -851,6 +851,23 @@
         "md5" = "2cf94e8f701ec1d4f90e516d200a1a50";
         "sha256" = "3380589ccd30d76ff2f42b9d87d8544945fadc2a311f69b539d359fec9092db4";
         "size" = 676344;
+    };
+    "cb-multipart" = {
+        "title" = "CB Multipart";
+        "name" = "cb-multipart";
+        "id" = 258426;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "ForgeMultipart-1.12.2-2.6.2.83-universal.jar";
+        "encoded" = "ForgeMultipart-1.12.2-2.6.2.83-universal.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/cb-multipart";
+        "src" = "https://media.forgecdn.net/files/2755/790/ForgeMultipart-1.12.2-2.6.2.83-universal.jar";
+        "type" = "remote";
+        "md5" = "e45e04bc38dc373aaef0415c2e2d441d";
+        "sha256" = "25718bd80799a608c45299d13d86e5d67248f07a3c00657c690948b1821835ce";
+        "size" = 1304958;
     };
     "chameleon" = {
         "title" = "Chameleon";
@@ -1863,14 +1880,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "Fish's Undead Rising-1.2.3.jar";
-        "encoded" = "Fish's Undead Rising-1.2.3.jar";
+        "filename" = "Fish's Undead Rising-1.2.4a.jar";
+        "encoded" = "Fish's Undead Rising-1.2.4a.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/fishs-undead-rising";
-        "src" = "https://media.forgecdn.net/files/3109/137/Fish's+Undead+Rising-1.2.3.jar";
+        "src" = "https://media.forgecdn.net/files/3283/582/Fish's+Undead+Rising-1.2.4a.jar";
         "type" = "remote";
-        "md5" = "5b92d074c2cb4085d3c4d2efa549ec5a";
-        "sha256" = "3ea8638cf7e9ace9ac62066a0398b461756ce95850a3ab1c95f5615dedb6b80b";
-        "size" = 3831672;
+        "md5" = "d9962420783cbcbd7a7846d94a6b0efa";
+        "sha256" = "c45b4e6d44d2b8130c98663091d0bcb815432cf6e076d325724fdd6085fb47ea";
+        "size" = 3877412;
     };
     "flux-networks" = {
         "title" = "Flux Networks";
@@ -1940,23 +1957,6 @@
         "sha256" = "d466a5d574a5a3311b6c8572edcf72ce87881fb6296dce1d2d07d1649abc5205";
         "size" = 5298295;
     };
-    "forge-multipart-cbe" = {
-        "title" = "Forge MultiPart CBE";
-        "name" = "forge-multipart-cbe";
-        "id" = 258426;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "ForgeMultipart-1.12.2-2.6.2.83-universal.jar";
-        "encoded" = "ForgeMultipart-1.12.2-2.6.2.83-universal.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/forge-multipart-cbe";
-        "src" = "https://media.forgecdn.net/files/2755/790/ForgeMultipart-1.12.2-2.6.2.83-universal.jar";
-        "type" = "remote";
-        "md5" = "e45e04bc38dc373aaef0415c2e2d441d";
-        "sha256" = "25718bd80799a608c45299d13d86e5d67248f07a3c00657c690948b1821835ce";
-        "size" = 1304958;
-    };
     "forgeendertech" = {
         "title" = "ForgeEndertech";
         "name" = "forgeendertech";
@@ -2025,9 +2025,9 @@
         "sha256" = "f1ff22957ed932f477a28b0d6e69cd2d4ce94ba923f61534c2e4ac1e8bfd9c9a";
         "size" = 261285;
     };
-    "ftb-library" = {
-        "title" = "FTB Library";
-        "name" = "ftb-library";
+    "ftb-library-legacy-forge" = {
+        "title" = "FTB Library (Forge) (Legacy)";
+        "name" = "ftb-library-legacy-forge";
         "id" = 237167;
         "side" = "both";
         "required" = true;
@@ -2035,16 +2035,16 @@
         "deps" = [];
         "filename" = "FTBLib-5.4.7.2.jar";
         "encoded" = "FTBLib-5.4.7.2.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-library";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-library-legacy-forge";
         "src" = "https://media.forgecdn.net/files/2985/811/FTBLib-5.4.7.2.jar";
         "type" = "remote";
         "md5" = "ea749a3a3391d490ffcdf025e5de48d9";
         "sha256" = "623fc574f0227fec6cc9e26c3879a605f9b4499c0078ff085291901a5495a6ac";
         "size" = 934370;
     };
-    "ftb-money" = {
-        "title" = "FTB Money";
-        "name" = "ftb-money";
+    "ftb-money-forge" = {
+        "title" = "FTB Money (Forge)";
+        "name" = "ftb-money-forge";
         "id" = 306283;
         "side" = "both";
         "required" = true;
@@ -2052,16 +2052,16 @@
         "deps" = [];
         "filename" = "FTBMoney-1.2.0.47.jar";
         "encoded" = "FTBMoney-1.2.0.47.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-money";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-money-forge";
         "src" = "https://media.forgecdn.net/files/3010/526/FTBMoney-1.2.0.47.jar";
         "type" = "remote";
         "md5" = "a8b8c2a37c2291fab500adf007ccceed";
         "sha256" = "e39a0e07387ea03753675670c1e7f483b030b49441e2fa5d460f02b7dea3980b";
         "size" = 90491;
     };
-    "ftb-quests" = {
-        "title" = "FTB Quests";
-        "name" = "ftb-quests";
+    "ftb-quests-forge" = {
+        "title" = "FTB Quests (Forge)";
+        "name" = "ftb-quests-forge";
         "id" = 289412;
         "side" = "both";
         "required" = true;
@@ -2069,16 +2069,16 @@
         "deps" = [];
         "filename" = "FTBQuests-1202.9.0.15.jar";
         "encoded" = "FTBQuests-1202.9.0.15.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-quests";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge";
         "src" = "https://media.forgecdn.net/files/3156/637/FTBQuests-1202.9.0.15.jar";
         "type" = "remote";
         "md5" = "5cd033804a5f2ba8f87f539201a22fb2";
         "sha256" = "3f6a674ac0d8678fd0b127e6930199f32848fe47d1689e44c72976bfb24c7385";
         "size" = 1091954;
     };
-    "ftb-utilities" = {
-        "title" = "FTB Utilities";
-        "name" = "ftb-utilities";
+    "ftb-utilities-forge" = {
+        "title" = "FTB Utilities (Forge)";
+        "name" = "ftb-utilities-forge";
         "id" = 237102;
         "side" = "both";
         "required" = true;
@@ -2086,7 +2086,7 @@
         "deps" = [];
         "filename" = "FTBUtilities-5.4.1.131.jar";
         "encoded" = "FTBUtilities-5.4.1.131.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities-forge";
         "src" = "https://media.forgecdn.net/files/3157/548/FTBUtilities-5.4.1.131.jar";
         "type" = "remote";
         "md5" = "94775ab675e0204523c9f267976b70d5";
@@ -2739,9 +2739,9 @@
         "sha256" = "29d3a4115d67b83eb542b618eb64db40db23a7f009a0f4dc9a396101d6f8491f";
         "size" = 956692;
     };
-    "item-filters" = {
-        "title" = "Item Filters";
-        "name" = "item-filters";
+    "item-filters-forge" = {
+        "title" = "Item Filters (Forge)";
+        "name" = "item-filters-forge";
         "id" = 309674;
         "side" = "both";
         "required" = true;
@@ -2749,7 +2749,7 @@
         "deps" = [];
         "filename" = "ItemFilters-1.0.4.2.jar";
         "encoded" = "ItemFilters-1.0.4.2.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/item-filters";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/item-filters-forge";
         "src" = "https://media.forgecdn.net/files/3003/364/ItemFilters-1.0.4.2.jar";
         "type" = "remote";
         "md5" = "c89d595cdef3cc93f2acbc31333e418b";
@@ -3325,14 +3325,14 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "MCTImmersiveTechnology-1.12.2-1.8.93.jar";
-        "encoded" = "MCTImmersiveTechnology-1.12.2-1.8.93.jar";
+        "filename" = "MCTImmersiveTechnology-1.12.2-1.8.94.jar";
+        "encoded" = "MCTImmersiveTechnology-1.12.2-1.8.94.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/mct-immersive-technology";
-        "src" = "https://media.forgecdn.net/files/3162/436/MCTImmersiveTechnology-1.12.2-1.8.93.jar";
+        "src" = "https://media.forgecdn.net/files/3251/902/MCTImmersiveTechnology-1.12.2-1.8.94.jar";
         "type" = "remote";
-        "md5" = "b110793b068cef2e73f6088fc1753571";
-        "sha256" = "ad7bba0649ea48e0b4a2131e45d7f46bb97cae86537b3624469df0b101ea4082";
-        "size" = 3026015;
+        "md5" = "d320f9a4cc5afb73f3ced75ed3e8facd";
+        "sha256" = "4f40670b6ce4a2b8885df0da312e11510eb8241728f23f6bfe0450a0b1ae9471";
+        "size" = 3024637;
     };
     "mekanism" = {
         "title" = "Mekanism";
@@ -3996,6 +3996,40 @@
         "md5" = "0f90369081c895ad54f5a011044d1779";
         "sha256" = "e5844c044d9f2ce2f23eef84d95eea8cc1f2c5581874bd01410e7d103b90a424";
         "size" = 328793;
+    };
+    "packmode" = {
+        "title" = "PackMode";
+        "name" = "packmode";
+        "id" = 278398;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "packmode-1.12.2-1.2.0.jar";
+        "encoded" = "packmode-1.12.2-1.2.0.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/packmode";
+        "src" = "https://media.forgecdn.net/files/2567/799/packmode-1.12.2-1.2.0.jar";
+        "type" = "remote";
+        "md5" = "21b1269b99a5ce4cdd2999d0dbb341f7";
+        "sha256" = "c5433d2f0864b6ae1075147c709817a97b8f99370fc56037d21fc200d7e0ff44";
+        "size" = 39431;
+    };
+    "packmodemenu" = {
+        "title" = "PackModeMenu";
+        "name" = "packmodemenu";
+        "id" = 421605;
+        "side" = "client";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "PackModeMenu-1.0.4.jar";
+        "encoded" = "PackModeMenu-1.0.4.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/packmodemenu";
+        "src" = "https://media.forgecdn.net/files/3156/145/PackModeMenu-1.0.4.jar";
+        "type" = "remote";
+        "md5" = "145774902f204caaf9646a5db88d4563";
+        "sha256" = "338a4e39a28ccef96eea4a7d6b287a846041f05a647fd8389d1a2c6bcb70aad5";
+        "size" = 7129;
     };
     "paintings" = {
         "title" = "Paintings ++";
@@ -5322,57 +5356,6 @@
         "md5" = "7ac211a5ea548eaf2fa796607235ad3a";
         "sha256" = "67653fa25b9532514a4d07861854d324377d983d5023727b69b99ba7714d6161";
         "size" = 219991;
-    };
-    "valkyrien-skies" = {
-        "title" = "Valkyrien Skies";
-        "name" = "valkyrien-skies";
-        "id" = 258371;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "valkyrien-skies-1.12.2-1.1.6.jar";
-        "encoded" = "valkyrien-skies-1.12.2-1.1.6.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies";
-        "src" = "https://media.forgecdn.net/files/3169/681/valkyrien-skies-1.12.2-1.1.6.jar";
-        "type" = "remote";
-        "md5" = "89eb4da30d5a702019ec09d01baedefe";
-        "sha256" = "1347391d0ba3e685c7b9796da3d628430c02c5a73ad21b197df18b4129fe73a1";
-        "size" = 7238267;
-    };
-    "valkyrien-skies-control" = {
-        "title" = "Valkyrien Skies Control";
-        "name" = "valkyrien-skies-control";
-        "id" = 404463;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "vs-control-1.12.2-1.1.1.jar";
-        "encoded" = "vs-control-1.12.2-1.1.1.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies-control";
-        "src" = "https://media.forgecdn.net/files/3160/203/vs-control-1.12.2-1.1.1.jar";
-        "type" = "remote";
-        "md5" = "c70e121e78a4368d95fc60459b377ce4";
-        "sha256" = "1eec4d5c5b62f3e345d96199ee57d90767547e52aed4acbe0531b902330a0e28";
-        "size" = 7585603;
-    };
-    "valkyrien-skies-world" = {
-        "title" = "Valkyrien Skies World";
-        "name" = "valkyrien-skies-world";
-        "id" = 404464;
-        "side" = "both";
-        "required" = true;
-        "default" = true;
-        "deps" = [];
-        "filename" = "vs-world-1.12.2-1.0.0.jar";
-        "encoded" = "vs-world-1.12.2-1.0.0.jar";
-        "page" = "https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies-world";
-        "src" = "https://media.forgecdn.net/files/3061/764/vs-world-1.12.2-1.0.0.jar";
-        "type" = "remote";
-        "md5" = "140e7f682b7d56bf163e40c7f8ba2e8c";
-        "sha256" = "12eddceffd334667b8b490b092d4abebae9ff8e1b6a1126c0dbdb2ad7f90a04c";
-        "size" = 2084852;
     };
     "vampires-need-umbrellas" = {
         "title" = "Vampires Need Umbrellas";
