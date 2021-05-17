@@ -22,7 +22,7 @@ let
     export SKIP_TMUX=1
     export KILL_PROMETHEUS=1
 
-    echo | timeout -s 9 300 bash server/start.sh -Dfml.queryResult=confirm &
+    echo | timeout -s 9 900 bash server/start.sh -Dfml.queryResult=confirm &
     sleep 3
 
     terminate() {
@@ -46,7 +46,7 @@ let
 	exit 1
       }
       time=$(($time + 1))
-      if [[ $time -gt 300 ]]; then
+      if [[ $time -gt 1000 ]]; then
         echo 'Exiting with timeout'
         terminate
         exit 1
