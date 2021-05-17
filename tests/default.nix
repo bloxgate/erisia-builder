@@ -5,7 +5,7 @@
 let
   packs = (import ../.).packs;
 
-  smokeTest = pack: pkgs.runCommand "smoketest" {
+  smokeTest = pack: pkgs.runCommandLocal "smoketest" {
     server = pack.server;
     world = ./testdata/SmokeTest.tar.gz;
     props = ./testdata/server.properties;
@@ -14,9 +14,15 @@ let
     # Enable web access
     __noChroot = 1;
   } ''
+    set -e
+
     ln -s $server server
     tar xvzf $world
     cat $props > server.properties
+    echo -n server-port= >> server.properties
+    id -u | ${pkgs.bc}/bin/dc -e '? 1000 % 30000 + p' >> server.properties
+    cat server.properties
+
     echo 'eula=true' > eula.txt
 
     export SKIP_TMUX=1
