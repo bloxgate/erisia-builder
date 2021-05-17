@@ -159,6 +159,7 @@ rec {
     fetchMod = info: rec {
       local = info.src;
       remote = fetchurl {
+        curlOpts = [ "-g" ];
         name = builtins.replaceStrings
           [" " "[" "]" "'"]
           ["_" "_" "_" "_"]
