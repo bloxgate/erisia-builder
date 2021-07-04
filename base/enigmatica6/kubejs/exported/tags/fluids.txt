@@ -1,0 +1,273 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 14, 2021 9:31:42 PM
+
+#forge:oxygen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- undergarden:virulent_mix_source
+- undergarden:virulent_mix_flowing
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:biodiesel
+- pneumaticcraft:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+- create:flowing_milk
+- create:milk
+
+#forge:pink_slime
+- industrialforegoing:pink_slime
+- industrialforegoing:pink_slime_fluid
+
+#forge:sulfur_dioxide
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+
+#forge:hydrogen
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+
+#forge:fusion_fuel
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+
+#forge:sewage
+- industrialforegoing:sewage
+- industrialforegoing:sewage_fluid
+
+#forge:steam
+- mekanism:steam
+- mekanism:flowing_steam
+- transport:flowing_steam
+- transport:steam
+
+#forge:experience
+- industrialforegoing:essence
+- industrialforegoing:essence_fluid
+- pneumaticcraft:memory_essence
+- cofh_core:experience
+
+#forge:lithium
+- mekanism:lithium
+- mekanism:flowing_lithium
+
+#forge:diesel
+- pneumaticcraft:diesel
+- immersivepetroleum:diesel
+
+#pneumaticcraft:plastic
+- pneumaticcraft:plastic
+
+#pneumaticcraft:etching_acid
+- pneumaticcraft:etching_acid
+
+#forge:kerosene
+- pneumaticcraft:kerosene
+
+#forge:bioethanol
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+
+#forge:creosote
+- immersiveengineering:creosote
+- thermal:creosote
+
+#forge:sludge
+- industrialforegoing:sludge
+- industrialforegoing:sludge_fluid
+
+#forge:heavy_water
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
+
+#forge:lpg
+- pneumaticcraft:lpg
+
+#forge:lubricant
+- pneumaticcraft:lubricant
+- immersivepetroleum:lubricant
+
+#forge:crude_oil
+- pneumaticcraft:oil
+- immersivepetroleum:oil
+- thermal:crude_oil
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:tritium
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
+
+#forge:biofuel
+- industrialforegoing:biofuel
+- industrialforegoing:biofuel_fluid
+
+#forge:plantoil
+- pneumaticcraft:vegetable_oil
+- immersiveengineering:plantoil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:ethene
+- mekanism:ethene
+- mekanism:flowing_ethene
+
+#forge:ethanol
+- pneumaticcraft:ethanol
+- immersiveengineering:ethanol
+
+#forge:meat
+- industrialforegoing:meat
+- industrialforegoing:meat_fluid
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:chlorine
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+
+#forge:sodium
+- mekanism:sodium
+- mekanism:flowing_sodium
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- immersiveengineering:potion
+- cofh_core:potion
+
+#forge:sulfur_trioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:gasoline
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol
+
+#forge:sulfuric_acid
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+
+#forge:gasoline
+- pneumaticcraft:gasoline
+- immersivepetroleum:gasoline
+
+#forge:hydrogen_chloride
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+
+#forge:life
+- bloodmagic:life_essence_fluid
+- bloodmagic:life_essence_fluid_flowing
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:deuterium
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+
+#pneumaticcraft:yeast_culture
+- pneumaticcraft:yeast_culture
+
+#forge:hydrofluoric_acid
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+
+#forge:brine
+- mekanism:brine
+- mekanism:flowing_brine
+
+#forge:latex
+- industrialforegoing:latex
+- industrialforegoing:latex_fluid
+- thermal:latex
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch
+- decorative_blocks:flowing_thatch
+
+#forge:honey
+- cofh_core:honey
+- resourcefulbees:honey
+- resourcefulbees:catnip_honey
+- create:flowing_honey
+- create:honey
+- resourcefulbees:rocky_honey_flowing
+- resourcefulbees:constantan_honey
+- resourcefulbees:icy_honey
+- resourcefulbees:wither_honey_flowing
+- resourcefulbees:bronze_honey
+- resourcefulbees:constantan_honey_flowing
+- resourcefulbees:rainbow_honey
+- resourcefulbees:iron_honey_flowing
+- resourcefulbees:steel_honey_flowing
+- resourcefulbees:water_honey_flowing
+- resourcefulbees:glowstone_honey
+- resourcefulbees:wither_honey
+- resourcefulbees:signalum_honey
+- resourcefulbees:signalum_honey_flowing
+- resourcefulbees:diamond_honey
+- resourcefulbees:lumium_honey
+- resourcefulbees:enderium_honey_flowing
+- resourcefulbees:blaze_honey_flowing
+- resourcefulbees:gold_honey_flowing
+- resourcefulbees:redstone_honey
+- resourcefulbees:illuminating_honey
+- resourcefulbees:glowstone_honey_flowing
+- resourcefulbees:obsidian_honey_flowing
+- resourcefulbees:invar_honey
+- resourcefulbees:netherite_honey_flowing
+- resourcefulbees:lumium_honey_flowing
+- resourcefulbees:blaze_honey
+- resourcefulbees:bronze_honey_flowing
+- resourcefulbees:coal_honey_flowing
+- resourcefulbees:rocky_honey
+- resourcefulbees:electrum_honey_flowing
+- resourcefulbees:rainbow_honey_flowing
+- resourcefulbees:iron_honey
+- resourcefulbees:brass_honey
+- resourcefulbees:obsidian_honey
+- resourcefulbees:illuminating_honey_flowing
+- resourcefulbees:gold_honey
+- resourcefulbees:steel_honey
+- resourcefulbees:emerald_honey
+- resourcefulbees:icy_honey_flowing
+- resourcefulbees:emerald_honey_flowing
+- resourcefulbees:brass_honey_flowing
+- resourcefulbees:lapis_honey
+- resourcefulbees:redstone_honey_flowing
+- resourcefulbees:invar_honey_flowing
+- resourcefulbees:netherite_honey
+- resourcefulbees:water_honey
+- resourcefulbees:lapis_honey_flowing
+- resourcefulbees:coal_honey
+- resourcefulbees:enderium_honey
+- resourcefulbees:electrum_honey
+- resourcefulbees:diamond_honey_flowing
+
+#create:no_infinite_draining
+- astralsorcery:liquid_starlight
+
+#forge:napalm
+- immersivepetroleum:napalm

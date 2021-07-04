@@ -26,9 +26,37 @@ in
 rec {
 
   packs = {
+    e28 = buildPack e28;
     e27 = buildPack e27;
   };
 
+  e28 = {
+    name = "Enigmatica 6";
+    tmuxName = "e28";
+    description = "E28: Latin Name Goes Here";
+    ram = "12000m";
+    port = 25566;
+    prometheusPort = 1223;
+    forge = {
+      major = "1.16.5";
+      minor = "36.1.32";
+    };
+    extraDirs = [
+      ./base/enigmatica6
+      ./base/erisia
+    ];
+    extraServerDirs = [
+      ./base/server
+    ];
+    extraClientDirs = [
+      ./base/client
+    ];
+    manifests = [
+      ./manifest/e28.nix
+    ];
+    blacklist = [
+    ];
+  };
 
   e27 = {
     name = "MCEternal";
