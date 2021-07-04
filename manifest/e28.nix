@@ -1379,6 +1379,23 @@
         "sha256" = "e247de52f7f425b8b4aa69d5f1b3adb31f18f14e14fd886738e5bee94bf1fb71";
         "size" = 249785;
     };
+    "dcintegration" = {
+        "title" = "Discord Integration Forge";
+        "name" = "dcintegration";
+        "id" = 324952;
+        "side" = "server";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "dcintegration-forge-2.2.0-1.16.jar";
+        "encoded" = "dcintegration-forge-2.2.0-1.16.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/dcintegration";
+        "src" = "https://media.forgecdn.net/files/3308/615/dcintegration-forge-2.2.0-1.16.jar";
+        "type" = "remote";
+        "md5" = "072fa088a27020adeadc5cc6a1af917d";
+        "sha256" = "9e707face14a85a97a7dd2fd9ba60d4abccf3875794ff56b18ada52bd06c9249";
+        "size" = 14539604;
+    };
     "decorative-blocks" = {
         "title" = "Decorative Blocks";
         "name" = "decorative-blocks";
