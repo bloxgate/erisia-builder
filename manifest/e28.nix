@@ -2410,7 +2410,7 @@
         "filename" = "InventoryHud_[1.16.2-1.16.5].forge-3.3.0.jar";
         "encoded" = "InventoryHud_[1.16.2-1.16.5].forge-3.3.0.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge";
-        "src" = "https://media.forgecdn.net/files/3296/748/InventoryHud_[1.16.2-1.16.5].forge-3.3.0.jar";
+        "src" = "https://media.forgecdn.net/files/3296/748/InventoryHud_\\[1.16.2-1.16.5\\].forge-3.3.0.jar";
         "type" = "remote";
         "md5" = "b3c5e014038a753a8e7b6d9eeaf4c383";
         "sha256" = "2b3a4f02fe84b717c9273ea14cea0912267c2c093fc2cdfcde2b6f032c9762e7";
