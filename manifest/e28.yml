@@ -19,3 +19,11 @@ mods:
     id: 245506
     files:
       - id: 3106617
+  - name: structurize
+    id: 298744
+    files:
+      - id: 3119907
+  - name: phosphophyllite
+    id: 412551
+    files:
+      - id: 3369449

@@ -3572,6 +3572,23 @@
         "sha256" = "ec25f4d87f3eca2ef91c602ffb5faf52413677f1ceab777e5ea72ab57f3a053d";
         "size" = 288116;
     };
+    "phosphophyllite" = {
+        "title" = "Phosphophyllite";
+        "name" = "phosphophyllite";
+        "id" = 412551;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "phosphophyllite-1.16.5-0.5.0.jar";
+        "encoded" = "phosphophyllite-1.16.5-0.5.0.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/phosphophyllite";
+        "src" = "https://media.forgecdn.net/files/3369/449/phosphophyllite-1.16.5-0.5.0.jar";
+        "type" = "remote";
+        "md5" = "540385cad3681fa55a7929f65e536346";
+        "sha256" = "16196bf4c177f5142c2bfc824cdaad58d8a54963eebdd5ef77a91c75159010aa";
+        "size" = 1070795;
+    };
     "ping" = {
         "title" = "Ping";
         "name" = "ping";
@@ -4421,6 +4438,23 @@
         "md5" = "0ce57856aaefac260fbcbb41e1e1f0a9";
         "sha256" = "84c2edd3a9e6cdbe9c7ee76989b7c8465bd75bab117d68516461a98df136e42f";
         "size" = 260027;
+    };
+    "structurize" = {
+        "title" = "Structurize";
+        "name" = "structurize";
+        "id" = 298744;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "structurize-0.13.100-RELEASE-universal.jar";
+        "encoded" = "structurize-0.13.100-RELEASE-universal.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/structurize";
+        "src" = "https://media.forgecdn.net/files/3119/907/structurize-0.13.100-RELEASE-universal.jar";
+        "type" = "remote";
+        "md5" = "800e607f65b3bbaf66ff4730cdc6f9b9";
+        "sha256" = "138c94feab67dc42b6ea5b6265e142c2c9f672f49cb03813471e6ac6421b4853";
+        "size" = 5171082;
     };
     "supermartijn642s-config-lib" = {
         "title" = "SuperMartijn642's Config Lib";
