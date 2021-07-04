@@ -945,16 +945,16 @@
     "riverCount": 20,
     "mainRivers": {
       "bedDepth": 8,
-      "minBankHeight": 2,
-      "maxBankHeight": 8,
+      "minBankHeight": 5,
+      "maxBankHeight": 10,
       "bedWidth": 10,
       "bankWidth": 25,
       "fade": 0.5
     },
     "branchRivers": {
       "bedDepth": 5,
-      "minBankHeight": 1,
-      "maxBankHeight": 6,
+      "minBankHeight": 2,
+      "maxBankHeight": 7,
       "bedWidth": 6,
       "bankWidth": 16,
       "fade": 0.703
