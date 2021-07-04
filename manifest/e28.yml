@@ -27,3 +27,7 @@ mods:
     id: 412551
     files:
       - id: 3221978
+  - name: simple-voice-chat
+    id: 416089
+    files:
+      - id: 3362964

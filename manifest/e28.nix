@@ -4303,6 +4303,23 @@
         "sha256" = "9bd605c30b36e300b57c6bb2072d075912f104452857e360c091ba7490bba3dc";
         "size" = 3141731;
     };
+    "simple-voice-chat" = {
+        "title" = "Simple Voice Chat";
+        "name" = "simple-voice-chat";
+        "id" = 416089;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "voicechat-1.16.5-1.6.2.jar";
+        "encoded" = "voicechat-1.16.5-1.6.2.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat";
+        "src" = "https://media.forgecdn.net/files/3362/964/voicechat-1.16.5-1.6.2.jar";
+        "type" = "remote";
+        "md5" = "eecf864817efb5c5f94890163bcacdd7";
+        "sha256" = "3e7610aff4bfbd8d3aceb750833faa2084d68200e7ae6b18292f496fd32fb207";
+        "size" = 2706645;
+    };
     "simply-light" = {
         "title" = "Simply Light";
         "name" = "simply-light";
