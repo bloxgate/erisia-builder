@@ -61,13 +61,13 @@
         "required" = true;
         "default" = true;
         "deps" = [];
-        "filename" = "aiotbotania-1.16.5-1.7.0.jar";
-        "encoded" = "aiotbotania-1.16.5-1.7.0.jar";
+        "filename" = "aiotbotania-1.16.5-1.8.0.jar";
+        "encoded" = "aiotbotania-1.16.5-1.8.0.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/aiot-botania";
-        "src" = "https://media.forgecdn.net/files/3363/695/aiotbotania-1.16.5-1.7.0.jar";
+        "src" = "https://media.forgecdn.net/files/3377/560/aiotbotania-1.16.5-1.8.0.jar";
         "type" = "remote";
-        "md5" = "759f92ee806c4f6e28c6fe37309f0002";
-        "sha256" = "a9ede8bda21d007fd994d41e5a5eba8c76634bea5b494aa0f6c88a6b91a864ff";
+        "md5" = "3e32f707fe7702bb31f4035dd7c496f1";
+        "sha256" = "421622553fa6f4401e354dc9dcc0eaad0a3c7db567eb3c61b370a68d6ff9a919";
         "size" = 222040;
     };
     "akashic-tome" = {
@@ -778,7 +778,7 @@
         "filename" = "Chunk Pregenerator-V1.16-3.0.5.jar";
         "encoded" = "Chunk Pregenerator-V1.16-3.0.5.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/chunkpregenerator";
-        "src" = "https://media.forgecdn.net/files/3237/965/Chunk+Pregenerator-V1.16-3.0.5.jar";
+        "src" = "https://media.forgecdn.net/files/3237/965/Chunk%20Pregenerator-V1.16-3.0.5.jar";
         "type" = "remote";
         "md5" = "c8b73da44e51b9caa125d6d27a052d48";
         "sha256" = "b83615488f410b7f0630ab19b272e1738993a4201688abc151899d6953021730";
@@ -1271,7 +1271,7 @@
         "filename" = "Curious Armor Stands-1.16.5-2.1.1.jar";
         "encoded" = "Curious Armor Stands-1.16.5-2.1.1.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/curious-armor-stands";
-        "src" = "https://media.forgecdn.net/files/3343/340/Curious+Armor+Stands-1.16.5-2.1.1.jar";
+        "src" = "https://media.forgecdn.net/files/3343/340/Curious%20Armor%20Stands-1.16.5-2.1.1.jar";
         "type" = "remote";
         "md5" = "a8e5dd895956c5f76697cd13d4d5d987";
         "sha256" = "32255b8f68c130d011c417c170de8e91b2f2270c1ddb63fe1b97a8b0da3a8031";
@@ -2427,7 +2427,7 @@
         "filename" = "InventoryHud_[1.16.2-1.16.5].forge-3.3.0.jar";
         "encoded" = "InventoryHud_[1.16.2-1.16.5].forge-3.3.0.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge";
-        "src" = "https://media.forgecdn.net/files/3296/748/InventoryHud_\\[1.16.2-1.16.5\\].forge-3.3.0.jar";
+        "src" = "https://media.forgecdn.net/files/3296/748/InventoryHud_%5B1.16.2-1.16.5%5D.forge-3.3.0.jar";
         "type" = "remote";
         "md5" = "b3c5e014038a753a8e7b6d9eeaf4c383";
         "sha256" = "2b3a4f02fe84b717c9273ea14cea0912267c2c093fc2cdfcde2b6f032c9762e7";
@@ -3379,7 +3379,7 @@
         "filename" = "Neat 1.7-27.jar";
         "encoded" = "Neat 1.7-27.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/neat";
-        "src" = "https://media.forgecdn.net/files/3182/258/Neat+1.7-27.jar";
+        "src" = "https://media.forgecdn.net/files/3182/258/Neat%201.7-27.jar";
         "type" = "remote";
         "md5" = "f42a01e1a0baa1292f58a889b33cc473";
         "sha256" = "659c7ed19349ca2eec5ecd72ce9d1b53bdb8a9eb3af03e8378e0916ef264c7bb";
@@ -4146,9 +4146,9 @@
         "page" = "https://www.curseforge.com/minecraft/mc-mods/rsinfinitybooster";
         "src" = "https://media.forgecdn.net/files/3241/432/RSInfinityBooster-1.16.5-1.0%2B6.jar";
         "type" = "remote";
-        "md5" = "9d9a2eb054af2ae27e50f85943bd3d97";
-        "sha256" = "0nvm5lf1dnf92zf37829nmqdfsjmfqc9asaxbfzq302vl4h7kp1q";
-        "size" = 320;
+        "md5" = "2af0f10586f3b5cb5e7ce86bcc475010";
+        "sha256" = "38dc7920a15b8081bf5b5d69951876556ad770b549a033dc17c9d9161c2d755b";
+        "size" = 24130;
     };
     "rslargepatterns" = {
         "title" = "Refined Storage Large Patterns";
@@ -5096,7 +5096,7 @@
         "filename" = "Undergarden-Tetra Patch-1.2.1.jar";
         "encoded" = "Undergarden-Tetra Patch-1.2.1.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/undergarden-tetra-patch";
-        "src" = "https://media.forgecdn.net/files/3330/242/Undergarden-Tetra+Patch-1.2.1.jar";
+        "src" = "https://media.forgecdn.net/files/3330/242/Undergarden-Tetra%20Patch-1.2.1.jar";
         "type" = "remote";
         "md5" = "db07b1a8f97762257740924c8f37abd7";
         "sha256" = "e5c610030d1107d2ee040cd67b3a8e15056dfa7164a99ad1ef298b4693f78148";
@@ -5232,7 +5232,7 @@
         "filename" = "World Stripper-1.16.5-2.0.2.jar";
         "encoded" = "World Stripper-1.16.5-2.0.2.jar";
         "page" = "https://www.curseforge.com/minecraft/mc-mods/world-stripper";
-        "src" = "https://media.forgecdn.net/files/3341/936/World+Stripper-1.16.5-2.0.2.jar";
+        "src" = "https://media.forgecdn.net/files/3341/936/World%20Stripper-1.16.5-2.0.2.jar";
         "type" = "remote";
         "md5" = "138080d274e2667063dfdc5349f6bd87";
         "sha256" = "519ae4ae871bdb15f2d282107c03c59688be08746d8068b38c392f43cd19e62c";

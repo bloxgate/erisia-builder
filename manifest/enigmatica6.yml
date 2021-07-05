@@ -16,8 +16,6 @@ mods:
       - id: 3353903
   - name: aiot-botania
     id: 294815
-    files:
-      - id: 3363695
   - name: akashic-tome
     id: 250577
     files:
