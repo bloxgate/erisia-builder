@@ -2246,6 +2246,23 @@
         "sha256" = "fd9385085b3db696254dec1babb8bdfdf86cf86640c5e1a9a25561714c38f8ff";
         "size" = 1315234;
     };
+    "immersive-portals-for-forge" = {
+        "title" = "Immersive Portals (for Forge)";
+        "name" = "immersive-portals-for-forge";
+        "id" = 355440;
+        "side" = "both";
+        "required" = true;
+        "default" = true;
+        "deps" = [];
+        "filename" = "immersive-portals-0.16-mc1.16.5-forge.jar";
+        "encoded" = "immersive-portals-0.16-mc1.16.5-forge.jar";
+        "page" = "https://www.curseforge.com/minecraft/mc-mods/immersive-portals-for-forge";
+        "src" = "https://media.forgecdn.net/files/3215/256/immersive-portals-0.16-mc1.16.5-forge.jar";
+        "type" = "remote";
+        "md5" = "41aca9e969b7fc29418d6c3edaf49203";
+        "sha256" = "1fd3b4e3b332bd3c5cecd999997a671f90361284e10ef697d58e4ecd3b7b7140";
+        "size" = 5081785;
+    };
     "immersiveposts" = {
         "title" = "Immersive Posts";
         "name" = "immersiveposts";
