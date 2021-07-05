@@ -20,6 +20,15 @@ let resources_12 = runLocally "resources-1.12" {
      mkdir -p $out/resourcepacks
      #ln -s $erisia $out/resourcepacks/erisia-pack.zip
    '';
+   resources_enigmatica6 = runLocally "resources_enigmatica6" {
+     e6 = fetchurl {
+        url = "https://media.forgecdn.net/files/3248/894/ERP-V1.8.zip";
+        sha256 = "1vb8vzm145ng8l58vsqz302anhgqyr0r3392bky57mbyn3mfxkgy";
+     };
+   } ''
+      mkdir -p $out/resourcepacks
+      ln -s $e6 $out/resourcepacks/ERP-V1.8.zip
+   '';
    sprocket = callPackage ./lib/sprocket {};
 in
 
@@ -49,6 +58,7 @@ rec {
       ./base/server
     ];
     extraClientDirs = [
+      resources_enigmatica6
       ./base/client
     ];
     manifests = [
